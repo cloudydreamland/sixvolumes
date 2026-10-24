@@ -1,0 +1,15 @@
+{
+  "elapsed_ms": 0.6500000599771738,
+  "rss_peak_mb": 31.21875,
+  "rss_start_mb": 31.01171875,
+  "python_alloc_peak_mb": 0.1891632080078125,
+  "memory_note": "isolated worker RSS sampled every5ms after imports; Python allocations via tracemalloc; timing includes instrumentation",
+  "method": "fixed256",
+  "documents": 120,
+  "chunks": 296,
+  "chars": 58744,
+  "offset_errors": 0,
+  "uncovered_chars": 0,
+  "oversize_chunks": 0,
+  "max_chunk_chars": 256
+}

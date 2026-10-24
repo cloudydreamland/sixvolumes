@@ -1,0 +1,13 @@
+﻿split,kind,n,exact_flag_rate,near_default_flag_rate,near_calibrated_flag_rate,calibrated_threshold
+calibration,delete_every7,40,0.0,0.0,0.0,0.15
+calibration,exact,40,1.0,1.0,1.0,0.15
+calibration,fullwidth,40,1.0,1.0,1.0,0.15
+calibration,insert_every10,40,0.025,0.0,1.0,0.15
+calibration,nonmember_control,20,0.0,0.0,0.0,0.15
+calibration,partial128,40,1.0,1.0,1.0,0.15
+holdout,delete_every7,120,0.0,0.0,0.0,0.15
+holdout,exact,120,1.0,1.0,1.0,0.15
+holdout,fullwidth,120,1.0,1.0,1.0,0.15
+holdout,insert_every10,120,0.0,0.0,1.0,0.15
+holdout,nonmember_control,20,0.15,0.0,0.0,0.15
+holdout,partial128,120,1.0,1.0,1.0,0.15

@@ -1,0 +1,15 @@
+{
+  "elapsed_ms": 7.69410002976656,
+  "rss_peak_mb": 31.203125,
+  "rss_start_mb": 30.82421875,
+  "python_alloc_peak_mb": 0.20538997650146484,
+  "memory_note": "isolated worker RSS sampled every5ms after imports; Python allocations via tracemalloc; timing includes instrumentation",
+  "method": "worddael_recursive",
+  "documents": 120,
+  "chunks": 313,
+  "chars": 58744,
+  "offset_errors": 0,
+  "uncovered_chars": 0,
+  "oversize_chunks": 4,
+  "max_chunk_chars": 257
+}

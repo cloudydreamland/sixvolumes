@@ -1,0 +1,277 @@
+{
+  "rag": {
+    "rows": [
+      {
+        "method": "worddael_recursive",
+        "questions": 238,
+        "chunks": 313,
+        "embedding_seconds": 9.274853700073436,
+        "mrr_at5": 0.9495798319327731,
+        "answer_span_recall_at1": 0.907563025210084,
+        "answer_span_recall_at3": 0.9957983193277311,
+        "answer_span_recall_at5": 0.9957983193277311
+      },
+      {
+        "method": "langchain_zh_recursive",
+        "questions": 238,
+        "chunks": 314,
+        "embedding_seconds": 9.738273599999957,
+        "mrr_at5": 0.9495798319327731,
+        "answer_span_recall_at1": 0.907563025210084,
+        "answer_span_recall_at3": 0.9957983193277311,
+        "answer_span_recall_at5": 0.9957983193277311
+      },
+      {
+        "method": "chonkie_zh_recursive",
+        "questions": 238,
+        "chunks": 314,
+        "embedding_seconds": 9.25152980000712,
+        "mrr_at5": 0.9495798319327731,
+        "answer_span_recall_at1": 0.907563025210084,
+        "answer_span_recall_at3": 0.9957983193277311,
+        "answer_span_recall_at5": 0.9957983193277311
+      },
+      {
+        "method": "fixed256",
+        "questions": 238,
+        "chunks": 296,
+        "embedding_seconds": 9.068999300012365,
+        "mrr_at5": 0.9423669467787116,
+        "answer_span_recall_at1": 0.9117647058823529,
+        "answer_span_recall_at3": 0.9747899159663865,
+        "answer_span_recall_at5": 0.9831932773109243
+      }
+    ],
+    "paired_document_bootstrap": [
+      {
+        "baseline": "langchain_zh_recursive",
+        "metric": "recall@3 difference worddael-baseline",
+        "difference": 0.0,
+        "document_bootstrap_95ci": [
+          0.0,
+          0.0
+        ],
+        "resamples": 2000
+      },
+      {
+        "baseline": "chonkie_zh_recursive",
+        "metric": "recall@3 difference worddael-baseline",
+        "difference": 0.0,
+        "document_bootstrap_95ci": [
+          0.0,
+          0.0
+        ],
+        "resamples": 2000
+      },
+      {
+        "baseline": "fixed256",
+        "metric": "recall@3 difference worddael-baseline",
+        "difference": 0.02100840336134454,
+        "document_bootstrap_95ci": [
+          0.0,
+          0.04219409282700422
+        ],
+        "resamples": 2000
+      }
+    ],
+    "total_seconds": 38.297675400041044,
+    "note": "Real public CMRC questions and answer spans, CPU learned ONNX embeddings. Retrieval only; no generation or LLM judge."
+  },
+  "pii": [
+    {
+      "method": "helan",
+      "injections": 480,
+      "exact_injection_recall": 0.375,
+      "negative_controls": 120,
+      "negative_control_false_alarms": 0,
+      "unannotated_background_alerts": 0,
+      "performance": {
+        "elapsed_ms": 46.897799940779805,
+        "rss_peak_mb": 32.7265625,
+        "rss_start_mb": 32.0390625,
+        "python_alloc_peak_mb": 0.2532663345336914,
+        "memory_note": "isolated worker RSS sampled every5ms after imports; Python allocations via tracemalloc; timing includes instrumentation"
+      },
+      "scope": "4 structured entity types, synthetic injections; NOT production PII accuracy; background alerts require human adjudication; baseline is Presidio PatternRecognizer+independent Chinese normalizer/checksums, NOT full Presidio NER"
+    },
+    {
+      "method": "presidio_zh_rules",
+      "injections": 480,
+      "exact_injection_recall": 1.0,
+      "negative_controls": 120,
+      "negative_control_false_alarms": 0,
+      "unannotated_background_alerts": 0,
+      "performance": {
+        "elapsed_ms": 257.4814000399783,
+        "rss_peak_mb": 94.1796875,
+        "rss_start_mb": 92.96875,
+        "python_alloc_peak_mb": 0.5035696029663086,
+        "memory_note": "isolated worker RSS sampled every5ms after imports; Python allocations via tracemalloc; timing includes instrumentation"
+      },
+      "scope": "4 structured entity types, synthetic injections; NOT production PII accuracy; background alerts require human adjudication; baseline is Presidio PatternRecognizer+independent Chinese normalizer/checksums, NOT full Presidio NER"
+    },
+    {
+      "method": "helan_same_normalization",
+      "injections": 480,
+      "exact_injection_recall": 1.0,
+      "negative_controls": 120,
+      "negative_control_false_alarms": 0,
+      "unannotated_background_alerts": 0,
+      "performance": {
+        "elapsed_ms": 257.15239997953176,
+        "rss_peak_mb": 33.23828125,
+        "rss_start_mb": 31.9296875,
+        "python_alloc_peak_mb": 0.422027587890625,
+        "memory_note": "isolated worker RSS sampled every5ms after imports; Python allocations via tracemalloc; timing includes instrumentation"
+      },
+      "scope": "4 structured entity types, synthetic injections; NOT production PII accuracy; background alerts require human adjudication; baseline is Presidio PatternRecognizer+independent Chinese normalizer/checksums, NOT full Presidio NER"
+    }
+  ],
+  "siftan": [
+    {
+      "split": "calibration",
+      "kind": "delete_every7",
+      "n": 40,
+      "exact_flag_rate": 0.0,
+      "near_default_flag_rate": 0.0,
+      "near_calibrated_flag_rate": 0.0,
+      "calibrated_threshold": 0.15
+    },
+    {
+      "split": "calibration",
+      "kind": "exact",
+      "n": 40,
+      "exact_flag_rate": 1.0,
+      "near_default_flag_rate": 1.0,
+      "near_calibrated_flag_rate": 1.0,
+      "calibrated_threshold": 0.15
+    },
+    {
+      "split": "calibration",
+      "kind": "fullwidth",
+      "n": 40,
+      "exact_flag_rate": 1.0,
+      "near_default_flag_rate": 1.0,
+      "near_calibrated_flag_rate": 1.0,
+      "calibrated_threshold": 0.15
+    },
+    {
+      "split": "calibration",
+      "kind": "insert_every10",
+      "n": 40,
+      "exact_flag_rate": 0.025,
+      "near_default_flag_rate": 0.0,
+      "near_calibrated_flag_rate": 1.0,
+      "calibrated_threshold": 0.15
+    },
+    {
+      "split": "calibration",
+      "kind": "nonmember_control",
+      "n": 20,
+      "exact_flag_rate": 0.0,
+      "near_default_flag_rate": 0.0,
+      "near_calibrated_flag_rate": 0.0,
+      "calibrated_threshold": 0.15
+    },
+    {
+      "split": "calibration",
+      "kind": "partial128",
+      "n": 40,
+      "exact_flag_rate": 1.0,
+      "near_default_flag_rate": 1.0,
+      "near_calibrated_flag_rate": 1.0,
+      "calibrated_threshold": 0.15
+    },
+    {
+      "split": "holdout",
+      "kind": "delete_every7",
+      "n": 120,
+      "exact_flag_rate": 0.0,
+      "near_default_flag_rate": 0.0,
+      "near_calibrated_flag_rate": 0.0,
+      "calibrated_threshold": 0.15
+    },
+    {
+      "split": "holdout",
+      "kind": "exact",
+      "n": 120,
+      "exact_flag_rate": 1.0,
+      "near_default_flag_rate": 1.0,
+      "near_calibrated_flag_rate": 1.0,
+      "calibrated_threshold": 0.15
+    },
+    {
+      "split": "holdout",
+      "kind": "fullwidth",
+      "n": 120,
+      "exact_flag_rate": 1.0,
+      "near_default_flag_rate": 1.0,
+      "near_calibrated_flag_rate": 1.0,
+      "calibrated_threshold": 0.15
+    },
+    {
+      "split": "holdout",
+      "kind": "insert_every10",
+      "n": 120,
+      "exact_flag_rate": 0.0,
+      "near_default_flag_rate": 0.0,
+      "near_calibrated_flag_rate": 1.0,
+      "calibrated_threshold": 0.15
+    },
+    {
+      "split": "holdout",
+      "kind": "nonmember_control",
+      "n": 20,
+      "exact_flag_rate": 0.15,
+      "near_default_flag_rate": 0.0,
+      "near_calibrated_flag_rate": 0.0,
+      "calibrated_threshold": 0.15
+    },
+    {
+      "split": "holdout",
+      "kind": "partial128",
+      "n": 120,
+      "exact_flag_rate": 1.0,
+      "near_default_flag_rate": 1.0,
+      "near_calibrated_flag_rate": 1.0,
+      "calibrated_threshold": 0.15
+    }
+  ],
+  "gewita": {
+    "real_records": 4,
+    "real_statuses": [
+      "EXISTS",
+      "EXISTS",
+      "EXISTS",
+      "EXISTS"
+    ],
+    "modified_year_statuses": [
+      "SUSPECT",
+      "SUSPECT",
+      "SUSPECT",
+      "SUSPECT"
+    ]
+  },
+  "model_license": [
+    {
+      "repo": "BAAI/bge-small-zh-v1.5",
+      "revision": "7999e1d3359715c523056ef9478215996d62a620",
+      "model_card_url": "https://huggingface.co/BAAI/bge-small-zh-v1.5/raw/7999e1d3359715c523056ef9478215996d62a620/README.md",
+      "license_declared": "mit",
+      "model_card_sha256": "c48a4eeea77f6b1d38b48ec1c5b8d4f86d5550cc43fa345a0db1b2ca1d082369"
+    },
+    {
+      "repo": "Qdrant/bge-small-zh-v1.5",
+      "revision": "46fbe35fd4374a00fee7de77dfddaeb6dd6a2c59",
+      "model_card_url": "https://huggingface.co/Qdrant/bge-small-zh-v1.5/raw/46fbe35fd4374a00fee7de77dfddaeb6dd6a2c59/README.md",
+      "license_declared": "mit",
+      "model_card_sha256": "d8d7a46d41a1a37fe4f0a5f637bf55c649310185329127d8a2204632e480be17"
+    }
+  ],
+  "dataset_commit": "c0eb1b6ba219847457e6af3180da722bbeb656af",
+  "machine": {
+    "platform": "Windows-11-10.0.26200-SP0",
+    "processor": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+    "logical_cpus": 32
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "elapsed_ms": 736.7386999540031,
+  "rss_peak_mb": 51.13671875,
+  "rss_start_mb": 49.81640625,
+  "python_alloc_peak_mb": 0.5388650894165039,
+  "memory_note": "isolated worker RSS sampled every5ms after imports; Python allocations via tracemalloc; timing includes instrumentation"
+}

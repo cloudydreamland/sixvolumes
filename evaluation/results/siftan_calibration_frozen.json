@@ -1,0 +1,62 @@
+{
+  "threshold": 0.15,
+  "grid": [
+    {
+      "threshold": 0.05,
+      "f1_on_constructed_membership": 0.8888888888888888,
+      "tp": 160,
+      "fp": 0,
+      "fn": 40
+    },
+    {
+      "threshold": 0.1,
+      "f1_on_constructed_membership": 0.8888888888888888,
+      "tp": 160,
+      "fp": 0,
+      "fn": 40
+    },
+    {
+      "threshold": 0.15,
+      "f1_on_constructed_membership": 0.8888888888888888,
+      "tp": 160,
+      "fp": 0,
+      "fn": 40
+    },
+    {
+      "threshold": 0.2,
+      "f1_on_constructed_membership": 0.75,
+      "tp": 120,
+      "fp": 0,
+      "fn": 80
+    },
+    {
+      "threshold": 0.25,
+      "f1_on_constructed_membership": 0.75,
+      "tp": 120,
+      "fp": 0,
+      "fn": 80
+    },
+    {
+      "threshold": 0.3,
+      "f1_on_constructed_membership": 0.75,
+      "tp": 120,
+      "fp": 0,
+      "fn": 80
+    },
+    {
+      "threshold": 0.4,
+      "f1_on_constructed_membership": 0.75,
+      "tp": 120,
+      "fp": 0,
+      "fn": 80
+    },
+    {
+      "threshold": 0.5,
+      "f1_on_constructed_membership": 0.75,
+      "tp": 120,
+      "fp": 0,
+      "fn": 80
+    }
+  ],
+  "note": "nonmember != guaranteed clean. F1 here evaluates constructed membership only; not semantic contamination."
+}

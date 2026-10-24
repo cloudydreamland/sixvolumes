@@ -1,0 +1,9 @@
+﻿doi,variant,expected,status,detail,title_parse_exact,year_parse_exact
+10.18653/v1/D19-1600,authentic_metadata,EXISTS,EXISTS,Crossref 命中（包含度 1.00）,True,True
+10.18653/v1/D19-1600,synthetic_year_plus5,SUSPECT,SUSPECT,年份不符：条目标注 2024，Crossref 记录 2019,True,True
+10.18653/v1/N19-1423,authentic_metadata,EXISTS,EXISTS,Crossref 命中（包含度 1.00）,True,True
+10.18653/v1/N19-1423,synthetic_year_plus5,SUSPECT,SUSPECT,年份不符：条目标注 2024，Crossref 记录 2019,True,True
+10.18653/v1/2023.emnlp-main.398,authentic_metadata,EXISTS,EXISTS,Crossref 命中（包含度 1.00）,True,True
+10.18653/v1/2023.emnlp-main.398,synthetic_year_plus5,SUSPECT,SUSPECT,年份不符：条目标注 2028，Crossref 记录 2023,True,True
+10.1109/TWC.2024.3454073,authentic_metadata,EXISTS,EXISTS,Crossref 命中（包含度 1.00）,True,True
+10.1109/TWC.2024.3454073,synthetic_year_plus5,SUSPECT,SUSPECT,年份不符：条目标注 2029，Crossref 记录 2024,True,True

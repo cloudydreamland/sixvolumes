@@ -1,0 +1,334 @@
+[
+  {
+    "doi": "10.18653/v1/D19-1600",
+    "title": "A Span-Extraction Dataset for Chinese Machine Reading Comprehension",
+    "year": 2019,
+    "venue": "Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP)",
+    "authors": [
+      {
+        "given": "Yiming",
+        "family": "Cui",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ting",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Wanxiang",
+        "family": "Che",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Li",
+        "family": "Xiao",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Zhipeng",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Wentao",
+        "family": "Ma",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Shijin",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Guoping",
+        "family": "Hu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "doi": "10.18653/v1/N19-1423",
+    "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+    "year": 2019,
+    "venue": "Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers)",
+    "authors": [
+      {
+        "given": "Jacob",
+        "family": "Devlin",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ming-Wei",
+        "family": "Chang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Kenton",
+        "family": "Lee",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Kristina",
+        "family": "Toutanova",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "doi": "10.18653/v1/2023.emnlp-main.398",
+    "title": "Enabling Large Language Models to Generate Text with Citations",
+    "year": 2023,
+    "venue": "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
+    "authors": [
+      {
+        "given": "Tianyu",
+        "family": "Gao",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Howard",
+        "family": "Yen",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jiatong",
+        "family": "Yu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Danqi",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "doi": "10.1109/TWC.2024.3454073",
+    "title": "UAV-Enabled Semantic Communication in Mobile Edge Computing Under Jamming Attacks: An Intelligent Resource Management Approach",
+    "year": 2024,
+    "venue": "IEEE Transactions on Wireless Communications",
+    "authors": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-7178-5608",
+        "authenticated-orcid": false,
+        "given": "Shuai",
+        "family": "Liu",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "School of Informatics and the Key Laboratory of Multimedia Trusted Perception and Efficient Computing, Xiamen University, Xiamen, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9697-7470",
+        "authenticated-orcid": false,
+        "given": "Helin",
+        "family": "Yang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Informatics, the Key Laboratory of Multimedia Trusted Perception and Efficient Computing, and the Institute of Artificial Intelligence, Xiamen University, Xiamen, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0007-7860-6888",
+        "authenticated-orcid": false,
+        "given": "Mengting",
+        "family": "Zheng",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Informatics and the Key Laboratory of Multimedia Trusted Perception and Efficient Computing, Xiamen University, Xiamen, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2402-611X",
+        "authenticated-orcid": false,
+        "given": "Liang",
+        "family": "Xiao",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Informatics, the Key Laboratory of Multimedia Trusted Perception and Efficient Computing, and the Institute of Artificial Intelligence, Xiamen University, Xiamen, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4440-941X",
+        "authenticated-orcid": false,
+        "given": "Zehui",
+        "family": "Xiong",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Singapore University of Technology and Design, Tampines, Singapore"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7442-7416",
+        "authenticated-orcid": false,
+        "given": "Dusit",
+        "family": "Niyato",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "College of Computing and Data Science, Nanyang Technological University, Jurong West, Singapore"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ]
+  }
+]

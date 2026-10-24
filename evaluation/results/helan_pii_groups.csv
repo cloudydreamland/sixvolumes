@@ -1,0 +1,17 @@
+﻿method,type,variant,n,exact_injection_recall
+helan,ID_CARD,plain,30,1.0
+helan,ID_CARD,fullwidth,30,0.0
+helan,ID_CARD,spaced,30,1.0
+helan,ID_CARD,zero_width,30,0.0
+helan,PHONE,plain,30,1.0
+helan,PHONE,fullwidth,30,0.0
+helan,PHONE,spaced,30,0.0
+helan,PHONE,zero_width,30,0.0
+helan,EMAIL,plain,30,1.0
+helan,EMAIL,fullwidth,30,0.0
+helan,EMAIL,spaced,30,0.0
+helan,EMAIL,zero_width,30,0.0
+helan,BANK_CARD,plain,30,1.0
+helan,BANK_CARD,fullwidth,30,0.0
+helan,BANK_CARD,spaced,30,1.0
+helan,BANK_CARD,zero_width,30,0.0

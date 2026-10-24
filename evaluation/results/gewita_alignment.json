@@ -1,0 +1,1562 @@
+[
+  {
+    "doc_id": "bd38ad756cd32a94",
+    "variant": "verbatim",
+    "quote": "疣鹦嘴鱼，又名瘤绿鹦嘴鱼，俗名叩头鹦哥、鹦哥、青衣，为辐鳍鱼纲鲈形目隆头鱼亚目鹦哥鱼科的其中一种。",
+    "alignment": {
+      "level": "VERBATIM",
+      "score": 1.0,
+      "start": 0,
+      "end": 49,
+      "method": "norm-substring"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "bd38ad756cd32a94",
+    "variant": "fullwidth",
+    "quote": "疣鹦嘴鱼，又名瘤绿鹦嘴鱼，俗名叩头鹦哥、鹦哥、青衣，为辐鳍鱼纲鲈形目隆头鱼亚目鹦哥鱼科的其中一种。",
+    "alignment": {
+      "level": "VERBATIM",
+      "score": 1.0,
+      "start": 0,
+      "end": 49,
+      "method": "norm-substring"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "bd38ad756cd32a94",
+    "variant": "negation_probe",
+    "quote": "并非疣鹦嘴鱼，又名瘤绿鹦嘴鱼，俗名叩头鹦哥、鹦哥、青衣，为辐鳍鱼纲鲈形目隆头鱼亚目鹦哥鱼科的其中一种。",
+    "alignment": {
+      "level": "NEAR",
+      "score": 0.98,
+      "start": 0,
+      "end": 49,
+      "method": "seqmatcher-window"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "e122bf2732cdbdb4",
+    "variant": "verbatim",
+    "quote": "Antichrist Superstar是玛丽莲·曼森第二张个人专辑\"Antichrist Superstar\"中的主打歌曲。",
+    "alignment": {
+      "level": "VERBATIM",
+      "score": 1.0,
+      "start": 0,
+      "end": 63,
+      "method": "norm-substring"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "e122bf2732cdbdb4",
+    "variant": "fullwidth",
+    "quote": "Ａｎｔｉｃｈｒｉｓｔ Ｓｕｐｅｒｓｔａｒ是玛丽莲·曼森第二张个人专辑＂Ａｎｔｉｃｈｒｉｓｔ Ｓｕｐｅｒｓｔａｒ＂中的主打歌曲。",
+    "alignment": {
+      "level": "VERBATIM",
+      "score": 1.0,
+      "start": 0,
+      "end": 63,
+      "method": "norm-substring"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "e122bf2732cdbdb4",
+    "variant": "negation_probe",
+    "quote": "并非Antichrist Superstar是玛丽莲·曼森第二张个人专辑\"Antichrist Superstar\"中的主打歌曲。",
+    "alignment": {
+      "level": "NEAR",
+      "score": 0.9838709677419355,
+      "start": 0,
+      "end": 63,
+      "method": "seqmatcher-window"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "9e4de19a5548eae1",
+    "variant": "verbatim",
+    "quote": "阿拉伯音乐有悠久的历史，阿拉伯人学习并掌握和发展了古典希腊音乐理论，对东西方的音乐都有很大的影响，8世纪时法拉比的著作《音乐全书》被西方认为是欧洲文艺复兴的奠基石。",
+    "alignment": {
+      "level": "VERBATIM",
+      "score": 1.0,
+      "start": 0,
+      "end": 82,
+      "method": "norm-substring"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "9e4de19a5548eae1",
+    "variant": "fullwidth",
+    "quote": "阿拉伯音乐有悠久的历史，阿拉伯人学习并掌握和发展了古典希腊音乐理论，对东西方的音乐都有很大的影响，８世纪时法拉比的著作《音乐全书》被西方认为是欧洲文艺复兴的奠基石。",
+    "alignment": {
+      "level": "VERBATIM",
+      "score": 1.0,
+      "start": 0,
+      "end": 82,
+      "method": "norm-substring"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "9e4de19a5548eae1",
+    "variant": "negation_probe",
+    "quote": "并非阿拉伯音乐有悠久的历史，阿拉伯人学习并掌握和发展了古典希腊音乐理论，对东西方的音乐都有很大的影响，8世纪时法拉比的著作《音乐全书》被西方认为是欧洲文艺复兴的奠基石。",
+    "alignment": {
+      "level": "NEAR",
+      "score": 0.9879518072289156,
+      "start": 0,
+      "end": 82,
+      "method": "seqmatcher-window"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "b5c15fa84ba3a8bc",
+    "variant": "verbatim",
+    "quote": "余杭站是沪昆客运专线的一个车站，位于浙江省杭州市余杭区南苑街道联胜社区以东。",
+    "alignment": {
+      "level": "VERBATIM",
+      "score": 1.0,
+      "start": 0,
+      "end": 38,
+      "method": "norm-substring"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "b5c15fa84ba3a8bc",
+    "variant": "fullwidth",
+    "quote": "余杭站是沪昆客运专线的一个车站，位于浙江省杭州市余杭区南苑街道联胜社区以东。",
+    "alignment": {
+      "level": "VERBATIM",
+      "score": 1.0,
+      "start": 0,
+      "end": 38,
+      "method": "norm-substring"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "b5c15fa84ba3a8bc",
+    "variant": "negation_probe",
+    "quote": "并非余杭站是沪昆客运专线的一个车站，位于浙江省杭州市余杭区南苑街道联胜社区以东。",
+    "alignment": {
+      "level": "NEAR",
+      "score": 0.9743589743589743,
+      "start": 0,
+      "end": 38,
+      "method": "seqmatcher-window"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "27926d534cf011cc",
+    "variant": "verbatim",
+    "quote": "高畠车站（）是一位于日本山形县东置赐郡高畠町大字山崎，由东日本旅客铁道（JR东日本）所经营的铁路车站。",
+    "alignment": {
+      "level": "VERBATIM",
+      "score": 1.0,
+      "start": 0,
+      "end": 51,
+      "method": "norm-substring"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "27926d534cf011cc",
+    "variant": "fullwidth",
+    "quote": "高畠车站（）是一位于日本山形县东置赐郡高畠町大字山崎，由东日本旅客铁道（ＪＲ东日本）所经营的铁路车站。",
+    "alignment": {
+      "level": "VERBATIM",
+      "score": 1.0,
+      "start": 0,
+      "end": 51,
+      "method": "norm-substring"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "27926d534cf011cc",
+    "variant": "negation_probe",
+    "quote": "并非高畠车站（）是一位于日本山形县东置赐郡高畠町大字山崎，由东日本旅客铁道（JR东日本）所经营的铁路车站。",
+    "alignment": {
+      "level": "NEAR",
+      "score": 0.9807692307692307,
+      "start": 0,
+      "end": 51,
+      "method": "seqmatcher-window"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "6add336ef3ee51dd",
+    "variant": "verbatim",
+    "quote": "将军澳华人永远坟场（）是位于香港新界西贡区西南部魔鬼山和照镜环山东麓的一个坟场，由华人永远坟场管理委员会管理。",
+    "alignment": {
+      "level": "VERBATIM",
+      "score": 1.0,
+      "start": 0,
+      "end": 55,
+      "method": "norm-substring"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "6add336ef3ee51dd",
+    "variant": "fullwidth",
+    "quote": "将军澳华人永远坟场（）是位于香港新界西贡区西南部魔鬼山和照镜环山东麓的一个坟场，由华人永远坟场管理委员会管理。",
+    "alignment": {
+      "level": "VERBATIM",
+      "score": 1.0,
+      "start": 0,
+      "end": 55,
+      "method": "norm-substring"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "6add336ef3ee51dd",
+    "variant": "negation_probe",
+    "quote": "并非将军澳华人永远坟场（）是位于香港新界西贡区西南部魔鬼山和照镜环山东麓的一个坟场，由华人永远坟场管理委员会管理。",
+    "alignment": {
+      "level": "NEAR",
+      "score": 0.9821428571428571,
+      "start": 0,
+      "end": 55,
+      "method": "seqmatcher-window"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "14c0c3825f171286",
+    "variant": "verbatim",
+    "quote": "永明之治是指南齐在齐武帝萧赜在位时代出现的治世（482年—493年）。",
+    "alignment": {
+      "level": "VERBATIM",
+      "score": 1.0,
+      "start": 0,
+      "end": 35,
+      "method": "norm-substring"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "14c0c3825f171286",
+    "variant": "fullwidth",
+    "quote": "永明之治是指南齐在齐武帝萧赜在位时代出现的治世（４８２年—４９３年）。",
+    "alignment": {
+      "level": "VERBATIM",
+      "score": 1.0,
+      "start": 0,
+      "end": 35,
+      "method": "norm-substring"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "14c0c3825f171286",
+    "variant": "negation_probe",
+    "quote": "并非永明之治是指南齐在齐武帝萧赜在位时代出现的治世（482年—493年）。",
+    "alignment": {
+      "level": "NEAR",
+      "score": 0.9722222222222222,
+      "start": 0,
+      "end": 35,
+      "method": "seqmatcher-window"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "e7beb2810ec0c7c9",
+    "variant": "verbatim",
+    "quote": "在复分析中，哈代空间（或哈代类）formula_1是单位圆盘或上半平面上的某类全纯函数。",
+    "alignment": {
+      "level": "VERBATIM",
+      "score": 1.0,
+      "start": 0,
+      "end": 44,
+      "method": "norm-substring"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "e7beb2810ec0c7c9",
+    "variant": "fullwidth",
+    "quote": "在复分析中，哈代空间（或哈代类）ｆｏｒｍｕｌａ＿１是单位圆盘或上半平面上的某类全纯函数。",
+    "alignment": {
+      "level": "VERBATIM",
+      "score": 1.0,
+      "start": 0,
+      "end": 44,
+      "method": "norm-substring"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "e7beb2810ec0c7c9",
+    "variant": "negation_probe",
+    "quote": "并非在复分析中，哈代空间（或哈代类）formula_1是单位圆盘或上半平面上的某类全纯函数。",
+    "alignment": {
+      "level": "NEAR",
+      "score": 0.9777777777777777,
+      "start": 0,
+      "end": 44,
+      "method": "seqmatcher-window"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "802bc8ee8b5d742f",
+    "variant": "verbatim",
+    "quote": "其仕宦生涯从梁武帝末年直至陈后主即位，历仕九朝。",
+    "alignment": {
+      "level": "VERBATIM",
+      "score": 1.0,
+      "start": 46,
+      "end": 70,
+      "method": "norm-substring"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "802bc8ee8b5d742f",
+    "variant": "fullwidth",
+    "quote": "其仕宦生涯从梁武帝末年直至陈后主即位，历仕九朝。",
+    "alignment": {
+      "level": "VERBATIM",
+      "score": 1.0,
+      "start": 46,
+      "end": 70,
+      "method": "norm-substring"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "802bc8ee8b5d742f",
+    "variant": "negation_probe",
+    "quote": "并非其仕宦生涯从梁武帝末年直至陈后主即位，历仕九朝。",
+    "alignment": {
+      "level": "NEAR",
+      "score": 0.96,
+      "start": 46,
+      "end": 70,
+      "method": "seqmatcher-window"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "4a1bb21a60f2909e",
+    "variant": "verbatim",
+    "quote": "原冈瓦那大陆（Proto-Gondwana）意为「最初的冈瓦那大陆」，是个史前大陆，存在于中元古代到新元古代。",
+    "alignment": {
+      "level": "VERBATIM",
+      "score": 1.0,
+      "start": 0,
+      "end": 55,
+      "method": "norm-substring"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "4a1bb21a60f2909e",
+    "variant": "fullwidth",
+    "quote": "原冈瓦那大陆（Ｐｒｏｔｏ－Ｇｏｎｄｗａｎａ）意为「最初的冈瓦那大陆」，是个史前大陆，存在于中元古代到新元古代。",
+    "alignment": {
+      "level": "VERBATIM",
+      "score": 1.0,
+      "start": 0,
+      "end": 55,
+      "method": "norm-substring"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "4a1bb21a60f2909e",
+    "variant": "negation_probe",
+    "quote": "并非原冈瓦那大陆（Proto-Gondwana）意为「最初的冈瓦那大陆」，是个史前大陆，存在于中元古代到新元古代。",
+    "alignment": {
+      "level": "NEAR",
+      "score": 0.9821428571428571,
+      "start": 0,
+      "end": 55,
+      "method": "seqmatcher-window"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "0df2e123c00d59f3",
+    "variant": "verbatim",
+    "quote": "德龙烟铁路是中国山东省境内德大铁路、大莱龙铁路和龙烟铁路的统称。",
+    "alignment": {
+      "level": "VERBATIM",
+      "score": 1.0,
+      "start": 0,
+      "end": 32,
+      "method": "norm-substring"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "0df2e123c00d59f3",
+    "variant": "fullwidth",
+    "quote": "德龙烟铁路是中国山东省境内德大铁路、大莱龙铁路和龙烟铁路的统称。",
+    "alignment": {
+      "level": "VERBATIM",
+      "score": 1.0,
+      "start": 0,
+      "end": 32,
+      "method": "norm-substring"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "0df2e123c00d59f3",
+    "variant": "negation_probe",
+    "quote": "并非德龙烟铁路是中国山东省境内德大铁路、大莱龙铁路和龙烟铁路的统称。",
+    "alignment": {
+      "level": "NEAR",
+      "score": 0.9696969696969697,
+      "start": 0,
+      "end": 32,
+      "method": "seqmatcher-window"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "c7562aa1cd40f731",
+    "variant": "verbatim",
+    "quote": "大雷克雅维克（，意指「首都地区」）是指雷克雅维克及其周围六个自治市的区域。",
+    "alignment": {
+      "level": "VERBATIM",
+      "score": 1.0,
+      "start": 0,
+      "end": 37,
+      "method": "norm-substring"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "c7562aa1cd40f731",
+    "variant": "fullwidth",
+    "quote": "大雷克雅维克（，意指「首都地区」）是指雷克雅维克及其周围六个自治市的区域。",
+    "alignment": {
+      "level": "VERBATIM",
+      "score": 1.0,
+      "start": 0,
+      "end": 37,
+      "method": "norm-substring"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "c7562aa1cd40f731",
+    "variant": "negation_probe",
+    "quote": "并非大雷克雅维克（，意指「首都地区」）是指雷克雅维克及其周围六个自治市的区域。",
+    "alignment": {
+      "level": "NEAR",
+      "score": 0.9736842105263158,
+      "start": 0,
+      "end": 37,
+      "method": "seqmatcher-window"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "8083a2ff7c22f160",
+    "variant": "verbatim",
+    "quote": "《Go车志 BuyCarTV》，于2007年7月－2009年于台湾交通电视台播放；2009年开始以YouTube为主要平台。",
+    "alignment": {
+      "level": "VERBATIM",
+      "score": 1.0,
+      "start": 0,
+      "end": 62,
+      "method": "norm-substring"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "8083a2ff7c22f160",
+    "variant": "fullwidth",
+    "quote": "《Ｇｏ车志 ＢｕｙＣａｒＴＶ》，于２００７年７月－２００９年于台湾交通电视台播放；２００９年开始以ＹｏｕＴｕｂｅ为主要平台。",
+    "alignment": {
+      "level": "VERBATIM",
+      "score": 1.0,
+      "start": 0,
+      "end": 62,
+      "method": "norm-substring"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "8083a2ff7c22f160",
+    "variant": "negation_probe",
+    "quote": "并非《Go车志 BuyCarTV》，于2007年7月－2009年于台湾交通电视台播放；2009年开始以YouTube为主要平台。",
+    "alignment": {
+      "level": "NEAR",
+      "score": 0.9838709677419355,
+      "start": 0,
+      "end": 62,
+      "method": "seqmatcher-window"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "9e8eaea1c031ee5d",
+    "variant": "verbatim",
+    "quote": "纽西兰国防军有陆海空三军，主要维系邻国澳大利亚军队共同联合维护南太平洋区域的安全性。",
+    "alignment": {
+      "level": "VERBATIM",
+      "score": 1.0,
+      "start": 20,
+      "end": 62,
+      "method": "norm-substring"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "9e8eaea1c031ee5d",
+    "variant": "fullwidth",
+    "quote": "纽西兰国防军有陆海空三军，主要维系邻国澳大利亚军队共同联合维护南太平洋区域的安全性。",
+    "alignment": {
+      "level": "VERBATIM",
+      "score": 1.0,
+      "start": 20,
+      "end": 62,
+      "method": "norm-substring"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "9e8eaea1c031ee5d",
+    "variant": "negation_probe",
+    "quote": "并非纽西兰国防军有陆海空三军，主要维系邻国澳大利亚军队共同联合维护南太平洋区域的安全性。",
+    "alignment": {
+      "level": "NEAR",
+      "score": 0.9767441860465116,
+      "start": 20,
+      "end": 62,
+      "method": "seqmatcher-window"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "7848d390ac308195",
+    "variant": "verbatim",
+    "quote": "塞斯纳170型是一个单引擎四座位的小型飞机，由塞斯纳公司所研制的，在1948-1956年期间生产数量达5174架。",
+    "alignment": {
+      "level": "VERBATIM",
+      "score": 1.0,
+      "start": 0,
+      "end": 57,
+      "method": "norm-substring"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "7848d390ac308195",
+    "variant": "fullwidth",
+    "quote": "塞斯纳１７０型是一个单引擎四座位的小型飞机，由塞斯纳公司所研制的，在１９４８－１９５６年期间生产数量达５１７４架。",
+    "alignment": {
+      "level": "VERBATIM",
+      "score": 1.0,
+      "start": 0,
+      "end": 57,
+      "method": "norm-substring"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "7848d390ac308195",
+    "variant": "negation_probe",
+    "quote": "并非塞斯纳170型是一个单引擎四座位的小型飞机，由塞斯纳公司所研制的，在1948-1956年期间生产数量达5174架。",
+    "alignment": {
+      "level": "NEAR",
+      "score": 0.9827586206896551,
+      "start": 0,
+      "end": 57,
+      "method": "seqmatcher-window"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "91ad910bbdd7bfb5",
+    "variant": "verbatim",
+    "quote": "关岛秧鸡（\"Gallirallus owstoni\"）是一种不会飞的鸟，可说是关岛的原住民。",
+    "alignment": {
+      "level": "VERBATIM",
+      "score": 1.0,
+      "start": 0,
+      "end": 46,
+      "method": "norm-substring"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "91ad910bbdd7bfb5",
+    "variant": "fullwidth",
+    "quote": "关岛秧鸡（＂Ｇａｌｌｉｒａｌｌｕｓ ｏｗｓｔｏｎｉ＂）是一种不会飞的鸟，可说是关岛的原住民。",
+    "alignment": {
+      "level": "VERBATIM",
+      "score": 1.0,
+      "start": 0,
+      "end": 46,
+      "method": "norm-substring"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "91ad910bbdd7bfb5",
+    "variant": "negation_probe",
+    "quote": "并非关岛秧鸡（\"Gallirallus owstoni\"）是一种不会飞的鸟，可说是关岛的原住民。",
+    "alignment": {
+      "level": "NEAR",
+      "score": 0.9782608695652174,
+      "start": 0,
+      "end": 46,
+      "method": "seqmatcher-window"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "4be4aa283f54db3b",
+    "variant": "verbatim",
+    "quote": "海翠花园（）为香港新界屯门湖翠路168-236号的私人屋苑，属轻铁屯门码头站上盖物业，共有6座楼高32层楼宇，合共提供1440伙单位，于1988年8月入-{伙}-。",
+    "alignment": {
+      "level": "VERBATIM",
+      "score": 1.0,
+      "start": 0,
+      "end": 82,
+      "method": "norm-substring"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "4be4aa283f54db3b",
+    "variant": "fullwidth",
+    "quote": "海翠花园（）为香港新界屯门湖翠路１６８－２３６号的私人屋苑，属轻铁屯门码头站上盖物业，共有６座楼高３２层楼宇，合共提供１４４０伙单位，于１９８８年８月入－｛伙｝－。",
+    "alignment": {
+      "level": "VERBATIM",
+      "score": 1.0,
+      "start": 0,
+      "end": 82,
+      "method": "norm-substring"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "4be4aa283f54db3b",
+    "variant": "negation_probe",
+    "quote": "并非海翠花园（）为香港新界屯门湖翠路168-236号的私人屋苑，属轻铁屯门码头站上盖物业，共有6座楼高32层楼宇，合共提供1440伙单位，于1988年8月入-{伙}-。",
+    "alignment": {
+      "level": "NEAR",
+      "score": 0.9879518072289156,
+      "start": 0,
+      "end": 82,
+      "method": "seqmatcher-window"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "5bed4920bed1b800",
+    "variant": "verbatim",
+    "quote": "厚嘴鸡鸠（学名：\"\"）是一种已灭绝的鸽子。",
+    "alignment": {
+      "level": "VERBATIM",
+      "score": 1.0,
+      "start": 0,
+      "end": 21,
+      "method": "norm-substring"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "5bed4920bed1b800",
+    "variant": "fullwidth",
+    "quote": "厚嘴鸡鸠（学名：＂＂）是一种已灭绝的鸽子。",
+    "alignment": {
+      "level": "VERBATIM",
+      "score": 1.0,
+      "start": 0,
+      "end": 21,
+      "method": "norm-substring"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "5bed4920bed1b800",
+    "variant": "negation_probe",
+    "quote": "并非厚嘴鸡鸠（学名：\"\"）是一种已灭绝的鸽子。",
+    "alignment": {
+      "level": "NEAR",
+      "score": 0.9545454545454546,
+      "start": 0,
+      "end": 21,
+      "method": "seqmatcher-window"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "06e802403e213622",
+    "variant": "verbatim",
+    "quote": "梦野久作（1889年1月4日—1936年3月11日），是日本推理小说作家，本名杉山泰道，幼名为杉山直树。",
+    "alignment": {
+      "level": "VERBATIM",
+      "score": 1.0,
+      "start": 0,
+      "end": 52,
+      "method": "norm-substring"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "06e802403e213622",
+    "variant": "fullwidth",
+    "quote": "梦野久作（１８８９年１月４日—１９３６年３月１１日），是日本推理小说作家，本名杉山泰道，幼名为杉山直树。",
+    "alignment": {
+      "level": "VERBATIM",
+      "score": 1.0,
+      "start": 0,
+      "end": 52,
+      "method": "norm-substring"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "06e802403e213622",
+    "variant": "negation_probe",
+    "quote": "并非梦野久作（1889年1月4日—1936年3月11日），是日本推理小说作家，本名杉山泰道，幼名为杉山直树。",
+    "alignment": {
+      "level": "NEAR",
+      "score": 0.9811320754716981,
+      "start": 0,
+      "end": 52,
+      "method": "seqmatcher-window"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "f92b269765dac031",
+    "variant": "verbatim",
+    "quote": "《魔力充电娘》（）是由ぢたま(某)的漫画作品，在Comic Gum2006年1月号到2013年12月号期间连载。",
+    "alignment": {
+      "level": "VERBATIM",
+      "score": 1.0,
+      "start": 0,
+      "end": 56,
+      "method": "norm-substring"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "f92b269765dac031",
+    "variant": "fullwidth",
+    "quote": "《魔力充电娘》（）是由ぢたま（某）的漫画作品，在Ｃｏｍｉｃ Ｇｕｍ２００６年１月号到２０１３年１２月号期间连载。",
+    "alignment": {
+      "level": "VERBATIM",
+      "score": 1.0,
+      "start": 0,
+      "end": 56,
+      "method": "norm-substring"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "f92b269765dac031",
+    "variant": "negation_probe",
+    "quote": "并非《魔力充电娘》（）是由ぢたま(某)的漫画作品，在Comic Gum2006年1月号到2013年12月号期间连载。",
+    "alignment": {
+      "level": "NEAR",
+      "score": 0.9821428571428571,
+      "start": 0,
+      "end": 56,
+      "method": "seqmatcher-window"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "8733568ad727ade9",
+    "variant": "verbatim",
+    "quote": "英土战争是一场发生于1807－1809年间的战争，是拿破仑战争的一部份。",
+    "alignment": {
+      "level": "VERBATIM",
+      "score": 1.0,
+      "start": 0,
+      "end": 36,
+      "method": "norm-substring"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "8733568ad727ade9",
+    "variant": "fullwidth",
+    "quote": "英土战争是一场发生于１８０７－１８０９年间的战争，是拿破仑战争的一部份。",
+    "alignment": {
+      "level": "VERBATIM",
+      "score": 1.0,
+      "start": 0,
+      "end": 36,
+      "method": "norm-substring"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "8733568ad727ade9",
+    "variant": "negation_probe",
+    "quote": "并非英土战争是一场发生于1807－1809年间的战争，是拿破仑战争的一部份。",
+    "alignment": {
+      "level": "NEAR",
+      "score": 0.972972972972973,
+      "start": 0,
+      "end": 36,
+      "method": "seqmatcher-window"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "0b6ed2d9e6f42913",
+    "variant": "verbatim",
+    "quote": "Stam1na是芬兰南卡累利阿区莱米的一支本土金属乐队，其主要音乐风格为前卫金属，同时受鞭击金属、死亡金属和另类金属影响。",
+    "alignment": {
+      "level": "VERBATIM",
+      "score": 1.0,
+      "start": 0,
+      "end": 61,
+      "method": "norm-substring"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "0b6ed2d9e6f42913",
+    "variant": "fullwidth",
+    "quote": "Ｓｔａｍ１ｎａ是芬兰南卡累利阿区莱米的一支本土金属乐队，其主要音乐风格为前卫金属，同时受鞭击金属、死亡金属和另类金属影响。",
+    "alignment": {
+      "level": "VERBATIM",
+      "score": 1.0,
+      "start": 0,
+      "end": 61,
+      "method": "norm-substring"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "0b6ed2d9e6f42913",
+    "variant": "negation_probe",
+    "quote": "并非Stam1na是芬兰南卡累利阿区莱米的一支本土金属乐队，其主要音乐风格为前卫金属，同时受鞭击金属、死亡金属和另类金属影响。",
+    "alignment": {
+      "level": "NEAR",
+      "score": 0.9838709677419355,
+      "start": 0,
+      "end": 61,
+      "method": "seqmatcher-window"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "4b0a067f0fa576ae",
+    "variant": "verbatim",
+    "quote": " Challenge）为加拿大政府在2004年3月向全加拿大国民发起的活动，目的是每年减少一吨的温室气体排放量，预估减少的量约为当时加拿大温室气体排放总量的20%，将可协助加国达到京都议定书的减量目标。",
+    "alignment": {
+      "level": "VERBATIM",
+      "score": 1.0,
+      "start": 23,
+      "end": 123,
+      "method": "norm-substring"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "4b0a067f0fa576ae",
+    "variant": "fullwidth",
+    "quote": " Ｃｈａｌｌｅｎｇｅ）为加拿大政府在２００４年３月向全加拿大国民发起的活动，目的是每年减少一吨的温室气体排放量，预估减少的量约为当时加拿大温室气体排放总量的２０％，将可协助加国达到京都议定书的减量目标。",
+    "alignment": {
+      "level": "VERBATIM",
+      "score": 1.0,
+      "start": 23,
+      "end": 123,
+      "method": "norm-substring"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "4b0a067f0fa576ae",
+    "variant": "negation_probe",
+    "quote": "并非 Challenge）为加拿大政府在2004年3月向全加拿大国民发起的活动，目的是每年减少一吨的温室气体排放量，预估减少的量约为当时加拿大温室气体排放总量的20%，将可协助加国达到京都议定书的减量目标。",
+    "alignment": {
+      "level": "NEAR",
+      "score": 0.8968609865470852,
+      "start": 23,
+      "end": 123,
+      "method": "seqmatcher-window"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "0acd090dfab4d320",
+    "variant": "verbatim",
+    "quote": "sley，1976年8月22日-)，全名派西·伊格内修斯·卫斯理(Percy Ignatius Weasley) ，虚构人物，是英国作家J·K·罗琳的儿童奇幻小说《哈利·波特》系列《哈利波特》中的角色。",
+    "alignment": {
+      "level": "VERBATIM",
+      "score": 1.0,
+      "start": 16,
+      "end": 117,
+      "method": "norm-substring"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "0acd090dfab4d320",
+    "variant": "fullwidth",
+    "quote": "ｓｌｅｙ，１９７６年８月２２日－），全名派西·伊格内修斯·卫斯理（Ｐｅｒｃｙ Ｉｇｎａｔｉｕｓ Ｗｅａｓｌｅｙ） ，虚构人物，是英国作家Ｊ·Ｋ·罗琳的儿童奇幻小说《哈利·波特》系列《哈利波特》中的角色。",
+    "alignment": {
+      "level": "VERBATIM",
+      "score": 1.0,
+      "start": 16,
+      "end": 117,
+      "method": "norm-substring"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "0acd090dfab4d320",
+    "variant": "negation_probe",
+    "quote": "并非sley，1976年8月22日-)，全名派西·伊格内修斯·卫斯理(Percy Ignatius Weasley) ，虚构人物，是英国作家J·K·罗琳的儿童奇幻小说《哈利·波特》系列《哈利波特》中的角色。",
+    "alignment": {
+      "level": "NEAR",
+      "score": 0.92018779342723,
+      "start": 16,
+      "end": 117,
+      "method": "seqmatcher-window"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "09f5316ea4c9268a",
+    "variant": "verbatim",
+    "quote": "罗伯特·霍顿（Robert Houghton，），英国足球教练员。",
+    "alignment": {
+      "level": "VERBATIM",
+      "score": 1.0,
+      "start": 0,
+      "end": 33,
+      "method": "norm-substring"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "09f5316ea4c9268a",
+    "variant": "fullwidth",
+    "quote": "罗伯特·霍顿（Ｒｏｂｅｒｔ Ｈｏｕｇｈｔｏｎ，），英国足球教练员。",
+    "alignment": {
+      "level": "VERBATIM",
+      "score": 1.0,
+      "start": 0,
+      "end": 33,
+      "method": "norm-substring"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "09f5316ea4c9268a",
+    "variant": "negation_probe",
+    "quote": "并非罗伯特·霍顿（Robert Houghton，），英国足球教练员。",
+    "alignment": {
+      "level": "NEAR",
+      "score": 0.9696969696969697,
+      "start": 0,
+      "end": 33,
+      "method": "seqmatcher-window"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "784cbc10e8584580",
+    "variant": "verbatim",
+    "quote": "吉尔杭阿（；），字雨山，奇特拉氏，满洲镶黄旗人，初为工部笔帖式，1853年起江南大营钦差大臣向荣保荐出任江苏巡抚，于咸丰五年（1855年）正月一日平定小刀会收复上海县建功。",
+    "alignment": {
+      "level": "VERBATIM",
+      "score": 1.0,
+      "start": 0,
+      "end": 86,
+      "method": "norm-substring"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "784cbc10e8584580",
+    "variant": "fullwidth",
+    "quote": "吉尔杭阿（；），字雨山，奇特拉氏，满洲镶黄旗人，初为工部笔帖式，１８５３年起江南大营钦差大臣向荣保荐出任江苏巡抚，于咸丰五年（１８５５年）正月一日平定小刀会收复上海县建功。",
+    "alignment": {
+      "level": "VERBATIM",
+      "score": 1.0,
+      "start": 0,
+      "end": 86,
+      "method": "norm-substring"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "784cbc10e8584580",
+    "variant": "negation_probe",
+    "quote": "并非吉尔杭阿（；），字雨山，奇特拉氏，满洲镶黄旗人，初为工部笔帖式，1853年起江南大营钦差大臣向荣保荐出任江苏巡抚，于咸丰五年（1855年）正月一日平定小刀会收复上海县建功。",
+    "alignment": {
+      "level": "NEAR",
+      "score": 0.9885057471264368,
+      "start": 0,
+      "end": 86,
+      "method": "seqmatcher-window"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "fb26d3af0e0c33d6",
+    "variant": "verbatim",
+    "quote": "许月凤（），马来西亚第12届霹雳九洞州议员，霹雳州立法议会副议长，民主行动党霹雳前州委、霹雳州关怀局前主任。",
+    "alignment": {
+      "level": "VERBATIM",
+      "score": 1.0,
+      "start": 0,
+      "end": 54,
+      "method": "norm-substring"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "fb26d3af0e0c33d6",
+    "variant": "fullwidth",
+    "quote": "许月凤（），马来西亚第１２届霹雳九洞州议员，霹雳州立法议会副议长，民主行动党霹雳前州委、霹雳州关怀局前主任。",
+    "alignment": {
+      "level": "VERBATIM",
+      "score": 1.0,
+      "start": 0,
+      "end": 54,
+      "method": "norm-substring"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "fb26d3af0e0c33d6",
+    "variant": "negation_probe",
+    "quote": "并非许月凤（），马来西亚第12届霹雳九洞州议员，霹雳州立法议会副议长，民主行动党霹雳前州委、霹雳州关怀局前主任。",
+    "alignment": {
+      "level": "NEAR",
+      "score": 0.9818181818181818,
+      "start": 0,
+      "end": 54,
+      "method": "seqmatcher-window"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "3a8a98fdd9db9a26",
+    "variant": "verbatim",
+    "quote": "改编自台湾民间广传清代台湾四大奇案之一的林投姐一传说。",
+    "alignment": {
+      "level": "VERBATIM",
+      "score": 1.0,
+      "start": 18,
+      "end": 45,
+      "method": "norm-substring"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "3a8a98fdd9db9a26",
+    "variant": "fullwidth",
+    "quote": "改编自台湾民间广传清代台湾四大奇案之一的林投姐一传说。",
+    "alignment": {
+      "level": "VERBATIM",
+      "score": 1.0,
+      "start": 18,
+      "end": 45,
+      "method": "norm-substring"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "3a8a98fdd9db9a26",
+    "variant": "negation_probe",
+    "quote": "并非改编自台湾民间广传清代台湾四大奇案之一的林投姐一传说。",
+    "alignment": {
+      "level": "NEAR",
+      "score": 0.9642857142857143,
+      "start": 18,
+      "end": 45,
+      "method": "seqmatcher-window"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "9b1d8433af611a33",
+    "variant": "verbatim",
+    "quote": "乙二醛是一个有机化合物，化学式为OCHCHO，由两个醛基-C相连。",
+    "alignment": {
+      "level": "VERBATIM",
+      "score": 1.0,
+      "start": 0,
+      "end": 33,
+      "method": "norm-substring"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "9b1d8433af611a33",
+    "variant": "fullwidth",
+    "quote": "乙二醛是一个有机化合物，化学式为ＯＣＨＣＨＯ，由两个醛基－Ｃ相连。",
+    "alignment": {
+      "level": "VERBATIM",
+      "score": 1.0,
+      "start": 0,
+      "end": 33,
+      "method": "norm-substring"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "9b1d8433af611a33",
+    "variant": "negation_probe",
+    "quote": "并非乙二醛是一个有机化合物，化学式为OCHCHO，由两个醛基-C相连。",
+    "alignment": {
+      "level": "NEAR",
+      "score": 0.9705882352941176,
+      "start": 0,
+      "end": 33,
+      "method": "seqmatcher-window"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "70c729c646ea3684",
+    "variant": "verbatim",
+    "quote": "），字子迁，台州仙居（今安洲街道项斯坑村）人。",
+    "alignment": {
+      "level": "VERBATIM",
+      "score": 1.0,
+      "start": 6,
+      "end": 29,
+      "method": "norm-substring"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "70c729c646ea3684",
+    "variant": "fullwidth",
+    "quote": "），字子迁，台州仙居（今安洲街道项斯坑村）人。",
+    "alignment": {
+      "level": "VERBATIM",
+      "score": 1.0,
+      "start": 6,
+      "end": 29,
+      "method": "norm-substring"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "70c729c646ea3684",
+    "variant": "negation_probe",
+    "quote": "并非），字子迁，台州仙居（今安洲街道项斯坑村）人。",
+    "alignment": {
+      "level": "NEAR",
+      "score": 0.92,
+      "start": 6,
+      "end": 29,
+      "method": "seqmatcher-window"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "5132f6fa9293a657",
+    "variant": "verbatim",
+    "quote": "瑞尼尔山（），亦称塔科马山（Mount Tacoma）或塔和马山（Mount Tahoma），是一座活火山，属于层状火山，位在美国华盛顿州的皮尔斯县境内，也位于西雅图东南方54英里（87公里）处。",
+    "alignment": {
+      "level": "VERBATIM",
+      "score": 1.0,
+      "start": 0,
+      "end": 98,
+      "method": "norm-substring"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "5132f6fa9293a657",
+    "variant": "fullwidth",
+    "quote": "瑞尼尔山（），亦称塔科马山（Ｍｏｕｎｔ Ｔａｃｏｍａ）或塔和马山（Ｍｏｕｎｔ Ｔａｈｏｍａ），是一座活火山，属于层状火山，位在美国华盛顿州的皮尔斯县境内，也位于西雅图东南方５４英里（８７公里）处。",
+    "alignment": {
+      "level": "VERBATIM",
+      "score": 1.0,
+      "start": 0,
+      "end": 98,
+      "method": "norm-substring"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "5132f6fa9293a657",
+    "variant": "negation_probe",
+    "quote": "并非瑞尼尔山（），亦称塔科马山（Mount Tacoma）或塔和马山（Mount Tahoma），是一座活火山，属于层状火山，位在美国华盛顿州的皮尔斯县境内，也位于西雅图东南方54英里（87公里）处。",
+    "alignment": {
+      "level": "NEAR",
+      "score": 0.9896907216494846,
+      "start": 0,
+      "end": 98,
+      "method": "seqmatcher-window"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "8189cff57a20baeb",
+    "variant": "verbatim",
+    "quote": "存货（）的认定与该公司之营业范围有关，凡企业-{zh-hans:为;zh-hant:为;}-了营业活动所购买或制造的商品，才能计入存货科目中，否则必须计入其他的资产科目中。",
+    "alignment": {
+      "level": "VERBATIM",
+      "score": 1.0,
+      "start": 0,
+      "end": 86,
+      "method": "norm-substring"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "8189cff57a20baeb",
+    "variant": "fullwidth",
+    "quote": "存货（）的认定与该公司之营业范围有关，凡企业－｛ｚｈ－ｈａｎｓ：为；ｚｈ－ｈａｎｔ：为；｝－了营业活动所购买或制造的商品，才能计入存货科目中，否则必须计入其他的资产科目中。",
+    "alignment": {
+      "level": "VERBATIM",
+      "score": 1.0,
+      "start": 0,
+      "end": 86,
+      "method": "norm-substring"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "8189cff57a20baeb",
+    "variant": "negation_probe",
+    "quote": "并非存货（）的认定与该公司之营业范围有关，凡企业-{zh-hans:为;zh-hant:为;}-了营业活动所购买或制造的商品，才能计入存货科目中，否则必须计入其他的资产科目中。",
+    "alignment": {
+      "level": "PARAPHRASE",
+      "score": 0.5066666666666667,
+      "start": 44,
+      "end": 86,
+      "method": "bigram-inverted"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "50c2f6cd1f90efc8",
+    "variant": "verbatim",
+    "quote": "于地中海地区、密克罗尼西亚和亚洲西南部，分布于欧亚大陆及加那利群岛，包含8－40种（因不同学者观点而异）庭园小灌木，最主要的品种是芸香（\"R. graveolens\"），叶常绿，味道很苦，花则暗黄成簇。",
+    "alignment": {
+      "level": "VERBATIM",
+      "score": 1.0,
+      "start": 21,
+      "end": 122,
+      "method": "norm-substring"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "50c2f6cd1f90efc8",
+    "variant": "fullwidth",
+    "quote": "于地中海地区、密克罗尼西亚和亚洲西南部，分布于欧亚大陆及加那利群岛，包含８－４０种（因不同学者观点而异）庭园小灌木，最主要的品种是芸香（＂Ｒ． ｇｒａｖｅｏｌｅｎｓ＂），叶常绿，味道很苦，花则暗黄成簇。",
+    "alignment": {
+      "level": "VERBATIM",
+      "score": 1.0,
+      "start": 21,
+      "end": 122,
+      "method": "norm-substring"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "50c2f6cd1f90efc8",
+    "variant": "negation_probe",
+    "quote": "并非于地中海地区、密克罗尼西亚和亚洲西南部，分布于欧亚大陆及加那利群岛，包含8－40种（因不同学者观点而异）庭园小灌木，最主要的品种是芸香（\"R. graveolens\"），叶常绿，味道很苦，花则暗黄成簇。",
+    "alignment": {
+      "level": "NEAR",
+      "score": 0.8968609865470852,
+      "start": 21,
+      "end": 122,
+      "method": "seqmatcher-window"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "1f5eeb7800e8b75c",
+    "variant": "verbatim",
+    "quote": "第十管区海上保安本部（，简称为十管或十管本部）为日本海上保安厅管区海上保安本部隶下之地区海上保安本部，主要管辖在日本九州地方之东海、八代海、太平洋及熊本县、宫崎县、鹿儿岛县等区域。",
+    "alignment": {
+      "level": "VERBATIM",
+      "score": 1.0,
+      "start": 0,
+      "end": 90,
+      "method": "norm-substring"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "1f5eeb7800e8b75c",
+    "variant": "fullwidth",
+    "quote": "第十管区海上保安本部（，简称为十管或十管本部）为日本海上保安厅管区海上保安本部隶下之地区海上保安本部，主要管辖在日本九州地方之东海、八代海、太平洋及熊本县、宫崎县、鹿儿岛县等区域。",
+    "alignment": {
+      "level": "VERBATIM",
+      "score": 1.0,
+      "start": 0,
+      "end": 90,
+      "method": "norm-substring"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "1f5eeb7800e8b75c",
+    "variant": "negation_probe",
+    "quote": "并非第十管区海上保安本部（，简称为十管或十管本部）为日本海上保安厅管区海上保安本部隶下之地区海上保安本部，主要管辖在日本九州地方之东海、八代海、太平洋及熊本县、宫崎县、鹿儿岛县等区域。",
+    "alignment": {
+      "level": "NEAR",
+      "score": 0.989010989010989,
+      "start": 0,
+      "end": 90,
+      "method": "seqmatcher-window"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "c38b06300d9225a3",
+    "variant": "verbatim",
+    "quote": "是广东地区的乡土神，又有大帝封号，故俗称真君大帝。",
+    "alignment": {
+      "level": "VERBATIM",
+      "score": 1.0,
+      "start": 18,
+      "end": 43,
+      "method": "norm-substring"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "c38b06300d9225a3",
+    "variant": "fullwidth",
+    "quote": "是广东地区的乡土神，又有大帝封号，故俗称真君大帝。",
+    "alignment": {
+      "level": "VERBATIM",
+      "score": 1.0,
+      "start": 18,
+      "end": 43,
+      "method": "norm-substring"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "c38b06300d9225a3",
+    "variant": "negation_probe",
+    "quote": "并非是广东地区的乡土神，又有大帝封号，故俗称真君大帝。",
+    "alignment": {
+      "level": "NEAR",
+      "score": 0.9615384615384616,
+      "start": 18,
+      "end": 43,
+      "method": "seqmatcher-window"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "68a9802b9c013ef6",
+    "variant": "verbatim",
+    "quote": "徐展堂（，），江苏宜兴人，生于江西吉安，是香港著名商人，是实业家也是经济冒险家，慈善家及艺术文物收藏家。",
+    "alignment": {
+      "level": "VERBATIM",
+      "score": 1.0,
+      "start": 0,
+      "end": 52,
+      "method": "norm-substring"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "68a9802b9c013ef6",
+    "variant": "fullwidth",
+    "quote": "徐展堂（，），江苏宜兴人，生于江西吉安，是香港著名商人，是实业家也是经济冒险家，慈善家及艺术文物收藏家。",
+    "alignment": {
+      "level": "VERBATIM",
+      "score": 1.0,
+      "start": 0,
+      "end": 52,
+      "method": "norm-substring"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "68a9802b9c013ef6",
+    "variant": "negation_probe",
+    "quote": "并非徐展堂（，），江苏宜兴人，生于江西吉安，是香港著名商人，是实业家也是经济冒险家，慈善家及艺术文物收藏家。",
+    "alignment": {
+      "level": "NEAR",
+      "score": 0.9811320754716981,
+      "start": 0,
+      "end": 52,
+      "method": "seqmatcher-window"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "7ca18069c4be3e8e",
+    "variant": "verbatim",
+    "quote": "《历史也疯狂》（）是香港亚洲电视1991年制作的电视节目。",
+    "alignment": {
+      "level": "VERBATIM",
+      "score": 1.0,
+      "start": 0,
+      "end": 29,
+      "method": "norm-substring"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "7ca18069c4be3e8e",
+    "variant": "fullwidth",
+    "quote": "《历史也疯狂》（）是香港亚洲电视１９９１年制作的电视节目。",
+    "alignment": {
+      "level": "VERBATIM",
+      "score": 1.0,
+      "start": 0,
+      "end": 29,
+      "method": "norm-substring"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "7ca18069c4be3e8e",
+    "variant": "negation_probe",
+    "quote": "并非《历史也疯狂》（）是香港亚洲电视1991年制作的电视节目。",
+    "alignment": {
+      "level": "NEAR",
+      "score": 0.9666666666666667,
+      "start": 0,
+      "end": 29,
+      "method": "seqmatcher-window"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "f9ca61f5731cd0ff",
+    "variant": "verbatim",
+    "quote": "拉丁美洲音乐（）基本有三种类型：印第安音乐、黑人音乐和印欧混血人的民间音乐。",
+    "alignment": {
+      "level": "VERBATIM",
+      "score": 1.0,
+      "start": 0,
+      "end": 38,
+      "method": "norm-substring"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "f9ca61f5731cd0ff",
+    "variant": "fullwidth",
+    "quote": "拉丁美洲音乐（）基本有三种类型：印第安音乐、黑人音乐和印欧混血人的民间音乐。",
+    "alignment": {
+      "level": "VERBATIM",
+      "score": 1.0,
+      "start": 0,
+      "end": 38,
+      "method": "norm-substring"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "f9ca61f5731cd0ff",
+    "variant": "negation_probe",
+    "quote": "并非拉丁美洲音乐（）基本有三种类型：印第安音乐、黑人音乐和印欧混血人的民间音乐。",
+    "alignment": {
+      "level": "NEAR",
+      "score": 0.9743589743589743,
+      "start": 0,
+      "end": 38,
+      "method": "seqmatcher-window"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "f05780c0eb0f700d",
+    "variant": "verbatim",
+    "quote": "上海轨道交通18号线，编号L5，为上海2010到2020年规划建设的一条贯穿城市南北的切向轨道交通路线，途径宝山、杨浦、浦东。",
+    "alignment": {
+      "level": "VERBATIM",
+      "score": 1.0,
+      "start": 0,
+      "end": 63,
+      "method": "norm-substring"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "f05780c0eb0f700d",
+    "variant": "fullwidth",
+    "quote": "上海轨道交通１８号线，编号Ｌ５，为上海２０１０到２０２０年规划建设的一条贯穿城市南北的切向轨道交通路线，途径宝山、杨浦、浦东。",
+    "alignment": {
+      "level": "VERBATIM",
+      "score": 1.0,
+      "start": 0,
+      "end": 63,
+      "method": "norm-substring"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "f05780c0eb0f700d",
+    "variant": "negation_probe",
+    "quote": "并非上海轨道交通18号线，编号L5，为上海2010到2020年规划建设的一条贯穿城市南北的切向轨道交通路线，途径宝山、杨浦、浦东。",
+    "alignment": {
+      "level": "NEAR",
+      "score": 0.984375,
+      "start": 0,
+      "end": 63,
+      "method": "seqmatcher-window"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "9da6153be57d8c0e",
+    "variant": "verbatim",
+    "quote": "本线在2010年之前的规划中番号定为上海轨道交通16号线，2010年后改为上海轨道交通21号线，编号L2，为上海一条规划建设的轨道交通路线。",
+    "alignment": {
+      "level": "VERBATIM",
+      "score": 1.0,
+      "start": 0,
+      "end": 70,
+      "method": "norm-substring"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "9da6153be57d8c0e",
+    "variant": "fullwidth",
+    "quote": "本线在２０１０年之前的规划中番号定为上海轨道交通１６号线，２０１０年后改为上海轨道交通２１号线，编号Ｌ２，为上海一条规划建设的轨道交通路线。",
+    "alignment": {
+      "level": "VERBATIM",
+      "score": 1.0,
+      "start": 0,
+      "end": 70,
+      "method": "norm-substring"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  },
+  {
+    "doc_id": "9da6153be57d8c0e",
+    "variant": "negation_probe",
+    "quote": "并非本线在2010年之前的规划中番号定为上海轨道交通16号线，2010年后改为上海轨道交通21号线，编号L2，为上海一条规划建设的轨道交通路线。",
+    "alignment": {
+      "level": "NEAR",
+      "score": 0.9859154929577465,
+      "start": 0,
+      "end": 70,
+      "method": "seqmatcher-window"
+    },
+    "expected_scope": "verbatim/fullwidth test localization; negation_probe is an adversarial surface-overlap example, NOT a semantic gold label"
+  }
+]

@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sixvolumes-trust-pipeline"
+version = "0.2.0"
+description = "Reproducible Chinese-first evidence pipeline with six vendored MIT tools"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+dependencies = []
+
+[project.optional-dependencies]
+test = ["pytest>=8,<10"]
+evaluation = ["pytest>=8,<10", "jieba==0.42.1", "tiktoken>=0.8,<1"]
+adapters = ["langchain-text-splitters==1.0.0"]
+build = ["build>=1,<2", "setuptools>=68", "wheel"]
+
+[project.scripts]
+sixvolumes = "sixvolumes.cli:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"

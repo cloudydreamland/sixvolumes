@@ -1,0 +1,42 @@
+{
+  "model": "BAAI/bge-small-zh-v1.5",
+  "source": "https://huggingface.co/Qdrant/bge-small-zh-v1.5",
+  "license": "MIT per model/fastembed metadata",
+  "files": [
+    {
+      "path": "models\\models--Qdrant--bge-small-zh-v1.5\\files_metadata.json",
+      "bytes": 732,
+      "sha256": "8d9d1c049a8899162adb49565505f6723c51039a3fa9f77de082e550ec743782"
+    },
+    {
+      "path": "models\\models--Qdrant--bge-small-zh-v1.5\\refs\\main",
+      "bytes": 40,
+      "sha256": "d96bbba2e83389b41a9df058631daa5a8b6f3fcb4444a1a8a4acfd063636f3db"
+    },
+    {
+      "path": "models\\models--Qdrant--bge-small-zh-v1.5\\snapshots\\46fbe35fd4374a00fee7de77dfddaeb6dd6a2c59\\config.json",
+      "bytes": 739,
+      "sha256": "9088751d39abbf86ec3d19ffca92ad62ad19075f7e59712e6c71217fa125d1d3"
+    },
+    {
+      "path": "models\\models--Qdrant--bge-small-zh-v1.5\\snapshots\\46fbe35fd4374a00fee7de77dfddaeb6dd6a2c59\\model_optimized.onnx",
+      "bytes": 94781076,
+      "sha256": "1294ea4b6331115a353d81f96b85e8c8d7fdcc284453d5b2fab5b016230aad38"
+    },
+    {
+      "path": "models\\models--Qdrant--bge-small-zh-v1.5\\snapshots\\46fbe35fd4374a00fee7de77dfddaeb6dd6a2c59\\special_tokens_map.json",
+      "bytes": 125,
+      "sha256": "b6d346be366a7d1d48332dbc9fdf3bf8960b5d879522b7799ddba59e76237ee3"
+    },
+    {
+      "path": "models\\models--Qdrant--bge-small-zh-v1.5\\snapshots\\46fbe35fd4374a00fee7de77dfddaeb6dd6a2c59\\tokenizer.json",
+      "bytes": 439125,
+      "sha256": "48cea5d44424912a6fd1ea647bf4fe50b55ab8b1e5879c3275f80e339e8fae26"
+    },
+    {
+      "path": "models\\models--Qdrant--bge-small-zh-v1.5\\snapshots\\46fbe35fd4374a00fee7de77dfddaeb6dd6a2c59\\tokenizer_config.json",
+      "bytes": 367,
+      "sha256": "e6f3b96db926a37d4039995fbf5ad17de158dfb8f6343d607e4dbaad18d75f5a"
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "method": "helan",
+  "injections": 480,
+  "exact_injection_recall": 0.375,
+  "negative_controls": 120,
+  "negative_control_false_alarms": 0,
+  "unannotated_background_alerts": 0,
+  "performance": {
+    "elapsed_ms": 46.897799940779805,
+    "rss_peak_mb": 32.7265625,
+    "rss_start_mb": 32.0390625,
+    "python_alloc_peak_mb": 0.2532663345336914,
+    "memory_note": "isolated worker RSS sampled every5ms after imports; Python allocations via tracemalloc; timing includes instrumentation"
+  },
+  "groups": [
+    {
+      "method": "helan",
+      "type": "ID_CARD",
+      "variant": "plain",
+      "n": 30,
+      "exact_injection_recall": 1.0
+    },
+    {
+      "method": "helan",
+      "type": "ID_CARD",
+      "variant": "fullwidth",
+      "n": 30,
+      "exact_injection_recall": 0.0
+    },
+    {
+      "method": "helan",
+      "type": "ID_CARD",
+      "variant": "spaced",
+      "n": 30,
+      "exact_injection_recall": 1.0
+    },
+    {
+      "method": "helan",
+      "type": "ID_CARD",
+      "variant": "zero_width",
+      "n": 30,
+      "exact_injection_recall": 0.0
+    },
+    {
+      "method": "helan",
+      "type": "PHONE",
+      "variant": "plain",
+      "n": 30,
+      "exact_injection_recall": 1.0
+    },
+    {
+      "method": "helan",
+      "type": "PHONE",
+      "variant": "fullwidth",
+      "n": 30,
+      "exact_injection_recall": 0.0
+    },
+    {
+      "method": "helan",
+      "type": "PHONE",
+      "variant": "spaced",
+      "n": 30,
+      "exact_injection_recall": 0.0
+    },
+    {
+      "method": "helan",
+      "type": "PHONE",
+      "variant": "zero_width",
+      "n": 30,
+      "exact_injection_recall": 0.0
+    },
+    {
+      "method": "helan",
+      "type": "EMAIL",
+      "variant": "plain",
+      "n": 30,
+      "exact_injection_recall": 1.0
+    },
+    {
+      "method": "helan",
+      "type": "EMAIL",
+      "variant": "fullwidth",
+      "n": 30,
+      "exact_injection_recall": 0.0
+    },
+    {
+      "method": "helan",
+      "type": "EMAIL",
+      "variant": "spaced",
+      "n": 30,
+      "exact_injection_recall": 0.0
+    },
+    {
+      "method": "helan",
+      "type": "EMAIL",
+      "variant": "zero_width",
+      "n": 30,
+      "exact_injection_recall": 0.0
+    },
+    {
+      "method": "helan",
+      "type": "BANK_CARD",
+      "variant": "plain",
+      "n": 30,
+      "exact_injection_recall": 1.0
+    },
+    {
+      "method": "helan",
+      "type": "BANK_CARD",
+      "variant": "fullwidth",
+      "n": 30,
+      "exact_injection_recall": 0.0
+    },
+    {
+      "method": "helan",
+      "type": "BANK_CARD",
+      "variant": "spaced",
+      "n": 30,
+      "exact_injection_recall": 1.0
+    },
+    {
+      "method": "helan",
+      "type": "BANK_CARD",
+      "variant": "zero_width",
+      "n": 30,
+      "exact_injection_recall": 0.0
+    }
+  ],
+  "scope": "4 structured entity types, synthetic injections; NOT production PII accuracy; background alerts require human adjudication; baseline is Presidio PatternRecognizer+independent Chinese normalizer/checksums, NOT full Presidio NER"
+}

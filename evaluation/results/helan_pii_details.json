@@ -1,0 +1,8828 @@
+{
+  "injections": [
+    {
+      "method": "helan",
+      "id": "bd38ad756cd32a94-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "ID_CARD",
+          "start": 352,
+          "end": 370,
+          "text": "110105198703121001"
+        }
+      ],
+      "gold": [
+        352,
+        370
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "bd38ad756cd32a94-PHONE",
+      "type": "PHONE",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        352,
+        363
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "bd38ad756cd32a94-EMAIL",
+      "type": "EMAIL",
+      "variant": "spaced",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        353,
+        377
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "bd38ad756cd32a94-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        352,
+        371
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "e122bf2732cdbdb4-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        327,
+        345
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "e122bf2732cdbdb4-PHONE",
+      "type": "PHONE",
+      "variant": "spaced",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        327,
+        340
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "e122bf2732cdbdb4-EMAIL",
+      "type": "EMAIL",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        328,
+        352
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "e122bf2732cdbdb4-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "BANK_CARD",
+          "start": 327,
+          "end": 343,
+          "text": "6222020000001013"
+        }
+      ],
+      "gold": [
+        327,
+        343
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "9e4de19a5548eae1-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "spaced",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "ID_CARD",
+          "start": 445,
+          "end": 467,
+          "text": "1101 0519 8703 1210 28"
+        }
+      ],
+      "gold": [
+        445,
+        467
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "9e4de19a5548eae1-PHONE",
+      "type": "PHONE",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        445,
+        458
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "9e4de19a5548eae1-EMAIL",
+      "type": "EMAIL",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "EMAIL",
+          "start": 446,
+          "end": 466,
+          "text": "audit102@example.com"
+        }
+      ],
+      "gold": [
+        446,
+        466
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "9e4de19a5548eae1-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        445,
+        461
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "b5c15fa84ba3a8bc-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        648,
+        670
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "b5c15fa84ba3a8bc-PHONE",
+      "type": "PHONE",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "PHONE",
+          "start": 648,
+          "end": 659,
+          "text": "13800000103"
+        }
+      ],
+      "gold": [
+        648,
+        659
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "b5c15fa84ba3a8bc-EMAIL",
+      "type": "EMAIL",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        649,
+        669
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "b5c15fa84ba3a8bc-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "spaced",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "BANK_CARD",
+          "start": 648,
+          "end": 667,
+          "text": "6222 0200 0000 1039"
+        }
+      ],
+      "gold": [
+        648,
+        667
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "27926d534cf011cc-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "ID_CARD",
+          "start": 423,
+          "end": 441,
+          "text": "110105198703121044"
+        }
+      ],
+      "gold": [
+        423,
+        441
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "27926d534cf011cc-PHONE",
+      "type": "PHONE",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        423,
+        434
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "27926d534cf011cc-EMAIL",
+      "type": "EMAIL",
+      "variant": "spaced",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        424,
+        448
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "27926d534cf011cc-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        423,
+        442
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "6add336ef3ee51dd-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        507,
+        525
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "6add336ef3ee51dd-PHONE",
+      "type": "PHONE",
+      "variant": "spaced",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        507,
+        520
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "6add336ef3ee51dd-EMAIL",
+      "type": "EMAIL",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        508,
+        532
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "6add336ef3ee51dd-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "BANK_CARD",
+          "start": 507,
+          "end": 523,
+          "text": "6222020000001054"
+        }
+      ],
+      "gold": [
+        507,
+        523
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "14c0c3825f171286-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "spaced",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "ID_CARD",
+          "start": 846,
+          "end": 868,
+          "text": "1101 0519 8703 1210 60"
+        }
+      ],
+      "gold": [
+        846,
+        868
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "14c0c3825f171286-PHONE",
+      "type": "PHONE",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        846,
+        859
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "14c0c3825f171286-EMAIL",
+      "type": "EMAIL",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "EMAIL",
+          "start": 847,
+          "end": 867,
+          "text": "audit106@example.com"
+        }
+      ],
+      "gold": [
+        847,
+        867
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "14c0c3825f171286-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        846,
+        862
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "e7beb2810ec0c7c9-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        440,
+        462
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "e7beb2810ec0c7c9-PHONE",
+      "type": "PHONE",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "PHONE",
+          "start": 440,
+          "end": 451,
+          "text": "13800000107"
+        }
+      ],
+      "gold": [
+        440,
+        451
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "e7beb2810ec0c7c9-EMAIL",
+      "type": "EMAIL",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        441,
+        461
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "e7beb2810ec0c7c9-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "spaced",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "BANK_CARD",
+          "start": 440,
+          "end": 459,
+          "text": "6222 0200 0000 1070"
+        }
+      ],
+      "gold": [
+        440,
+        459
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "802bc8ee8b5d742f-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "ID_CARD",
+          "start": 774,
+          "end": 792,
+          "text": "110105198703121087"
+        }
+      ],
+      "gold": [
+        774,
+        792
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "802bc8ee8b5d742f-PHONE",
+      "type": "PHONE",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        774,
+        785
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "802bc8ee8b5d742f-EMAIL",
+      "type": "EMAIL",
+      "variant": "spaced",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        775,
+        799
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "802bc8ee8b5d742f-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        774,
+        793
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "4a1bb21a60f2909e-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        511,
+        529
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "4a1bb21a60f2909e-PHONE",
+      "type": "PHONE",
+      "variant": "spaced",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        511,
+        524
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "4a1bb21a60f2909e-EMAIL",
+      "type": "EMAIL",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        512,
+        536
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "4a1bb21a60f2909e-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "BANK_CARD",
+          "start": 511,
+          "end": 527,
+          "text": "6222020000001096"
+        }
+      ],
+      "gold": [
+        511,
+        527
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "0df2e123c00d59f3-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "spaced",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "ID_CARD",
+          "start": 403,
+          "end": 425,
+          "text": "1101 0519 8703 1211 08"
+        }
+      ],
+      "gold": [
+        403,
+        425
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "0df2e123c00d59f3-PHONE",
+      "type": "PHONE",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        403,
+        416
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "0df2e123c00d59f3-EMAIL",
+      "type": "EMAIL",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "EMAIL",
+          "start": 404,
+          "end": 424,
+          "text": "audit110@example.com"
+        }
+      ],
+      "gold": [
+        404,
+        424
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "0df2e123c00d59f3-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        403,
+        419
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "c7562aa1cd40f731-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        374,
+        396
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "c7562aa1cd40f731-PHONE",
+      "type": "PHONE",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "PHONE",
+          "start": 374,
+          "end": 385,
+          "text": "13800000111"
+        }
+      ],
+      "gold": [
+        374,
+        385
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "c7562aa1cd40f731-EMAIL",
+      "type": "EMAIL",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        375,
+        395
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "c7562aa1cd40f731-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "spaced",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "BANK_CARD",
+          "start": 374,
+          "end": 393,
+          "text": "6222 0200 0000 1112"
+        }
+      ],
+      "gold": [
+        374,
+        393
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "8083a2ff7c22f160-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "ID_CARD",
+          "start": 496,
+          "end": 514,
+          "text": "110105198703121124"
+        }
+      ],
+      "gold": [
+        496,
+        514
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "8083a2ff7c22f160-PHONE",
+      "type": "PHONE",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        496,
+        507
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "8083a2ff7c22f160-EMAIL",
+      "type": "EMAIL",
+      "variant": "spaced",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        497,
+        521
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "8083a2ff7c22f160-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        496,
+        515
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "9e8eaea1c031ee5d-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        621,
+        639
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "9e8eaea1c031ee5d-PHONE",
+      "type": "PHONE",
+      "variant": "spaced",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        621,
+        634
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "9e8eaea1c031ee5d-EMAIL",
+      "type": "EMAIL",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        622,
+        646
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "9e8eaea1c031ee5d-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "BANK_CARD",
+          "start": 621,
+          "end": 637,
+          "text": "6222020000001138"
+        }
+      ],
+      "gold": [
+        621,
+        637
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "7848d390ac308195-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "spaced",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "ID_CARD",
+          "start": 506,
+          "end": 528,
+          "text": "1101 0519 8703 1211 40"
+        }
+      ],
+      "gold": [
+        506,
+        528
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "7848d390ac308195-PHONE",
+      "type": "PHONE",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        506,
+        519
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "7848d390ac308195-EMAIL",
+      "type": "EMAIL",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "EMAIL",
+          "start": 507,
+          "end": 527,
+          "text": "audit114@example.com"
+        }
+      ],
+      "gold": [
+        507,
+        527
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "7848d390ac308195-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        506,
+        522
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "91ad910bbdd7bfb5-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        439,
+        461
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "91ad910bbdd7bfb5-PHONE",
+      "type": "PHONE",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "PHONE",
+          "start": 439,
+          "end": 450,
+          "text": "13800000115"
+        }
+      ],
+      "gold": [
+        439,
+        450
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "91ad910bbdd7bfb5-EMAIL",
+      "type": "EMAIL",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        440,
+        460
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "91ad910bbdd7bfb5-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "spaced",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "BANK_CARD",
+          "start": 439,
+          "end": 458,
+          "text": "6222 0200 0000 1153"
+        }
+      ],
+      "gold": [
+        439,
+        458
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "4be4aa283f54db3b-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "ID_CARD",
+          "start": 831,
+          "end": 849,
+          "text": "110105198703121167"
+        }
+      ],
+      "gold": [
+        831,
+        849
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "4be4aa283f54db3b-PHONE",
+      "type": "PHONE",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        831,
+        842
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "4be4aa283f54db3b-EMAIL",
+      "type": "EMAIL",
+      "variant": "spaced",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        832,
+        856
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "4be4aa283f54db3b-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        831,
+        850
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "5bed4920bed1b800-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        337,
+        355
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "5bed4920bed1b800-PHONE",
+      "type": "PHONE",
+      "variant": "spaced",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        337,
+        350
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "5bed4920bed1b800-EMAIL",
+      "type": "EMAIL",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        338,
+        362
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "5bed4920bed1b800-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "BANK_CARD",
+          "start": 337,
+          "end": 353,
+          "text": "6222020000001179"
+        }
+      ],
+      "gold": [
+        337,
+        353
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "06e802403e213622-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "spaced",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "ID_CARD",
+          "start": 376,
+          "end": 398,
+          "text": "1101 0519 8703 1211 83"
+        }
+      ],
+      "gold": [
+        376,
+        398
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "06e802403e213622-PHONE",
+      "type": "PHONE",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        376,
+        389
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "06e802403e213622-EMAIL",
+      "type": "EMAIL",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "EMAIL",
+          "start": 377,
+          "end": 397,
+          "text": "audit118@example.com"
+        }
+      ],
+      "gold": [
+        377,
+        397
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "06e802403e213622-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        376,
+        392
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "f92b269765dac031-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        408,
+        430
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "f92b269765dac031-PHONE",
+      "type": "PHONE",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "PHONE",
+          "start": 408,
+          "end": 419,
+          "text": "13800000119"
+        }
+      ],
+      "gold": [
+        408,
+        419
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "f92b269765dac031-EMAIL",
+      "type": "EMAIL",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        409,
+        429
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "f92b269765dac031-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "spaced",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "BANK_CARD",
+          "start": 408,
+          "end": 427,
+          "text": "6222 0200 0000 1195"
+        }
+      ],
+      "gold": [
+        408,
+        427
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "8733568ad727ade9-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "ID_CARD",
+          "start": 758,
+          "end": 776,
+          "text": "110105198703121204"
+        }
+      ],
+      "gold": [
+        758,
+        776
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "8733568ad727ade9-PHONE",
+      "type": "PHONE",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        758,
+        769
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "8733568ad727ade9-EMAIL",
+      "type": "EMAIL",
+      "variant": "spaced",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        759,
+        783
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "8733568ad727ade9-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        758,
+        777
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "0b6ed2d9e6f42913-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        466,
+        484
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "0b6ed2d9e6f42913-PHONE",
+      "type": "PHONE",
+      "variant": "spaced",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        466,
+        479
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "0b6ed2d9e6f42913-EMAIL",
+      "type": "EMAIL",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        467,
+        491
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "0b6ed2d9e6f42913-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "BANK_CARD",
+          "start": 466,
+          "end": 482,
+          "text": "6222020000001211"
+        }
+      ],
+      "gold": [
+        466,
+        482
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "4b0a067f0fa576ae-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "spaced",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "ID_CARD",
+          "start": 422,
+          "end": 444,
+          "text": "1101 0519 8703 1212 20"
+        }
+      ],
+      "gold": [
+        422,
+        444
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "4b0a067f0fa576ae-PHONE",
+      "type": "PHONE",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        422,
+        435
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "4b0a067f0fa576ae-EMAIL",
+      "type": "EMAIL",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "EMAIL",
+          "start": 423,
+          "end": 443,
+          "text": "audit122@example.com"
+        }
+      ],
+      "gold": [
+        423,
+        443
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "4b0a067f0fa576ae-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        422,
+        438
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "0acd090dfab4d320-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        552,
+        574
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "0acd090dfab4d320-PHONE",
+      "type": "PHONE",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "PHONE",
+          "start": 552,
+          "end": 563,
+          "text": "13800000123"
+        }
+      ],
+      "gold": [
+        552,
+        563
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "0acd090dfab4d320-EMAIL",
+      "type": "EMAIL",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        553,
+        573
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "0acd090dfab4d320-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "spaced",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "BANK_CARD",
+          "start": 552,
+          "end": 571,
+          "text": "6222 0200 0000 1237"
+        }
+      ],
+      "gold": [
+        552,
+        571
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "09f5316ea4c9268a-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "ID_CARD",
+          "start": 948,
+          "end": 966,
+          "text": "110105198703121247"
+        }
+      ],
+      "gold": [
+        948,
+        966
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "09f5316ea4c9268a-PHONE",
+      "type": "PHONE",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        948,
+        959
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "09f5316ea4c9268a-EMAIL",
+      "type": "EMAIL",
+      "variant": "spaced",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        949,
+        973
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "09f5316ea4c9268a-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        948,
+        967
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "784cbc10e8584580-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        521,
+        539
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "784cbc10e8584580-PHONE",
+      "type": "PHONE",
+      "variant": "spaced",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        521,
+        534
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "784cbc10e8584580-EMAIL",
+      "type": "EMAIL",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        522,
+        546
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "784cbc10e8584580-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "BANK_CARD",
+          "start": 521,
+          "end": 537,
+          "text": "6222020000001252"
+        }
+      ],
+      "gold": [
+        521,
+        537
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "fb26d3af0e0c33d6-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "spaced",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "ID_CARD",
+          "start": 892,
+          "end": 914,
+          "text": "1101 0519 8703 1212 63"
+        }
+      ],
+      "gold": [
+        892,
+        914
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "fb26d3af0e0c33d6-PHONE",
+      "type": "PHONE",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        892,
+        905
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "fb26d3af0e0c33d6-EMAIL",
+      "type": "EMAIL",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "EMAIL",
+          "start": 893,
+          "end": 913,
+          "text": "audit126@example.com"
+        }
+      ],
+      "gold": [
+        893,
+        913
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "fb26d3af0e0c33d6-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        892,
+        908
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "3a8a98fdd9db9a26-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        415,
+        437
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "3a8a98fdd9db9a26-PHONE",
+      "type": "PHONE",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "PHONE",
+          "start": 415,
+          "end": 426,
+          "text": "13800000127"
+        }
+      ],
+      "gold": [
+        415,
+        426
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "3a8a98fdd9db9a26-EMAIL",
+      "type": "EMAIL",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        416,
+        436
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "3a8a98fdd9db9a26-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "spaced",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "BANK_CARD",
+          "start": 415,
+          "end": 434,
+          "text": "6222 0200 0000 1278"
+        }
+      ],
+      "gold": [
+        415,
+        434
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "9b1d8433af611a33-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "ID_CARD",
+          "start": 346,
+          "end": 364,
+          "text": "11010519870312128X"
+        }
+      ],
+      "gold": [
+        346,
+        364
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "9b1d8433af611a33-PHONE",
+      "type": "PHONE",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        346,
+        357
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "9b1d8433af611a33-EMAIL",
+      "type": "EMAIL",
+      "variant": "spaced",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        347,
+        371
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "9b1d8433af611a33-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        346,
+        365
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "70c729c646ea3684-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        354,
+        372
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "70c729c646ea3684-PHONE",
+      "type": "PHONE",
+      "variant": "spaced",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        354,
+        367
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "70c729c646ea3684-EMAIL",
+      "type": "EMAIL",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        355,
+        379
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "70c729c646ea3684-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "BANK_CARD",
+          "start": 354,
+          "end": 370,
+          "text": "6222020000001294"
+        }
+      ],
+      "gold": [
+        354,
+        370
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "5132f6fa9293a657-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "spaced",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "ID_CARD",
+          "start": 526,
+          "end": 548,
+          "text": "1101 0519 8703 1213 00"
+        }
+      ],
+      "gold": [
+        526,
+        548
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "5132f6fa9293a657-PHONE",
+      "type": "PHONE",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        526,
+        539
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "5132f6fa9293a657-EMAIL",
+      "type": "EMAIL",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "EMAIL",
+          "start": 527,
+          "end": 547,
+          "text": "audit130@example.com"
+        }
+      ],
+      "gold": [
+        527,
+        547
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "5132f6fa9293a657-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        526,
+        542
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "8189cff57a20baeb-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        418,
+        440
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "8189cff57a20baeb-PHONE",
+      "type": "PHONE",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "PHONE",
+          "start": 418,
+          "end": 429,
+          "text": "13800000131"
+        }
+      ],
+      "gold": [
+        418,
+        429
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "8189cff57a20baeb-EMAIL",
+      "type": "EMAIL",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        419,
+        439
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "8189cff57a20baeb-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "spaced",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "BANK_CARD",
+          "start": 418,
+          "end": 437,
+          "text": "6222 0200 0000 1310"
+        }
+      ],
+      "gold": [
+        418,
+        437
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "50c2f6cd1f90efc8-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "ID_CARD",
+          "start": 565,
+          "end": 583,
+          "text": "110105198703121327"
+        }
+      ],
+      "gold": [
+        565,
+        583
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "50c2f6cd1f90efc8-PHONE",
+      "type": "PHONE",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        565,
+        576
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "50c2f6cd1f90efc8-EMAIL",
+      "type": "EMAIL",
+      "variant": "spaced",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        566,
+        590
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "50c2f6cd1f90efc8-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        565,
+        584
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "1f5eeb7800e8b75c-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        566,
+        584
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "1f5eeb7800e8b75c-PHONE",
+      "type": "PHONE",
+      "variant": "spaced",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        566,
+        579
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "1f5eeb7800e8b75c-EMAIL",
+      "type": "EMAIL",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        567,
+        591
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "1f5eeb7800e8b75c-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "BANK_CARD",
+          "start": 566,
+          "end": 582,
+          "text": "6222020000001336"
+        }
+      ],
+      "gold": [
+        566,
+        582
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "c38b06300d9225a3-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "spaced",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "ID_CARD",
+          "start": 415,
+          "end": 437,
+          "text": "1101 0519 8703 1213 43"
+        }
+      ],
+      "gold": [
+        415,
+        437
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "c38b06300d9225a3-PHONE",
+      "type": "PHONE",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        415,
+        428
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "c38b06300d9225a3-EMAIL",
+      "type": "EMAIL",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "EMAIL",
+          "start": 416,
+          "end": 436,
+          "text": "audit134@example.com"
+        }
+      ],
+      "gold": [
+        416,
+        436
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "c38b06300d9225a3-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        415,
+        431
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "68a9802b9c013ef6-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        585,
+        607
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "68a9802b9c013ef6-PHONE",
+      "type": "PHONE",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "PHONE",
+          "start": 585,
+          "end": 596,
+          "text": "13800000135"
+        }
+      ],
+      "gold": [
+        585,
+        596
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "68a9802b9c013ef6-EMAIL",
+      "type": "EMAIL",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        586,
+        606
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "68a9802b9c013ef6-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "spaced",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "BANK_CARD",
+          "start": 585,
+          "end": 604,
+          "text": "6222 0200 0000 1351"
+        }
+      ],
+      "gold": [
+        585,
+        604
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "7ca18069c4be3e8e-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "ID_CARD",
+          "start": 338,
+          "end": 356,
+          "text": "11010519870312136X"
+        }
+      ],
+      "gold": [
+        338,
+        356
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "7ca18069c4be3e8e-PHONE",
+      "type": "PHONE",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        338,
+        349
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "7ca18069c4be3e8e-EMAIL",
+      "type": "EMAIL",
+      "variant": "spaced",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        339,
+        363
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "7ca18069c4be3e8e-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        338,
+        357
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "f9ca61f5731cd0ff-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        321,
+        339
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "f9ca61f5731cd0ff-PHONE",
+      "type": "PHONE",
+      "variant": "spaced",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        321,
+        334
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "f9ca61f5731cd0ff-EMAIL",
+      "type": "EMAIL",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        322,
+        346
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "f9ca61f5731cd0ff-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "BANK_CARD",
+          "start": 321,
+          "end": 337,
+          "text": "6222020000001377"
+        }
+      ],
+      "gold": [
+        321,
+        337
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "f05780c0eb0f700d-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "spaced",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "ID_CARD",
+          "start": 913,
+          "end": 935,
+          "text": "1101 0519 8703 1213 86"
+        }
+      ],
+      "gold": [
+        913,
+        935
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "f05780c0eb0f700d-PHONE",
+      "type": "PHONE",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        913,
+        926
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "f05780c0eb0f700d-EMAIL",
+      "type": "EMAIL",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "EMAIL",
+          "start": 914,
+          "end": 934,
+          "text": "audit138@example.com"
+        }
+      ],
+      "gold": [
+        914,
+        934
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "f05780c0eb0f700d-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        913,
+        929
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "9da6153be57d8c0e-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        545,
+        567
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "9da6153be57d8c0e-PHONE",
+      "type": "PHONE",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "PHONE",
+          "start": 545,
+          "end": 556,
+          "text": "13800000139"
+        }
+      ],
+      "gold": [
+        545,
+        556
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "9da6153be57d8c0e-EMAIL",
+      "type": "EMAIL",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        546,
+        566
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "9da6153be57d8c0e-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "spaced",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "BANK_CARD",
+          "start": 545,
+          "end": 564,
+          "text": "6222 0200 0000 1393"
+        }
+      ],
+      "gold": [
+        545,
+        564
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "7d9124af3517c8df-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "ID_CARD",
+          "start": 401,
+          "end": 419,
+          "text": "110105198703121407"
+        }
+      ],
+      "gold": [
+        401,
+        419
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "7d9124af3517c8df-PHONE",
+      "type": "PHONE",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        401,
+        412
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "7d9124af3517c8df-EMAIL",
+      "type": "EMAIL",
+      "variant": "spaced",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        402,
+        426
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "7d9124af3517c8df-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        401,
+        420
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "996b6c0dda93258a-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        559,
+        577
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "996b6c0dda93258a-PHONE",
+      "type": "PHONE",
+      "variant": "spaced",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        559,
+        572
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "996b6c0dda93258a-EMAIL",
+      "type": "EMAIL",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        560,
+        584
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "996b6c0dda93258a-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "BANK_CARD",
+          "start": 559,
+          "end": 575,
+          "text": "6222020000001419"
+        }
+      ],
+      "gold": [
+        559,
+        575
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "cfb862f1b9052ae4-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "spaced",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "ID_CARD",
+          "start": 789,
+          "end": 811,
+          "text": "1101 0519 8703 1214 23"
+        }
+      ],
+      "gold": [
+        789,
+        811
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "cfb862f1b9052ae4-PHONE",
+      "type": "PHONE",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        789,
+        802
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "cfb862f1b9052ae4-EMAIL",
+      "type": "EMAIL",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "EMAIL",
+          "start": 790,
+          "end": 810,
+          "text": "audit142@example.com"
+        }
+      ],
+      "gold": [
+        790,
+        810
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "cfb862f1b9052ae4-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        789,
+        805
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "642a2801fcbfbf99-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        905,
+        927
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "642a2801fcbfbf99-PHONE",
+      "type": "PHONE",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "PHONE",
+          "start": 905,
+          "end": 916,
+          "text": "13800000143"
+        }
+      ],
+      "gold": [
+        905,
+        916
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "642a2801fcbfbf99-EMAIL",
+      "type": "EMAIL",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        906,
+        926
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "642a2801fcbfbf99-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "spaced",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "BANK_CARD",
+          "start": 905,
+          "end": 924,
+          "text": "6222 0200 0000 1435"
+        }
+      ],
+      "gold": [
+        905,
+        924
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "54518f2f6a73090e-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "ID_CARD",
+          "start": 431,
+          "end": 449,
+          "text": "11010519870312144X"
+        }
+      ],
+      "gold": [
+        431,
+        449
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "54518f2f6a73090e-PHONE",
+      "type": "PHONE",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        431,
+        442
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "54518f2f6a73090e-EMAIL",
+      "type": "EMAIL",
+      "variant": "spaced",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        432,
+        456
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "54518f2f6a73090e-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        431,
+        450
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "bf4ad086edfda543-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        427,
+        445
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "bf4ad086edfda543-PHONE",
+      "type": "PHONE",
+      "variant": "spaced",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        427,
+        440
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "bf4ad086edfda543-EMAIL",
+      "type": "EMAIL",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        428,
+        452
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "bf4ad086edfda543-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "BANK_CARD",
+          "start": 427,
+          "end": 443,
+          "text": "6222020000001450"
+        }
+      ],
+      "gold": [
+        427,
+        443
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "d3d3f7d2f3253de1-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "spaced",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "ID_CARD",
+          "start": 368,
+          "end": 390,
+          "text": "1101 0519 8703 1214 66"
+        }
+      ],
+      "gold": [
+        368,
+        390
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "d3d3f7d2f3253de1-PHONE",
+      "type": "PHONE",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        368,
+        381
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "d3d3f7d2f3253de1-EMAIL",
+      "type": "EMAIL",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "EMAIL",
+          "start": 369,
+          "end": 389,
+          "text": "audit146@example.com"
+        }
+      ],
+      "gold": [
+        369,
+        389
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "d3d3f7d2f3253de1-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        368,
+        384
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "de1807764198deaa-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        406,
+        428
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "de1807764198deaa-PHONE",
+      "type": "PHONE",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "PHONE",
+          "start": 406,
+          "end": 417,
+          "text": "13800000147"
+        }
+      ],
+      "gold": [
+        406,
+        417
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "de1807764198deaa-EMAIL",
+      "type": "EMAIL",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        407,
+        427
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "de1807764198deaa-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "spaced",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "BANK_CARD",
+          "start": 406,
+          "end": 425,
+          "text": "6222 0200 0000 1476"
+        }
+      ],
+      "gold": [
+        406,
+        425
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "f25ae75143f44b4f-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "ID_CARD",
+          "start": 660,
+          "end": 678,
+          "text": "110105198703121482"
+        }
+      ],
+      "gold": [
+        660,
+        678
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "f25ae75143f44b4f-PHONE",
+      "type": "PHONE",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        660,
+        671
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "f25ae75143f44b4f-EMAIL",
+      "type": "EMAIL",
+      "variant": "spaced",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        661,
+        685
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "f25ae75143f44b4f-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        660,
+        679
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "32160dcf8546d5dc-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        584,
+        602
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "32160dcf8546d5dc-PHONE",
+      "type": "PHONE",
+      "variant": "spaced",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        584,
+        597
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "32160dcf8546d5dc-EMAIL",
+      "type": "EMAIL",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        585,
+        609
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "32160dcf8546d5dc-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "BANK_CARD",
+          "start": 584,
+          "end": 600,
+          "text": "6222020000001492"
+        }
+      ],
+      "gold": [
+        584,
+        600
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "db9adb556131c0a0-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "spaced",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "ID_CARD",
+          "start": 328,
+          "end": 350,
+          "text": "1101 0519 8703 1215 03"
+        }
+      ],
+      "gold": [
+        328,
+        350
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "db9adb556131c0a0-PHONE",
+      "type": "PHONE",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        328,
+        341
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "db9adb556131c0a0-EMAIL",
+      "type": "EMAIL",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "EMAIL",
+          "start": 329,
+          "end": 349,
+          "text": "audit150@example.com"
+        }
+      ],
+      "gold": [
+        329,
+        349
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "db9adb556131c0a0-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        328,
+        344
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "d07ab18abe697fce-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        361,
+        383
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "d07ab18abe697fce-PHONE",
+      "type": "PHONE",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "PHONE",
+          "start": 361,
+          "end": 372,
+          "text": "13800000151"
+        }
+      ],
+      "gold": [
+        361,
+        372
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "d07ab18abe697fce-EMAIL",
+      "type": "EMAIL",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        362,
+        382
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "d07ab18abe697fce-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "spaced",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "BANK_CARD",
+          "start": 361,
+          "end": 380,
+          "text": "6222 0200 0000 1518"
+        }
+      ],
+      "gold": [
+        361,
+        380
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "ae7289149d195a5c-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "ID_CARD",
+          "start": 865,
+          "end": 883,
+          "text": "11010519870312152X"
+        }
+      ],
+      "gold": [
+        865,
+        883
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "ae7289149d195a5c-PHONE",
+      "type": "PHONE",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        865,
+        876
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "ae7289149d195a5c-EMAIL",
+      "type": "EMAIL",
+      "variant": "spaced",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        866,
+        890
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "ae7289149d195a5c-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        865,
+        884
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "1d0b02c4fd581af0-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        357,
+        375
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "1d0b02c4fd581af0-PHONE",
+      "type": "PHONE",
+      "variant": "spaced",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        357,
+        370
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "1d0b02c4fd581af0-EMAIL",
+      "type": "EMAIL",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        358,
+        382
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "1d0b02c4fd581af0-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "BANK_CARD",
+          "start": 357,
+          "end": 373,
+          "text": "6222020000001534"
+        }
+      ],
+      "gold": [
+        357,
+        373
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "192bf7504d6ad5fe-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "spaced",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "ID_CARD",
+          "start": 439,
+          "end": 461,
+          "text": "1101 0519 8703 1215 46"
+        }
+      ],
+      "gold": [
+        439,
+        461
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "192bf7504d6ad5fe-PHONE",
+      "type": "PHONE",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        439,
+        452
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "192bf7504d6ad5fe-EMAIL",
+      "type": "EMAIL",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "EMAIL",
+          "start": 440,
+          "end": 460,
+          "text": "audit154@example.com"
+        }
+      ],
+      "gold": [
+        440,
+        460
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "192bf7504d6ad5fe-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        439,
+        455
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "600dfc4aa7e9905f-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        908,
+        930
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "600dfc4aa7e9905f-PHONE",
+      "type": "PHONE",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "PHONE",
+          "start": 908,
+          "end": 919,
+          "text": "13800000155"
+        }
+      ],
+      "gold": [
+        908,
+        919
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "600dfc4aa7e9905f-EMAIL",
+      "type": "EMAIL",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        909,
+        929
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "600dfc4aa7e9905f-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "spaced",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "BANK_CARD",
+          "start": 908,
+          "end": 927,
+          "text": "6222 0200 0000 1559"
+        }
+      ],
+      "gold": [
+        908,
+        927
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "3921f31ff586a775-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "ID_CARD",
+          "start": 744,
+          "end": 762,
+          "text": "110105198703121562"
+        }
+      ],
+      "gold": [
+        744,
+        762
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "3921f31ff586a775-PHONE",
+      "type": "PHONE",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        744,
+        755
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "3921f31ff586a775-EMAIL",
+      "type": "EMAIL",
+      "variant": "spaced",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        745,
+        769
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "3921f31ff586a775-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        744,
+        763
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "d66c7fde79dad543-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        426,
+        444
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "d66c7fde79dad543-PHONE",
+      "type": "PHONE",
+      "variant": "spaced",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        426,
+        439
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "d66c7fde79dad543-EMAIL",
+      "type": "EMAIL",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        427,
+        451
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "d66c7fde79dad543-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "BANK_CARD",
+          "start": 426,
+          "end": 442,
+          "text": "6222020000001575"
+        }
+      ],
+      "gold": [
+        426,
+        442
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "067978e2c9522d87-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "spaced",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "ID_CARD",
+          "start": 663,
+          "end": 685,
+          "text": "1101 0519 8703 1215 89"
+        }
+      ],
+      "gold": [
+        663,
+        685
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "067978e2c9522d87-PHONE",
+      "type": "PHONE",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        663,
+        676
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "067978e2c9522d87-EMAIL",
+      "type": "EMAIL",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "EMAIL",
+          "start": 664,
+          "end": 684,
+          "text": "audit158@example.com"
+        }
+      ],
+      "gold": [
+        664,
+        684
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "067978e2c9522d87-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        663,
+        679
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "4dc9c38b589af491-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        807,
+        829
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "4dc9c38b589af491-PHONE",
+      "type": "PHONE",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "PHONE",
+          "start": 807,
+          "end": 818,
+          "text": "13800000159"
+        }
+      ],
+      "gold": [
+        807,
+        818
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "4dc9c38b589af491-EMAIL",
+      "type": "EMAIL",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        808,
+        828
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "4dc9c38b589af491-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "spaced",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "BANK_CARD",
+          "start": 807,
+          "end": 826,
+          "text": "6222 0200 0000 1591"
+        }
+      ],
+      "gold": [
+        807,
+        826
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "a9009020722ea410-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "ID_CARD",
+          "start": 498,
+          "end": 516,
+          "text": "11010519870312160X"
+        }
+      ],
+      "gold": [
+        498,
+        516
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "a9009020722ea410-PHONE",
+      "type": "PHONE",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        498,
+        509
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "a9009020722ea410-EMAIL",
+      "type": "EMAIL",
+      "variant": "spaced",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        499,
+        523
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "a9009020722ea410-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        498,
+        517
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "f4f721bef4a155ce-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        302,
+        320
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "f4f721bef4a155ce-PHONE",
+      "type": "PHONE",
+      "variant": "spaced",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        302,
+        315
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "f4f721bef4a155ce-EMAIL",
+      "type": "EMAIL",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        303,
+        327
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "f4f721bef4a155ce-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "BANK_CARD",
+          "start": 302,
+          "end": 318,
+          "text": "6222020000001617"
+        }
+      ],
+      "gold": [
+        302,
+        318
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "848a72283d204361-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "spaced",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "ID_CARD",
+          "start": 387,
+          "end": 409,
+          "text": "1101 0519 8703 1216 26"
+        }
+      ],
+      "gold": [
+        387,
+        409
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "848a72283d204361-PHONE",
+      "type": "PHONE",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        387,
+        400
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "848a72283d204361-EMAIL",
+      "type": "EMAIL",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "EMAIL",
+          "start": 388,
+          "end": 408,
+          "text": "audit162@example.com"
+        }
+      ],
+      "gold": [
+        388,
+        408
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "848a72283d204361-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        387,
+        403
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "49e095c5352289f1-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        333,
+        355
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "49e095c5352289f1-PHONE",
+      "type": "PHONE",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "PHONE",
+          "start": 333,
+          "end": 344,
+          "text": "13800000163"
+        }
+      ],
+      "gold": [
+        333,
+        344
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "49e095c5352289f1-EMAIL",
+      "type": "EMAIL",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        334,
+        354
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "49e095c5352289f1-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "spaced",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "BANK_CARD",
+          "start": 333,
+          "end": 352,
+          "text": "6222 0200 0000 1633"
+        }
+      ],
+      "gold": [
+        333,
+        352
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "4b48496c6d461584-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "ID_CARD",
+          "start": 367,
+          "end": 385,
+          "text": "110105198703121642"
+        }
+      ],
+      "gold": [
+        367,
+        385
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "4b48496c6d461584-PHONE",
+      "type": "PHONE",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        367,
+        378
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "4b48496c6d461584-EMAIL",
+      "type": "EMAIL",
+      "variant": "spaced",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        368,
+        392
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "4b48496c6d461584-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        367,
+        386
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "3a0e3a5d94c79bd8-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        372,
+        390
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "3a0e3a5d94c79bd8-PHONE",
+      "type": "PHONE",
+      "variant": "spaced",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        372,
+        385
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "3a0e3a5d94c79bd8-EMAIL",
+      "type": "EMAIL",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        373,
+        397
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "3a0e3a5d94c79bd8-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "BANK_CARD",
+          "start": 372,
+          "end": 388,
+          "text": "6222020000001658"
+        }
+      ],
+      "gold": [
+        372,
+        388
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "2a366f4445e5a78c-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "spaced",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "ID_CARD",
+          "start": 347,
+          "end": 369,
+          "text": "1101 0519 8703 1216 69"
+        }
+      ],
+      "gold": [
+        347,
+        369
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "2a366f4445e5a78c-PHONE",
+      "type": "PHONE",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        347,
+        360
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "2a366f4445e5a78c-EMAIL",
+      "type": "EMAIL",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "EMAIL",
+          "start": 348,
+          "end": 368,
+          "text": "audit166@example.com"
+        }
+      ],
+      "gold": [
+        348,
+        368
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "2a366f4445e5a78c-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        347,
+        363
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "7379bf85268dbb72-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        332,
+        354
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "7379bf85268dbb72-PHONE",
+      "type": "PHONE",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "PHONE",
+          "start": 332,
+          "end": 343,
+          "text": "13800000167"
+        }
+      ],
+      "gold": [
+        332,
+        343
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "7379bf85268dbb72-EMAIL",
+      "type": "EMAIL",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        333,
+        353
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "7379bf85268dbb72-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "spaced",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "BANK_CARD",
+          "start": 332,
+          "end": 351,
+          "text": "6222 0200 0000 1674"
+        }
+      ],
+      "gold": [
+        332,
+        351
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "6c77dcf3907f3cdd-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "ID_CARD",
+          "start": 387,
+          "end": 405,
+          "text": "110105198703121685"
+        }
+      ],
+      "gold": [
+        387,
+        405
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "6c77dcf3907f3cdd-PHONE",
+      "type": "PHONE",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        387,
+        398
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "6c77dcf3907f3cdd-EMAIL",
+      "type": "EMAIL",
+      "variant": "spaced",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        388,
+        412
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "6c77dcf3907f3cdd-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        387,
+        406
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "a4ed4937460e9506-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        346,
+        364
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "a4ed4937460e9506-PHONE",
+      "type": "PHONE",
+      "variant": "spaced",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        346,
+        359
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "a4ed4937460e9506-EMAIL",
+      "type": "EMAIL",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        347,
+        371
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "a4ed4937460e9506-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "BANK_CARD",
+          "start": 346,
+          "end": 362,
+          "text": "6222020000001690"
+        }
+      ],
+      "gold": [
+        346,
+        362
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "ca18fa6b6a8a838d-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "spaced",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "ID_CARD",
+          "start": 350,
+          "end": 372,
+          "text": "1101 0519 8703 1217 06"
+        }
+      ],
+      "gold": [
+        350,
+        372
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "ca18fa6b6a8a838d-PHONE",
+      "type": "PHONE",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        350,
+        363
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "ca18fa6b6a8a838d-EMAIL",
+      "type": "EMAIL",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "EMAIL",
+          "start": 351,
+          "end": 371,
+          "text": "audit170@example.com"
+        }
+      ],
+      "gold": [
+        351,
+        371
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "ca18fa6b6a8a838d-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        350,
+        366
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "579fe9a9799c1dfa-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        383,
+        405
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "579fe9a9799c1dfa-PHONE",
+      "type": "PHONE",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "PHONE",
+          "start": 383,
+          "end": 394,
+          "text": "13800000171"
+        }
+      ],
+      "gold": [
+        383,
+        394
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "579fe9a9799c1dfa-EMAIL",
+      "type": "EMAIL",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        384,
+        404
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "579fe9a9799c1dfa-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "spaced",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "BANK_CARD",
+          "start": 383,
+          "end": 402,
+          "text": "6222 0200 0000 1716"
+        }
+      ],
+      "gold": [
+        383,
+        402
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "fbec6eacae88e7a7-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "ID_CARD",
+          "start": 367,
+          "end": 385,
+          "text": "110105198703121722"
+        }
+      ],
+      "gold": [
+        367,
+        385
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "fbec6eacae88e7a7-PHONE",
+      "type": "PHONE",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        367,
+        378
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "fbec6eacae88e7a7-EMAIL",
+      "type": "EMAIL",
+      "variant": "spaced",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        368,
+        392
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "fbec6eacae88e7a7-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        367,
+        386
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "e39772a7f0088143-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        897,
+        915
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "e39772a7f0088143-PHONE",
+      "type": "PHONE",
+      "variant": "spaced",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        897,
+        910
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "e39772a7f0088143-EMAIL",
+      "type": "EMAIL",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        898,
+        922
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "e39772a7f0088143-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "BANK_CARD",
+          "start": 897,
+          "end": 913,
+          "text": "6222020000001732"
+        }
+      ],
+      "gold": [
+        897,
+        913
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "a8656d58e0565dc0-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "spaced",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "ID_CARD",
+          "start": 462,
+          "end": 484,
+          "text": "1101 0519 8703 1217 49"
+        }
+      ],
+      "gold": [
+        462,
+        484
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "a8656d58e0565dc0-PHONE",
+      "type": "PHONE",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        462,
+        475
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "a8656d58e0565dc0-EMAIL",
+      "type": "EMAIL",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "EMAIL",
+          "start": 463,
+          "end": 483,
+          "text": "audit174@example.com"
+        }
+      ],
+      "gold": [
+        463,
+        483
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "a8656d58e0565dc0-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        462,
+        478
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "4a9cfb71aea45f0f-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        569,
+        591
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "4a9cfb71aea45f0f-PHONE",
+      "type": "PHONE",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "PHONE",
+          "start": 569,
+          "end": 580,
+          "text": "13800000175"
+        }
+      ],
+      "gold": [
+        569,
+        580
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "4a9cfb71aea45f0f-EMAIL",
+      "type": "EMAIL",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        570,
+        590
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "4a9cfb71aea45f0f-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "spaced",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "BANK_CARD",
+          "start": 569,
+          "end": 588,
+          "text": "6222 0200 0000 1757"
+        }
+      ],
+      "gold": [
+        569,
+        588
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "8c3922d52da13261-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "ID_CARD",
+          "start": 310,
+          "end": 328,
+          "text": "110105198703121765"
+        }
+      ],
+      "gold": [
+        310,
+        328
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "8c3922d52da13261-PHONE",
+      "type": "PHONE",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        310,
+        321
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "8c3922d52da13261-EMAIL",
+      "type": "EMAIL",
+      "variant": "spaced",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        311,
+        335
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "8c3922d52da13261-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        310,
+        329
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "0dfab2e289fcc561-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        680,
+        698
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "0dfab2e289fcc561-PHONE",
+      "type": "PHONE",
+      "variant": "spaced",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        680,
+        693
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "0dfab2e289fcc561-EMAIL",
+      "type": "EMAIL",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        681,
+        705
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "0dfab2e289fcc561-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "BANK_CARD",
+          "start": 680,
+          "end": 696,
+          "text": "6222020000001773"
+        }
+      ],
+      "gold": [
+        680,
+        696
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "d74bb99f8bd2de4a-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "spaced",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "ID_CARD",
+          "start": 464,
+          "end": 486,
+          "text": "1101 0519 8703 1217 81"
+        }
+      ],
+      "gold": [
+        464,
+        486
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "d74bb99f8bd2de4a-PHONE",
+      "type": "PHONE",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        464,
+        477
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "d74bb99f8bd2de4a-EMAIL",
+      "type": "EMAIL",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "EMAIL",
+          "start": 465,
+          "end": 485,
+          "text": "audit178@example.com"
+        }
+      ],
+      "gold": [
+        465,
+        485
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "d74bb99f8bd2de4a-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        464,
+        480
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "35eef3d5189e9873-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        958,
+        980
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "35eef3d5189e9873-PHONE",
+      "type": "PHONE",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "PHONE",
+          "start": 958,
+          "end": 969,
+          "text": "13800000179"
+        }
+      ],
+      "gold": [
+        958,
+        969
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "35eef3d5189e9873-EMAIL",
+      "type": "EMAIL",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        959,
+        979
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "35eef3d5189e9873-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "spaced",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "BANK_CARD",
+          "start": 958,
+          "end": 977,
+          "text": "6222 0200 0000 1799"
+        }
+      ],
+      "gold": [
+        958,
+        977
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "77407b10f7636f26-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "ID_CARD",
+          "start": 489,
+          "end": 507,
+          "text": "110105198703121802"
+        }
+      ],
+      "gold": [
+        489,
+        507
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "77407b10f7636f26-PHONE",
+      "type": "PHONE",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        489,
+        500
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "77407b10f7636f26-EMAIL",
+      "type": "EMAIL",
+      "variant": "spaced",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        490,
+        514
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "77407b10f7636f26-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        489,
+        508
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "de670d188a8c6fa5-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        587,
+        605
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "de670d188a8c6fa5-PHONE",
+      "type": "PHONE",
+      "variant": "spaced",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        587,
+        600
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "de670d188a8c6fa5-EMAIL",
+      "type": "EMAIL",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        588,
+        612
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "de670d188a8c6fa5-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "BANK_CARD",
+          "start": 587,
+          "end": 603,
+          "text": "6222020000001815"
+        }
+      ],
+      "gold": [
+        587,
+        603
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "d668a45a231c6e37-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "spaced",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "ID_CARD",
+          "start": 528,
+          "end": 550,
+          "text": "1101 0519 8703 1218 29"
+        }
+      ],
+      "gold": [
+        528,
+        550
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "d668a45a231c6e37-PHONE",
+      "type": "PHONE",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        528,
+        541
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "d668a45a231c6e37-EMAIL",
+      "type": "EMAIL",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "EMAIL",
+          "start": 529,
+          "end": 549,
+          "text": "audit182@example.com"
+        }
+      ],
+      "gold": [
+        529,
+        549
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "d668a45a231c6e37-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        528,
+        544
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "c7c8132d20e4378d-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        318,
+        340
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "c7c8132d20e4378d-PHONE",
+      "type": "PHONE",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "PHONE",
+          "start": 318,
+          "end": 329,
+          "text": "13800000183"
+        }
+      ],
+      "gold": [
+        318,
+        329
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "c7c8132d20e4378d-EMAIL",
+      "type": "EMAIL",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        319,
+        339
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "c7c8132d20e4378d-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "spaced",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "BANK_CARD",
+          "start": 318,
+          "end": 337,
+          "text": "6222 0200 0000 1831"
+        }
+      ],
+      "gold": [
+        318,
+        337
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "4566f993ec6e777b-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "ID_CARD",
+          "start": 510,
+          "end": 528,
+          "text": "110105198703121845"
+        }
+      ],
+      "gold": [
+        510,
+        528
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "4566f993ec6e777b-PHONE",
+      "type": "PHONE",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        510,
+        521
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "4566f993ec6e777b-EMAIL",
+      "type": "EMAIL",
+      "variant": "spaced",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        511,
+        535
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "4566f993ec6e777b-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        510,
+        529
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "3cd60b4dd2c33212-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        425,
+        443
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "3cd60b4dd2c33212-PHONE",
+      "type": "PHONE",
+      "variant": "spaced",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        425,
+        438
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "3cd60b4dd2c33212-EMAIL",
+      "type": "EMAIL",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        426,
+        450
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "3cd60b4dd2c33212-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "BANK_CARD",
+          "start": 425,
+          "end": 441,
+          "text": "6222020000001856"
+        }
+      ],
+      "gold": [
+        425,
+        441
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "860cf1c6bf24b7e7-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "spaced",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "ID_CARD",
+          "start": 330,
+          "end": 352,
+          "text": "1101 0519 8703 1218 61"
+        }
+      ],
+      "gold": [
+        330,
+        352
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "860cf1c6bf24b7e7-PHONE",
+      "type": "PHONE",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        330,
+        343
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "860cf1c6bf24b7e7-EMAIL",
+      "type": "EMAIL",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "EMAIL",
+          "start": 331,
+          "end": 351,
+          "text": "audit186@example.com"
+        }
+      ],
+      "gold": [
+        331,
+        351
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "860cf1c6bf24b7e7-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        330,
+        346
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "1ff2f0c4ebcd7af6-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        366,
+        388
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "1ff2f0c4ebcd7af6-PHONE",
+      "type": "PHONE",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "PHONE",
+          "start": 366,
+          "end": 377,
+          "text": "13800000187"
+        }
+      ],
+      "gold": [
+        366,
+        377
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "1ff2f0c4ebcd7af6-EMAIL",
+      "type": "EMAIL",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        367,
+        387
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "1ff2f0c4ebcd7af6-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "spaced",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "BANK_CARD",
+          "start": 366,
+          "end": 385,
+          "text": "6222 0200 0000 1872"
+        }
+      ],
+      "gold": [
+        366,
+        385
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "bcd4ba5d252f3dce-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "ID_CARD",
+          "start": 382,
+          "end": 400,
+          "text": "110105198703121888"
+        }
+      ],
+      "gold": [
+        382,
+        400
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "bcd4ba5d252f3dce-PHONE",
+      "type": "PHONE",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        382,
+        393
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "bcd4ba5d252f3dce-EMAIL",
+      "type": "EMAIL",
+      "variant": "spaced",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        383,
+        407
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "bcd4ba5d252f3dce-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        382,
+        401
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "acabfaccf43f471b-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        641,
+        659
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "acabfaccf43f471b-PHONE",
+      "type": "PHONE",
+      "variant": "spaced",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        641,
+        654
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "acabfaccf43f471b-EMAIL",
+      "type": "EMAIL",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        642,
+        666
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "acabfaccf43f471b-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "BANK_CARD",
+          "start": 641,
+          "end": 657,
+          "text": "6222020000001898"
+        }
+      ],
+      "gold": [
+        641,
+        657
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "d515ff1461bb545c-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "spaced",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "ID_CARD",
+          "start": 400,
+          "end": 422,
+          "text": "1101 0519 8703 1219 09"
+        }
+      ],
+      "gold": [
+        400,
+        422
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "d515ff1461bb545c-PHONE",
+      "type": "PHONE",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        400,
+        413
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "d515ff1461bb545c-EMAIL",
+      "type": "EMAIL",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "EMAIL",
+          "start": 401,
+          "end": 421,
+          "text": "audit190@example.com"
+        }
+      ],
+      "gold": [
+        401,
+        421
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "d515ff1461bb545c-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        400,
+        416
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "cf767259671109ed-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        303,
+        325
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "cf767259671109ed-PHONE",
+      "type": "PHONE",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "PHONE",
+          "start": 303,
+          "end": 314,
+          "text": "13800000191"
+        }
+      ],
+      "gold": [
+        303,
+        314
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "cf767259671109ed-EMAIL",
+      "type": "EMAIL",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        304,
+        324
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "cf767259671109ed-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "spaced",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "BANK_CARD",
+          "start": 303,
+          "end": 322,
+          "text": "6222 0200 0000 1914"
+        }
+      ],
+      "gold": [
+        303,
+        322
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "b6e757dd12a22411-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "ID_CARD",
+          "start": 634,
+          "end": 652,
+          "text": "110105198703121925"
+        }
+      ],
+      "gold": [
+        634,
+        652
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "b6e757dd12a22411-PHONE",
+      "type": "PHONE",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        634,
+        645
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "b6e757dd12a22411-EMAIL",
+      "type": "EMAIL",
+      "variant": "spaced",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        635,
+        659
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "b6e757dd12a22411-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        634,
+        653
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "a0b9ab8684bd4d40-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        358,
+        376
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "a0b9ab8684bd4d40-PHONE",
+      "type": "PHONE",
+      "variant": "spaced",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        358,
+        371
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "a0b9ab8684bd4d40-EMAIL",
+      "type": "EMAIL",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        359,
+        383
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "a0b9ab8684bd4d40-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "BANK_CARD",
+          "start": 358,
+          "end": 374,
+          "text": "6222020000001930"
+        }
+      ],
+      "gold": [
+        358,
+        374
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "1f4eeab9efd27c8d-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "spaced",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "ID_CARD",
+          "start": 306,
+          "end": 328,
+          "text": "1101 0519 8703 1219 41"
+        }
+      ],
+      "gold": [
+        306,
+        328
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "1f4eeab9efd27c8d-PHONE",
+      "type": "PHONE",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        306,
+        319
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "1f4eeab9efd27c8d-EMAIL",
+      "type": "EMAIL",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "EMAIL",
+          "start": 307,
+          "end": 327,
+          "text": "audit194@example.com"
+        }
+      ],
+      "gold": [
+        307,
+        327
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "1f4eeab9efd27c8d-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        306,
+        322
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "e301e12beac98bbe-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        536,
+        558
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "e301e12beac98bbe-PHONE",
+      "type": "PHONE",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "PHONE",
+          "start": 536,
+          "end": 547,
+          "text": "13800000195"
+        }
+      ],
+      "gold": [
+        536,
+        547
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "e301e12beac98bbe-EMAIL",
+      "type": "EMAIL",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        537,
+        557
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "e301e12beac98bbe-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "spaced",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "BANK_CARD",
+          "start": 536,
+          "end": 555,
+          "text": "6222 0200 0000 1955"
+        }
+      ],
+      "gold": [
+        536,
+        555
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "791b4b34a9529cc3-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "ID_CARD",
+          "start": 412,
+          "end": 430,
+          "text": "110105198703121968"
+        }
+      ],
+      "gold": [
+        412,
+        430
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "791b4b34a9529cc3-PHONE",
+      "type": "PHONE",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        412,
+        423
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "791b4b34a9529cc3-EMAIL",
+      "type": "EMAIL",
+      "variant": "spaced",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        413,
+        437
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "791b4b34a9529cc3-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        412,
+        431
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "553911eea9a1ea50-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        570,
+        588
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "553911eea9a1ea50-PHONE",
+      "type": "PHONE",
+      "variant": "spaced",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        570,
+        583
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "553911eea9a1ea50-EMAIL",
+      "type": "EMAIL",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        571,
+        595
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "553911eea9a1ea50-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "BANK_CARD",
+          "start": 570,
+          "end": 586,
+          "text": "6222020000001971"
+        }
+      ],
+      "gold": [
+        570,
+        586
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "96c3e78c44466892-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "spaced",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "ID_CARD",
+          "start": 601,
+          "end": 623,
+          "text": "1101 0519 8703 1219 84"
+        }
+      ],
+      "gold": [
+        601,
+        623
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "96c3e78c44466892-PHONE",
+      "type": "PHONE",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        601,
+        614
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "96c3e78c44466892-EMAIL",
+      "type": "EMAIL",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "EMAIL",
+          "start": 602,
+          "end": 622,
+          "text": "audit198@example.com"
+        }
+      ],
+      "gold": [
+        602,
+        622
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "96c3e78c44466892-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        601,
+        617
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "20f8d513c9a304f7-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        384,
+        406
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "20f8d513c9a304f7-PHONE",
+      "type": "PHONE",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "PHONE",
+          "start": 384,
+          "end": 395,
+          "text": "13800000199"
+        }
+      ],
+      "gold": [
+        384,
+        395
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "20f8d513c9a304f7-EMAIL",
+      "type": "EMAIL",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        385,
+        405
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "20f8d513c9a304f7-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "spaced",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "BANK_CARD",
+          "start": 384,
+          "end": 403,
+          "text": "6222 0200 0000 1997"
+        }
+      ],
+      "gold": [
+        384,
+        403
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "c43ef57f6f65101e-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "ID_CARD",
+          "start": 337,
+          "end": 355,
+          "text": "110105198703122004"
+        }
+      ],
+      "gold": [
+        337,
+        355
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "c43ef57f6f65101e-PHONE",
+      "type": "PHONE",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        337,
+        348
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "c43ef57f6f65101e-EMAIL",
+      "type": "EMAIL",
+      "variant": "spaced",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        338,
+        362
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "c43ef57f6f65101e-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        337,
+        356
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "6c5796cdc032335b-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        361,
+        379
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "6c5796cdc032335b-PHONE",
+      "type": "PHONE",
+      "variant": "spaced",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        361,
+        374
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "6c5796cdc032335b-EMAIL",
+      "type": "EMAIL",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        362,
+        386
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "6c5796cdc032335b-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "BANK_CARD",
+          "start": 361,
+          "end": 377,
+          "text": "6222020000002011"
+        }
+      ],
+      "gold": [
+        361,
+        377
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "15d4086512779386-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "spaced",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "ID_CARD",
+          "start": 320,
+          "end": 342,
+          "text": "1101 0519 8703 1220 20"
+        }
+      ],
+      "gold": [
+        320,
+        342
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "15d4086512779386-PHONE",
+      "type": "PHONE",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        320,
+        333
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "15d4086512779386-EMAIL",
+      "type": "EMAIL",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "EMAIL",
+          "start": 321,
+          "end": 341,
+          "text": "audit202@example.com"
+        }
+      ],
+      "gold": [
+        321,
+        341
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "15d4086512779386-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        320,
+        336
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "4e3311f2a6ba79c2-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        842,
+        864
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "4e3311f2a6ba79c2-PHONE",
+      "type": "PHONE",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "PHONE",
+          "start": 842,
+          "end": 853,
+          "text": "13800000203"
+        }
+      ],
+      "gold": [
+        842,
+        853
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "4e3311f2a6ba79c2-EMAIL",
+      "type": "EMAIL",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        843,
+        863
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "4e3311f2a6ba79c2-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "spaced",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "BANK_CARD",
+          "start": 842,
+          "end": 861,
+          "text": "6222 0200 0000 2037"
+        }
+      ],
+      "gold": [
+        842,
+        861
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "b61e5be42bbcad3b-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "ID_CARD",
+          "start": 318,
+          "end": 336,
+          "text": "110105198703122047"
+        }
+      ],
+      "gold": [
+        318,
+        336
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "b61e5be42bbcad3b-PHONE",
+      "type": "PHONE",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        318,
+        329
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "b61e5be42bbcad3b-EMAIL",
+      "type": "EMAIL",
+      "variant": "spaced",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        319,
+        343
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "b61e5be42bbcad3b-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        318,
+        337
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "22e14097d25a608a-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        618,
+        636
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "22e14097d25a608a-PHONE",
+      "type": "PHONE",
+      "variant": "spaced",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        618,
+        631
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "22e14097d25a608a-EMAIL",
+      "type": "EMAIL",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        619,
+        643
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "22e14097d25a608a-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "BANK_CARD",
+          "start": 618,
+          "end": 634,
+          "text": "6222020000002052"
+        }
+      ],
+      "gold": [
+        618,
+        634
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "9341a0bf09f82f9e-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "spaced",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "ID_CARD",
+          "start": 656,
+          "end": 678,
+          "text": "1101 0519 8703 1220 63"
+        }
+      ],
+      "gold": [
+        656,
+        678
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "9341a0bf09f82f9e-PHONE",
+      "type": "PHONE",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        656,
+        669
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "9341a0bf09f82f9e-EMAIL",
+      "type": "EMAIL",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "EMAIL",
+          "start": 657,
+          "end": 677,
+          "text": "audit206@example.com"
+        }
+      ],
+      "gold": [
+        657,
+        677
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "9341a0bf09f82f9e-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        656,
+        672
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "cc06d65ea67cc7d1-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        523,
+        545
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "cc06d65ea67cc7d1-PHONE",
+      "type": "PHONE",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "PHONE",
+          "start": 523,
+          "end": 534,
+          "text": "13800000207"
+        }
+      ],
+      "gold": [
+        523,
+        534
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "cc06d65ea67cc7d1-EMAIL",
+      "type": "EMAIL",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        524,
+        544
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "cc06d65ea67cc7d1-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "spaced",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "BANK_CARD",
+          "start": 523,
+          "end": 542,
+          "text": "6222 0200 0000 2078"
+        }
+      ],
+      "gold": [
+        523,
+        542
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "192486de61b89b19-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "ID_CARD",
+          "start": 379,
+          "end": 397,
+          "text": "11010519870312208X"
+        }
+      ],
+      "gold": [
+        379,
+        397
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "192486de61b89b19-PHONE",
+      "type": "PHONE",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        379,
+        390
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "192486de61b89b19-EMAIL",
+      "type": "EMAIL",
+      "variant": "spaced",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        380,
+        404
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "192486de61b89b19-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        379,
+        398
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "63b65b7344c4e3a4-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        355,
+        373
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "63b65b7344c4e3a4-PHONE",
+      "type": "PHONE",
+      "variant": "spaced",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        355,
+        368
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "63b65b7344c4e3a4-EMAIL",
+      "type": "EMAIL",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        356,
+        380
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "63b65b7344c4e3a4-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "BANK_CARD",
+          "start": 355,
+          "end": 371,
+          "text": "6222020000002094"
+        }
+      ],
+      "gold": [
+        355,
+        371
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "bf0ff1db9cf74707-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "spaced",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "ID_CARD",
+          "start": 398,
+          "end": 420,
+          "text": "1101 0519 8703 1221 00"
+        }
+      ],
+      "gold": [
+        398,
+        420
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "bf0ff1db9cf74707-PHONE",
+      "type": "PHONE",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        398,
+        411
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "bf0ff1db9cf74707-EMAIL",
+      "type": "EMAIL",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "EMAIL",
+          "start": 399,
+          "end": 419,
+          "text": "audit210@example.com"
+        }
+      ],
+      "gold": [
+        399,
+        419
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "bf0ff1db9cf74707-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        398,
+        414
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "4da3a5c1c2c09eb3-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        483,
+        505
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "4da3a5c1c2c09eb3-PHONE",
+      "type": "PHONE",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "PHONE",
+          "start": 483,
+          "end": 494,
+          "text": "13800000211"
+        }
+      ],
+      "gold": [
+        483,
+        494
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "4da3a5c1c2c09eb3-EMAIL",
+      "type": "EMAIL",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        484,
+        504
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "4da3a5c1c2c09eb3-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "spaced",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "BANK_CARD",
+          "start": 483,
+          "end": 502,
+          "text": "6222 0200 0000 2110"
+        }
+      ],
+      "gold": [
+        483,
+        502
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "6647c93f728ef419-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "ID_CARD",
+          "start": 421,
+          "end": 439,
+          "text": "110105198703122127"
+        }
+      ],
+      "gold": [
+        421,
+        439
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "6647c93f728ef419-PHONE",
+      "type": "PHONE",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        421,
+        432
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "6647c93f728ef419-EMAIL",
+      "type": "EMAIL",
+      "variant": "spaced",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        422,
+        446
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "6647c93f728ef419-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        421,
+        440
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "3d7a91edc2448ac5-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        780,
+        798
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "3d7a91edc2448ac5-PHONE",
+      "type": "PHONE",
+      "variant": "spaced",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        780,
+        793
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "3d7a91edc2448ac5-EMAIL",
+      "type": "EMAIL",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        781,
+        805
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "3d7a91edc2448ac5-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "BANK_CARD",
+          "start": 780,
+          "end": 796,
+          "text": "6222020000002136"
+        }
+      ],
+      "gold": [
+        780,
+        796
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "ccfdaa4e371f48b9-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "spaced",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "ID_CARD",
+          "start": 895,
+          "end": 917,
+          "text": "1101 0519 8703 1221 43"
+        }
+      ],
+      "gold": [
+        895,
+        917
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "ccfdaa4e371f48b9-PHONE",
+      "type": "PHONE",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        895,
+        908
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "ccfdaa4e371f48b9-EMAIL",
+      "type": "EMAIL",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "EMAIL",
+          "start": 896,
+          "end": 916,
+          "text": "audit214@example.com"
+        }
+      ],
+      "gold": [
+        896,
+        916
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "ccfdaa4e371f48b9-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        895,
+        911
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "18b885ba779dc8a2-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        294,
+        316
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "18b885ba779dc8a2-PHONE",
+      "type": "PHONE",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "PHONE",
+          "start": 294,
+          "end": 305,
+          "text": "13800000215"
+        }
+      ],
+      "gold": [
+        294,
+        305
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "18b885ba779dc8a2-EMAIL",
+      "type": "EMAIL",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        295,
+        315
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "18b885ba779dc8a2-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "spaced",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "BANK_CARD",
+          "start": 294,
+          "end": 313,
+          "text": "6222 0200 0000 2151"
+        }
+      ],
+      "gold": [
+        294,
+        313
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "5e8bf268d2fe81f2-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "ID_CARD",
+          "start": 544,
+          "end": 562,
+          "text": "11010519870312216X"
+        }
+      ],
+      "gold": [
+        544,
+        562
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "5e8bf268d2fe81f2-PHONE",
+      "type": "PHONE",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        544,
+        555
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "5e8bf268d2fe81f2-EMAIL",
+      "type": "EMAIL",
+      "variant": "spaced",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        545,
+        569
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "5e8bf268d2fe81f2-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        544,
+        563
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "de43d686f57d8302-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        502,
+        520
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "de43d686f57d8302-PHONE",
+      "type": "PHONE",
+      "variant": "spaced",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        502,
+        515
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "de43d686f57d8302-EMAIL",
+      "type": "EMAIL",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        503,
+        527
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "de43d686f57d8302-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "BANK_CARD",
+          "start": 502,
+          "end": 518,
+          "text": "6222020000002177"
+        }
+      ],
+      "gold": [
+        502,
+        518
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "5e79aed1e68d4d68-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "spaced",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "ID_CARD",
+          "start": 402,
+          "end": 424,
+          "text": "1101 0519 8703 1221 86"
+        }
+      ],
+      "gold": [
+        402,
+        424
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "5e79aed1e68d4d68-PHONE",
+      "type": "PHONE",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        402,
+        415
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "5e79aed1e68d4d68-EMAIL",
+      "type": "EMAIL",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "EMAIL",
+          "start": 403,
+          "end": 423,
+          "text": "audit218@example.com"
+        }
+      ],
+      "gold": [
+        403,
+        423
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "5e79aed1e68d4d68-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        402,
+        418
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "bfa9a1e54fb026de-ID_CARD",
+      "type": "ID_CARD",
+      "variant": "zero_width",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        327,
+        349
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "bfa9a1e54fb026de-PHONE",
+      "type": "PHONE",
+      "variant": "plain",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "PHONE",
+          "start": 327,
+          "end": 338,
+          "text": "13800000219"
+        }
+      ],
+      "gold": [
+        327,
+        338
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "bfa9a1e54fb026de-EMAIL",
+      "type": "EMAIL",
+      "variant": "fullwidth",
+      "hit": false,
+      "predictions": [],
+      "gold": [
+        328,
+        348
+      ],
+      "unexpected": []
+    },
+    {
+      "method": "helan",
+      "id": "bfa9a1e54fb026de-BANK_CARD",
+      "type": "BANK_CARD",
+      "variant": "spaced",
+      "hit": true,
+      "predictions": [
+        {
+          "type": "BANK_CARD",
+          "start": 327,
+          "end": 346,
+          "text": "6222 0200 0000 2193"
+        }
+      ],
+      "gold": [
+        327,
+        346
+      ],
+      "unexpected": []
+    }
+  ],
+  "negative_controls": [
+    {
+      "id": "invalid_id_0",
+      "text": "此为无效校验码测试：身份证 110105198703122000。",
+      "type": "ID_CARD",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_bank_0",
+      "text": "此为无效校验码测试：银行卡 6222020000002004。",
+      "type": "BANK_CARD",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_phone_0",
+      "text": "此为无效号段测试：手机号 11100000000。",
+      "type": "PHONE",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_id_1",
+      "text": "此为无效校验码测试：身份证 110105198703122010。",
+      "type": "ID_CARD",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_bank_1",
+      "text": "此为无效校验码测试：银行卡 6222020000002012。",
+      "type": "BANK_CARD",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_phone_1",
+      "text": "此为无效号段测试：手机号 11100000001。",
+      "type": "PHONE",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_id_2",
+      "text": "此为无效校验码测试：身份证 110105198703122021。",
+      "type": "ID_CARD",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_bank_2",
+      "text": "此为无效校验码测试：银行卡 6222020000002020。",
+      "type": "BANK_CARD",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_phone_2",
+      "text": "此为无效号段测试：手机号 11100000002。",
+      "type": "PHONE",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_id_3",
+      "text": "此为无效校验码测试：身份证 110105198703122030。",
+      "type": "ID_CARD",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_bank_3",
+      "text": "此为无效校验码测试：银行卡 6222020000002038。",
+      "type": "BANK_CARD",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_phone_3",
+      "text": "此为无效号段测试：手机号 11100000003。",
+      "type": "PHONE",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_id_4",
+      "text": "此为无效校验码测试：身份证 110105198703122040。",
+      "type": "ID_CARD",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_bank_4",
+      "text": "此为无效校验码测试：银行卡 6222020000002046。",
+      "type": "BANK_CARD",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_phone_4",
+      "text": "此为无效号段测试：手机号 11100000004。",
+      "type": "PHONE",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_id_5",
+      "text": "此为无效校验码测试：身份证 110105198703122050。",
+      "type": "ID_CARD",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_bank_5",
+      "text": "此为无效校验码测试：银行卡 6222020000002053。",
+      "type": "BANK_CARD",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_phone_5",
+      "text": "此为无效号段测试：手机号 11100000005。",
+      "type": "PHONE",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_id_6",
+      "text": "此为无效校验码测试：身份证 110105198703122060。",
+      "type": "ID_CARD",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_bank_6",
+      "text": "此为无效校验码测试：银行卡 6222020000002061。",
+      "type": "BANK_CARD",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_phone_6",
+      "text": "此为无效号段测试：手机号 11100000006。",
+      "type": "PHONE",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_id_7",
+      "text": "此为无效校验码测试：身份证 110105198703122070。",
+      "type": "ID_CARD",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_bank_7",
+      "text": "此为无效校验码测试：银行卡 6222020000002079。",
+      "type": "BANK_CARD",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_phone_7",
+      "text": "此为无效号段测试：手机号 11100000007。",
+      "type": "PHONE",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_id_8",
+      "text": "此为无效校验码测试：身份证 110105198703122080。",
+      "type": "ID_CARD",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_bank_8",
+      "text": "此为无效校验码测试：银行卡 6222020000002087。",
+      "type": "BANK_CARD",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_phone_8",
+      "text": "此为无效号段测试：手机号 11100000008。",
+      "type": "PHONE",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_id_9",
+      "text": "此为无效校验码测试：身份证 110105198703122090。",
+      "type": "ID_CARD",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_bank_9",
+      "text": "此为无效校验码测试：银行卡 6222020000002095。",
+      "type": "BANK_CARD",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_phone_9",
+      "text": "此为无效号段测试：手机号 11100000009。",
+      "type": "PHONE",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_id_10",
+      "text": "此为无效校验码测试：身份证 110105198703122101。",
+      "type": "ID_CARD",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_bank_10",
+      "text": "此为无效校验码测试：银行卡 6222020000002103。",
+      "type": "BANK_CARD",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_phone_10",
+      "text": "此为无效号段测试：手机号 11100000010。",
+      "type": "PHONE",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_id_11",
+      "text": "此为无效校验码测试：身份证 110105198703122110。",
+      "type": "ID_CARD",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_bank_11",
+      "text": "此为无效校验码测试：银行卡 6222020000002111。",
+      "type": "BANK_CARD",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_phone_11",
+      "text": "此为无效号段测试：手机号 11100000011。",
+      "type": "PHONE",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_id_12",
+      "text": "此为无效校验码测试：身份证 110105198703122120。",
+      "type": "ID_CARD",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_bank_12",
+      "text": "此为无效校验码测试：银行卡 6222020000002129。",
+      "type": "BANK_CARD",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_phone_12",
+      "text": "此为无效号段测试：手机号 11100000012。",
+      "type": "PHONE",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_id_13",
+      "text": "此为无效校验码测试：身份证 110105198703122130。",
+      "type": "ID_CARD",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_bank_13",
+      "text": "此为无效校验码测试：银行卡 6222020000002137。",
+      "type": "BANK_CARD",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_phone_13",
+      "text": "此为无效号段测试：手机号 11100000013。",
+      "type": "PHONE",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_id_14",
+      "text": "此为无效校验码测试：身份证 110105198703122140。",
+      "type": "ID_CARD",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_bank_14",
+      "text": "此为无效校验码测试：银行卡 6222020000002145。",
+      "type": "BANK_CARD",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_phone_14",
+      "text": "此为无效号段测试：手机号 11100000014。",
+      "type": "PHONE",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_id_15",
+      "text": "此为无效校验码测试：身份证 110105198703122150。",
+      "type": "ID_CARD",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_bank_15",
+      "text": "此为无效校验码测试：银行卡 6222020000002152。",
+      "type": "BANK_CARD",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_phone_15",
+      "text": "此为无效号段测试：手机号 11100000015。",
+      "type": "PHONE",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_id_16",
+      "text": "此为无效校验码测试：身份证 110105198703122160。",
+      "type": "ID_CARD",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_bank_16",
+      "text": "此为无效校验码测试：银行卡 6222020000002160。",
+      "type": "BANK_CARD",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_phone_16",
+      "text": "此为无效号段测试：手机号 11100000016。",
+      "type": "PHONE",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_id_17",
+      "text": "此为无效校验码测试：身份证 110105198703122170。",
+      "type": "ID_CARD",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_bank_17",
+      "text": "此为无效校验码测试：银行卡 6222020000002178。",
+      "type": "BANK_CARD",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_phone_17",
+      "text": "此为无效号段测试：手机号 11100000017。",
+      "type": "PHONE",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_id_18",
+      "text": "此为无效校验码测试：身份证 110105198703122180。",
+      "type": "ID_CARD",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_bank_18",
+      "text": "此为无效校验码测试：银行卡 6222020000002186。",
+      "type": "BANK_CARD",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_phone_18",
+      "text": "此为无效号段测试：手机号 11100000018。",
+      "type": "PHONE",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_id_19",
+      "text": "此为无效校验码测试：身份证 110105198703122190。",
+      "type": "ID_CARD",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_bank_19",
+      "text": "此为无效校验码测试：银行卡 6222020000002194。",
+      "type": "BANK_CARD",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_phone_19",
+      "text": "此为无效号段测试：手机号 11100000019。",
+      "type": "PHONE",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_id_20",
+      "text": "此为无效校验码测试：身份证 110105198703122200。",
+      "type": "ID_CARD",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_bank_20",
+      "text": "此为无效校验码测试：银行卡 6222020000002202。",
+      "type": "BANK_CARD",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_phone_20",
+      "text": "此为无效号段测试：手机号 11100000020。",
+      "type": "PHONE",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_id_21",
+      "text": "此为无效校验码测试：身份证 110105198703122210。",
+      "type": "ID_CARD",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_bank_21",
+      "text": "此为无效校验码测试：银行卡 6222020000002210。",
+      "type": "BANK_CARD",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_phone_21",
+      "text": "此为无效号段测试：手机号 11100000021。",
+      "type": "PHONE",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_id_22",
+      "text": "此为无效校验码测试：身份证 110105198703122220。",
+      "type": "ID_CARD",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_bank_22",
+      "text": "此为无效校验码测试：银行卡 6222020000002228。",
+      "type": "BANK_CARD",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_phone_22",
+      "text": "此为无效号段测试：手机号 11100000022。",
+      "type": "PHONE",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_id_23",
+      "text": "此为无效校验码测试：身份证 110105198703122230。",
+      "type": "ID_CARD",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_bank_23",
+      "text": "此为无效校验码测试：银行卡 6222020000002236。",
+      "type": "BANK_CARD",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_phone_23",
+      "text": "此为无效号段测试：手机号 11100000023。",
+      "type": "PHONE",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_id_24",
+      "text": "此为无效校验码测试：身份证 110105198703122240。",
+      "type": "ID_CARD",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_bank_24",
+      "text": "此为无效校验码测试：银行卡 6222020000002244。",
+      "type": "BANK_CARD",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_phone_24",
+      "text": "此为无效号段测试：手机号 11100000024。",
+      "type": "PHONE",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_id_25",
+      "text": "此为无效校验码测试：身份证 110105198703122250。",
+      "type": "ID_CARD",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_bank_25",
+      "text": "此为无效校验码测试：银行卡 6222020000002251。",
+      "type": "BANK_CARD",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_phone_25",
+      "text": "此为无效号段测试：手机号 11100000025。",
+      "type": "PHONE",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_id_26",
+      "text": "此为无效校验码测试：身份证 110105198703122260。",
+      "type": "ID_CARD",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_bank_26",
+      "text": "此为无效校验码测试：银行卡 6222020000002269。",
+      "type": "BANK_CARD",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_phone_26",
+      "text": "此为无效号段测试：手机号 11100000026。",
+      "type": "PHONE",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_id_27",
+      "text": "此为无效校验码测试：身份证 110105198703122270。",
+      "type": "ID_CARD",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_bank_27",
+      "text": "此为无效校验码测试：银行卡 6222020000002277。",
+      "type": "BANK_CARD",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_phone_27",
+      "text": "此为无效号段测试：手机号 11100000027。",
+      "type": "PHONE",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_id_28",
+      "text": "此为无效校验码测试：身份证 110105198703122280。",
+      "type": "ID_CARD",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_bank_28",
+      "text": "此为无效校验码测试：银行卡 6222020000002285。",
+      "type": "BANK_CARD",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_phone_28",
+      "text": "此为无效号段测试：手机号 11100000028。",
+      "type": "PHONE",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_id_29",
+      "text": "此为无效校验码测试：身份证 110105198703122291。",
+      "type": "ID_CARD",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_bank_29",
+      "text": "此为无效校验码测试：银行卡 6222020000002293。",
+      "type": "BANK_CARD",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_phone_29",
+      "text": "此为无效号段测试：手机号 11100000029。",
+      "type": "PHONE",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_id_30",
+      "text": "此为无效校验码测试：身份证 110105198703122300。",
+      "type": "ID_CARD",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_bank_30",
+      "text": "此为无效校验码测试：银行卡 6222020000002301。",
+      "type": "BANK_CARD",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_phone_30",
+      "text": "此为无效号段测试：手机号 11100000030。",
+      "type": "PHONE",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_id_31",
+      "text": "此为无效校验码测试：身份证 110105198703122310。",
+      "type": "ID_CARD",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_bank_31",
+      "text": "此为无效校验码测试：银行卡 6222020000002319。",
+      "type": "BANK_CARD",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_phone_31",
+      "text": "此为无效号段测试：手机号 11100000031。",
+      "type": "PHONE",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_id_32",
+      "text": "此为无效校验码测试：身份证 110105198703122320。",
+      "type": "ID_CARD",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_bank_32",
+      "text": "此为无效校验码测试：银行卡 6222020000002327。",
+      "type": "BANK_CARD",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_phone_32",
+      "text": "此为无效号段测试：手机号 11100000032。",
+      "type": "PHONE",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_id_33",
+      "text": "此为无效校验码测试：身份证 110105198703122330。",
+      "type": "ID_CARD",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_bank_33",
+      "text": "此为无效校验码测试：银行卡 6222020000002335。",
+      "type": "BANK_CARD",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_phone_33",
+      "text": "此为无效号段测试：手机号 11100000033。",
+      "type": "PHONE",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_id_34",
+      "text": "此为无效校验码测试：身份证 110105198703122340。",
+      "type": "ID_CARD",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_bank_34",
+      "text": "此为无效校验码测试：银行卡 6222020000002343。",
+      "type": "BANK_CARD",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_phone_34",
+      "text": "此为无效号段测试：手机号 11100000034。",
+      "type": "PHONE",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_id_35",
+      "text": "此为无效校验码测试：身份证 110105198703122350。",
+      "type": "ID_CARD",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_bank_35",
+      "text": "此为无效校验码测试：银行卡 6222020000002350。",
+      "type": "BANK_CARD",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_phone_35",
+      "text": "此为无效号段测试：手机号 11100000035。",
+      "type": "PHONE",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_id_36",
+      "text": "此为无效校验码测试：身份证 110105198703122360。",
+      "type": "ID_CARD",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_bank_36",
+      "text": "此为无效校验码测试：银行卡 6222020000002368。",
+      "type": "BANK_CARD",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_phone_36",
+      "text": "此为无效号段测试：手机号 11100000036。",
+      "type": "PHONE",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_id_37",
+      "text": "此为无效校验码测试：身份证 110105198703122371。",
+      "type": "ID_CARD",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_bank_37",
+      "text": "此为无效校验码测试：银行卡 6222020000002376。",
+      "type": "BANK_CARD",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_phone_37",
+      "text": "此为无效号段测试：手机号 11100000037。",
+      "type": "PHONE",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_id_38",
+      "text": "此为无效校验码测试：身份证 110105198703122380。",
+      "type": "ID_CARD",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_bank_38",
+      "text": "此为无效校验码测试：银行卡 6222020000002384。",
+      "type": "BANK_CARD",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_phone_38",
+      "text": "此为无效号段测试：手机号 11100000038。",
+      "type": "PHONE",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_id_39",
+      "text": "此为无效校验码测试：身份证 110105198703122390。",
+      "type": "ID_CARD",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_bank_39",
+      "text": "此为无效校验码测试：银行卡 6222020000002392。",
+      "type": "BANK_CARD",
+      "predictions": [],
+      "false_alarm": false
+    },
+    {
+      "id": "invalid_phone_39",
+      "text": "此为无效号段测试：手机号 11100000039。",
+      "type": "PHONE",
+      "predictions": [],
+      "false_alarm": false
+    }
+  ],
+  "background_alerts": [
+    {
+      "doc_id": "bd38ad756cd32a94",
+      "predictions": []
+    },
+    {
+      "doc_id": "e122bf2732cdbdb4",
+      "predictions": []
+    },
+    {
+      "doc_id": "9e4de19a5548eae1",
+      "predictions": []
+    },
+    {
+      "doc_id": "b5c15fa84ba3a8bc",
+      "predictions": []
+    },
+    {
+      "doc_id": "27926d534cf011cc",
+      "predictions": []
+    },
+    {
+      "doc_id": "6add336ef3ee51dd",
+      "predictions": []
+    },
+    {
+      "doc_id": "14c0c3825f171286",
+      "predictions": []
+    },
+    {
+      "doc_id": "e7beb2810ec0c7c9",
+      "predictions": []
+    },
+    {
+      "doc_id": "802bc8ee8b5d742f",
+      "predictions": []
+    },
+    {
+      "doc_id": "4a1bb21a60f2909e",
+      "predictions": []
+    },
+    {
+      "doc_id": "0df2e123c00d59f3",
+      "predictions": []
+    },
+    {
+      "doc_id": "c7562aa1cd40f731",
+      "predictions": []
+    },
+    {
+      "doc_id": "8083a2ff7c22f160",
+      "predictions": []
+    },
+    {
+      "doc_id": "9e8eaea1c031ee5d",
+      "predictions": []
+    },
+    {
+      "doc_id": "7848d390ac308195",
+      "predictions": []
+    },
+    {
+      "doc_id": "91ad910bbdd7bfb5",
+      "predictions": []
+    },
+    {
+      "doc_id": "4be4aa283f54db3b",
+      "predictions": []
+    },
+    {
+      "doc_id": "5bed4920bed1b800",
+      "predictions": []
+    },
+    {
+      "doc_id": "06e802403e213622",
+      "predictions": []
+    },
+    {
+      "doc_id": "f92b269765dac031",
+      "predictions": []
+    },
+    {
+      "doc_id": "8733568ad727ade9",
+      "predictions": []
+    },
+    {
+      "doc_id": "0b6ed2d9e6f42913",
+      "predictions": []
+    },
+    {
+      "doc_id": "4b0a067f0fa576ae",
+      "predictions": []
+    },
+    {
+      "doc_id": "0acd090dfab4d320",
+      "predictions": []
+    },
+    {
+      "doc_id": "09f5316ea4c9268a",
+      "predictions": []
+    },
+    {
+      "doc_id": "784cbc10e8584580",
+      "predictions": []
+    },
+    {
+      "doc_id": "fb26d3af0e0c33d6",
+      "predictions": []
+    },
+    {
+      "doc_id": "3a8a98fdd9db9a26",
+      "predictions": []
+    },
+    {
+      "doc_id": "9b1d8433af611a33",
+      "predictions": []
+    },
+    {
+      "doc_id": "70c729c646ea3684",
+      "predictions": []
+    },
+    {
+      "doc_id": "5132f6fa9293a657",
+      "predictions": []
+    },
+    {
+      "doc_id": "8189cff57a20baeb",
+      "predictions": []
+    },
+    {
+      "doc_id": "50c2f6cd1f90efc8",
+      "predictions": []
+    },
+    {
+      "doc_id": "1f5eeb7800e8b75c",
+      "predictions": []
+    },
+    {
+      "doc_id": "c38b06300d9225a3",
+      "predictions": []
+    },
+    {
+      "doc_id": "68a9802b9c013ef6",
+      "predictions": []
+    },
+    {
+      "doc_id": "7ca18069c4be3e8e",
+      "predictions": []
+    },
+    {
+      "doc_id": "f9ca61f5731cd0ff",
+      "predictions": []
+    },
+    {
+      "doc_id": "f05780c0eb0f700d",
+      "predictions": []
+    },
+    {
+      "doc_id": "9da6153be57d8c0e",
+      "predictions": []
+    },
+    {
+      "doc_id": "7d9124af3517c8df",
+      "predictions": []
+    },
+    {
+      "doc_id": "996b6c0dda93258a",
+      "predictions": []
+    },
+    {
+      "doc_id": "cfb862f1b9052ae4",
+      "predictions": []
+    },
+    {
+      "doc_id": "642a2801fcbfbf99",
+      "predictions": []
+    },
+    {
+      "doc_id": "54518f2f6a73090e",
+      "predictions": []
+    },
+    {
+      "doc_id": "bf4ad086edfda543",
+      "predictions": []
+    },
+    {
+      "doc_id": "d3d3f7d2f3253de1",
+      "predictions": []
+    },
+    {
+      "doc_id": "de1807764198deaa",
+      "predictions": []
+    },
+    {
+      "doc_id": "f25ae75143f44b4f",
+      "predictions": []
+    },
+    {
+      "doc_id": "32160dcf8546d5dc",
+      "predictions": []
+    },
+    {
+      "doc_id": "db9adb556131c0a0",
+      "predictions": []
+    },
+    {
+      "doc_id": "d07ab18abe697fce",
+      "predictions": []
+    },
+    {
+      "doc_id": "ae7289149d195a5c",
+      "predictions": []
+    },
+    {
+      "doc_id": "1d0b02c4fd581af0",
+      "predictions": []
+    },
+    {
+      "doc_id": "192bf7504d6ad5fe",
+      "predictions": []
+    },
+    {
+      "doc_id": "600dfc4aa7e9905f",
+      "predictions": []
+    },
+    {
+      "doc_id": "3921f31ff586a775",
+      "predictions": []
+    },
+    {
+      "doc_id": "d66c7fde79dad543",
+      "predictions": []
+    },
+    {
+      "doc_id": "067978e2c9522d87",
+      "predictions": []
+    },
+    {
+      "doc_id": "4dc9c38b589af491",
+      "predictions": []
+    },
+    {
+      "doc_id": "a9009020722ea410",
+      "predictions": []
+    },
+    {
+      "doc_id": "f4f721bef4a155ce",
+      "predictions": []
+    },
+    {
+      "doc_id": "848a72283d204361",
+      "predictions": []
+    },
+    {
+      "doc_id": "49e095c5352289f1",
+      "predictions": []
+    },
+    {
+      "doc_id": "4b48496c6d461584",
+      "predictions": []
+    },
+    {
+      "doc_id": "3a0e3a5d94c79bd8",
+      "predictions": []
+    },
+    {
+      "doc_id": "2a366f4445e5a78c",
+      "predictions": []
+    },
+    {
+      "doc_id": "7379bf85268dbb72",
+      "predictions": []
+    },
+    {
+      "doc_id": "6c77dcf3907f3cdd",
+      "predictions": []
+    },
+    {
+      "doc_id": "a4ed4937460e9506",
+      "predictions": []
+    },
+    {
+      "doc_id": "ca18fa6b6a8a838d",
+      "predictions": []
+    },
+    {
+      "doc_id": "579fe9a9799c1dfa",
+      "predictions": []
+    },
+    {
+      "doc_id": "fbec6eacae88e7a7",
+      "predictions": []
+    },
+    {
+      "doc_id": "e39772a7f0088143",
+      "predictions": []
+    },
+    {
+      "doc_id": "a8656d58e0565dc0",
+      "predictions": []
+    },
+    {
+      "doc_id": "4a9cfb71aea45f0f",
+      "predictions": []
+    },
+    {
+      "doc_id": "8c3922d52da13261",
+      "predictions": []
+    },
+    {
+      "doc_id": "0dfab2e289fcc561",
+      "predictions": []
+    },
+    {
+      "doc_id": "d74bb99f8bd2de4a",
+      "predictions": []
+    },
+    {
+      "doc_id": "35eef3d5189e9873",
+      "predictions": []
+    },
+    {
+      "doc_id": "77407b10f7636f26",
+      "predictions": []
+    },
+    {
+      "doc_id": "de670d188a8c6fa5",
+      "predictions": []
+    },
+    {
+      "doc_id": "d668a45a231c6e37",
+      "predictions": []
+    },
+    {
+      "doc_id": "c7c8132d20e4378d",
+      "predictions": []
+    },
+    {
+      "doc_id": "4566f993ec6e777b",
+      "predictions": []
+    },
+    {
+      "doc_id": "3cd60b4dd2c33212",
+      "predictions": []
+    },
+    {
+      "doc_id": "860cf1c6bf24b7e7",
+      "predictions": []
+    },
+    {
+      "doc_id": "1ff2f0c4ebcd7af6",
+      "predictions": []
+    },
+    {
+      "doc_id": "bcd4ba5d252f3dce",
+      "predictions": []
+    },
+    {
+      "doc_id": "acabfaccf43f471b",
+      "predictions": []
+    },
+    {
+      "doc_id": "d515ff1461bb545c",
+      "predictions": []
+    },
+    {
+      "doc_id": "cf767259671109ed",
+      "predictions": []
+    },
+    {
+      "doc_id": "b6e757dd12a22411",
+      "predictions": []
+    },
+    {
+      "doc_id": "a0b9ab8684bd4d40",
+      "predictions": []
+    },
+    {
+      "doc_id": "1f4eeab9efd27c8d",
+      "predictions": []
+    },
+    {
+      "doc_id": "e301e12beac98bbe",
+      "predictions": []
+    },
+    {
+      "doc_id": "791b4b34a9529cc3",
+      "predictions": []
+    },
+    {
+      "doc_id": "553911eea9a1ea50",
+      "predictions": []
+    },
+    {
+      "doc_id": "96c3e78c44466892",
+      "predictions": []
+    },
+    {
+      "doc_id": "20f8d513c9a304f7",
+      "predictions": []
+    },
+    {
+      "doc_id": "c43ef57f6f65101e",
+      "predictions": []
+    },
+    {
+      "doc_id": "6c5796cdc032335b",
+      "predictions": []
+    },
+    {
+      "doc_id": "15d4086512779386",
+      "predictions": []
+    },
+    {
+      "doc_id": "4e3311f2a6ba79c2",
+      "predictions": []
+    },
+    {
+      "doc_id": "b61e5be42bbcad3b",
+      "predictions": []
+    },
+    {
+      "doc_id": "22e14097d25a608a",
+      "predictions": []
+    },
+    {
+      "doc_id": "9341a0bf09f82f9e",
+      "predictions": []
+    },
+    {
+      "doc_id": "cc06d65ea67cc7d1",
+      "predictions": []
+    },
+    {
+      "doc_id": "192486de61b89b19",
+      "predictions": []
+    },
+    {
+      "doc_id": "63b65b7344c4e3a4",
+      "predictions": []
+    },
+    {
+      "doc_id": "bf0ff1db9cf74707",
+      "predictions": []
+    },
+    {
+      "doc_id": "4da3a5c1c2c09eb3",
+      "predictions": []
+    },
+    {
+      "doc_id": "6647c93f728ef419",
+      "predictions": []
+    },
+    {
+      "doc_id": "3d7a91edc2448ac5",
+      "predictions": []
+    },
+    {
+      "doc_id": "ccfdaa4e371f48b9",
+      "predictions": []
+    },
+    {
+      "doc_id": "18b885ba779dc8a2",
+      "predictions": []
+    },
+    {
+      "doc_id": "5e8bf268d2fe81f2",
+      "predictions": []
+    },
+    {
+      "doc_id": "de43d686f57d8302",
+      "predictions": []
+    },
+    {
+      "doc_id": "5e79aed1e68d4d68",
+      "predictions": []
+    },
+    {
+      "doc_id": "bfa9a1e54fb026de",
+      "predictions": []
+    }
+  ]
+}

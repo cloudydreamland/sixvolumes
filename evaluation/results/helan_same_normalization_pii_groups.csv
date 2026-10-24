@@ -1,0 +1,17 @@
+﻿method,type,variant,n,exact_injection_recall
+helan_same_normalization,ID_CARD,plain,30,1.0
+helan_same_normalization,ID_CARD,fullwidth,30,1.0
+helan_same_normalization,ID_CARD,spaced,30,1.0
+helan_same_normalization,ID_CARD,zero_width,30,1.0
+helan_same_normalization,PHONE,plain,30,1.0
+helan_same_normalization,PHONE,fullwidth,30,1.0
+helan_same_normalization,PHONE,spaced,30,1.0
+helan_same_normalization,PHONE,zero_width,30,1.0
+helan_same_normalization,EMAIL,plain,30,1.0
+helan_same_normalization,EMAIL,fullwidth,30,1.0
+helan_same_normalization,EMAIL,spaced,30,1.0
+helan_same_normalization,EMAIL,zero_width,30,1.0
+helan_same_normalization,BANK_CARD,plain,30,1.0
+helan_same_normalization,BANK_CARD,fullwidth,30,1.0
+helan_same_normalization,BANK_CARD,spaced,30,1.0
+helan_same_normalization,BANK_CARD,zero_width,30,1.0

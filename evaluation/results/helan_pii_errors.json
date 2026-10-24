@@ -1,0 +1,3902 @@
+[
+  {
+    "method": "helan",
+    "id": "bd38ad756cd32a94-PHONE",
+    "type": "PHONE",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      352,
+      363
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "bd38ad756cd32a94-EMAIL",
+    "type": "EMAIL",
+    "variant": "spaced",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      353,
+      377
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "bd38ad756cd32a94-BANK_CARD",
+    "type": "BANK_CARD",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      352,
+      371
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "e122bf2732cdbdb4-ID_CARD",
+    "type": "ID_CARD",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      327,
+      345
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "e122bf2732cdbdb4-PHONE",
+    "type": "PHONE",
+    "variant": "spaced",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      327,
+      340
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "e122bf2732cdbdb4-EMAIL",
+    "type": "EMAIL",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      328,
+      352
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "9e4de19a5548eae1-PHONE",
+    "type": "PHONE",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      445,
+      458
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "9e4de19a5548eae1-BANK_CARD",
+    "type": "BANK_CARD",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      445,
+      461
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "b5c15fa84ba3a8bc-ID_CARD",
+    "type": "ID_CARD",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      648,
+      670
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "b5c15fa84ba3a8bc-EMAIL",
+    "type": "EMAIL",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      649,
+      669
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "27926d534cf011cc-PHONE",
+    "type": "PHONE",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      423,
+      434
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "27926d534cf011cc-EMAIL",
+    "type": "EMAIL",
+    "variant": "spaced",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      424,
+      448
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "27926d534cf011cc-BANK_CARD",
+    "type": "BANK_CARD",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      423,
+      442
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "6add336ef3ee51dd-ID_CARD",
+    "type": "ID_CARD",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      507,
+      525
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "6add336ef3ee51dd-PHONE",
+    "type": "PHONE",
+    "variant": "spaced",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      507,
+      520
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "6add336ef3ee51dd-EMAIL",
+    "type": "EMAIL",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      508,
+      532
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "14c0c3825f171286-PHONE",
+    "type": "PHONE",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      846,
+      859
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "14c0c3825f171286-BANK_CARD",
+    "type": "BANK_CARD",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      846,
+      862
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "e7beb2810ec0c7c9-ID_CARD",
+    "type": "ID_CARD",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      440,
+      462
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "e7beb2810ec0c7c9-EMAIL",
+    "type": "EMAIL",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      441,
+      461
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "802bc8ee8b5d742f-PHONE",
+    "type": "PHONE",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      774,
+      785
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "802bc8ee8b5d742f-EMAIL",
+    "type": "EMAIL",
+    "variant": "spaced",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      775,
+      799
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "802bc8ee8b5d742f-BANK_CARD",
+    "type": "BANK_CARD",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      774,
+      793
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "4a1bb21a60f2909e-ID_CARD",
+    "type": "ID_CARD",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      511,
+      529
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "4a1bb21a60f2909e-PHONE",
+    "type": "PHONE",
+    "variant": "spaced",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      511,
+      524
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "4a1bb21a60f2909e-EMAIL",
+    "type": "EMAIL",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      512,
+      536
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "0df2e123c00d59f3-PHONE",
+    "type": "PHONE",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      403,
+      416
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "0df2e123c00d59f3-BANK_CARD",
+    "type": "BANK_CARD",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      403,
+      419
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "c7562aa1cd40f731-ID_CARD",
+    "type": "ID_CARD",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      374,
+      396
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "c7562aa1cd40f731-EMAIL",
+    "type": "EMAIL",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      375,
+      395
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "8083a2ff7c22f160-PHONE",
+    "type": "PHONE",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      496,
+      507
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "8083a2ff7c22f160-EMAIL",
+    "type": "EMAIL",
+    "variant": "spaced",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      497,
+      521
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "8083a2ff7c22f160-BANK_CARD",
+    "type": "BANK_CARD",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      496,
+      515
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "9e8eaea1c031ee5d-ID_CARD",
+    "type": "ID_CARD",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      621,
+      639
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "9e8eaea1c031ee5d-PHONE",
+    "type": "PHONE",
+    "variant": "spaced",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      621,
+      634
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "9e8eaea1c031ee5d-EMAIL",
+    "type": "EMAIL",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      622,
+      646
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "7848d390ac308195-PHONE",
+    "type": "PHONE",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      506,
+      519
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "7848d390ac308195-BANK_CARD",
+    "type": "BANK_CARD",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      506,
+      522
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "91ad910bbdd7bfb5-ID_CARD",
+    "type": "ID_CARD",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      439,
+      461
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "91ad910bbdd7bfb5-EMAIL",
+    "type": "EMAIL",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      440,
+      460
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "4be4aa283f54db3b-PHONE",
+    "type": "PHONE",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      831,
+      842
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "4be4aa283f54db3b-EMAIL",
+    "type": "EMAIL",
+    "variant": "spaced",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      832,
+      856
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "4be4aa283f54db3b-BANK_CARD",
+    "type": "BANK_CARD",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      831,
+      850
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "5bed4920bed1b800-ID_CARD",
+    "type": "ID_CARD",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      337,
+      355
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "5bed4920bed1b800-PHONE",
+    "type": "PHONE",
+    "variant": "spaced",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      337,
+      350
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "5bed4920bed1b800-EMAIL",
+    "type": "EMAIL",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      338,
+      362
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "06e802403e213622-PHONE",
+    "type": "PHONE",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      376,
+      389
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "06e802403e213622-BANK_CARD",
+    "type": "BANK_CARD",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      376,
+      392
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "f92b269765dac031-ID_CARD",
+    "type": "ID_CARD",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      408,
+      430
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "f92b269765dac031-EMAIL",
+    "type": "EMAIL",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      409,
+      429
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "8733568ad727ade9-PHONE",
+    "type": "PHONE",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      758,
+      769
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "8733568ad727ade9-EMAIL",
+    "type": "EMAIL",
+    "variant": "spaced",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      759,
+      783
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "8733568ad727ade9-BANK_CARD",
+    "type": "BANK_CARD",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      758,
+      777
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "0b6ed2d9e6f42913-ID_CARD",
+    "type": "ID_CARD",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      466,
+      484
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "0b6ed2d9e6f42913-PHONE",
+    "type": "PHONE",
+    "variant": "spaced",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      466,
+      479
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "0b6ed2d9e6f42913-EMAIL",
+    "type": "EMAIL",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      467,
+      491
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "4b0a067f0fa576ae-PHONE",
+    "type": "PHONE",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      422,
+      435
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "4b0a067f0fa576ae-BANK_CARD",
+    "type": "BANK_CARD",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      422,
+      438
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "0acd090dfab4d320-ID_CARD",
+    "type": "ID_CARD",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      552,
+      574
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "0acd090dfab4d320-EMAIL",
+    "type": "EMAIL",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      553,
+      573
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "09f5316ea4c9268a-PHONE",
+    "type": "PHONE",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      948,
+      959
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "09f5316ea4c9268a-EMAIL",
+    "type": "EMAIL",
+    "variant": "spaced",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      949,
+      973
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "09f5316ea4c9268a-BANK_CARD",
+    "type": "BANK_CARD",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      948,
+      967
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "784cbc10e8584580-ID_CARD",
+    "type": "ID_CARD",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      521,
+      539
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "784cbc10e8584580-PHONE",
+    "type": "PHONE",
+    "variant": "spaced",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      521,
+      534
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "784cbc10e8584580-EMAIL",
+    "type": "EMAIL",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      522,
+      546
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "fb26d3af0e0c33d6-PHONE",
+    "type": "PHONE",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      892,
+      905
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "fb26d3af0e0c33d6-BANK_CARD",
+    "type": "BANK_CARD",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      892,
+      908
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "3a8a98fdd9db9a26-ID_CARD",
+    "type": "ID_CARD",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      415,
+      437
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "3a8a98fdd9db9a26-EMAIL",
+    "type": "EMAIL",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      416,
+      436
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "9b1d8433af611a33-PHONE",
+    "type": "PHONE",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      346,
+      357
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "9b1d8433af611a33-EMAIL",
+    "type": "EMAIL",
+    "variant": "spaced",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      347,
+      371
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "9b1d8433af611a33-BANK_CARD",
+    "type": "BANK_CARD",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      346,
+      365
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "70c729c646ea3684-ID_CARD",
+    "type": "ID_CARD",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      354,
+      372
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "70c729c646ea3684-PHONE",
+    "type": "PHONE",
+    "variant": "spaced",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      354,
+      367
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "70c729c646ea3684-EMAIL",
+    "type": "EMAIL",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      355,
+      379
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "5132f6fa9293a657-PHONE",
+    "type": "PHONE",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      526,
+      539
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "5132f6fa9293a657-BANK_CARD",
+    "type": "BANK_CARD",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      526,
+      542
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "8189cff57a20baeb-ID_CARD",
+    "type": "ID_CARD",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      418,
+      440
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "8189cff57a20baeb-EMAIL",
+    "type": "EMAIL",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      419,
+      439
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "50c2f6cd1f90efc8-PHONE",
+    "type": "PHONE",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      565,
+      576
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "50c2f6cd1f90efc8-EMAIL",
+    "type": "EMAIL",
+    "variant": "spaced",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      566,
+      590
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "50c2f6cd1f90efc8-BANK_CARD",
+    "type": "BANK_CARD",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      565,
+      584
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "1f5eeb7800e8b75c-ID_CARD",
+    "type": "ID_CARD",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      566,
+      584
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "1f5eeb7800e8b75c-PHONE",
+    "type": "PHONE",
+    "variant": "spaced",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      566,
+      579
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "1f5eeb7800e8b75c-EMAIL",
+    "type": "EMAIL",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      567,
+      591
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "c38b06300d9225a3-PHONE",
+    "type": "PHONE",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      415,
+      428
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "c38b06300d9225a3-BANK_CARD",
+    "type": "BANK_CARD",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      415,
+      431
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "68a9802b9c013ef6-ID_CARD",
+    "type": "ID_CARD",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      585,
+      607
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "68a9802b9c013ef6-EMAIL",
+    "type": "EMAIL",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      586,
+      606
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "7ca18069c4be3e8e-PHONE",
+    "type": "PHONE",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      338,
+      349
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "7ca18069c4be3e8e-EMAIL",
+    "type": "EMAIL",
+    "variant": "spaced",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      339,
+      363
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "7ca18069c4be3e8e-BANK_CARD",
+    "type": "BANK_CARD",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      338,
+      357
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "f9ca61f5731cd0ff-ID_CARD",
+    "type": "ID_CARD",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      321,
+      339
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "f9ca61f5731cd0ff-PHONE",
+    "type": "PHONE",
+    "variant": "spaced",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      321,
+      334
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "f9ca61f5731cd0ff-EMAIL",
+    "type": "EMAIL",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      322,
+      346
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "f05780c0eb0f700d-PHONE",
+    "type": "PHONE",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      913,
+      926
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "f05780c0eb0f700d-BANK_CARD",
+    "type": "BANK_CARD",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      913,
+      929
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "9da6153be57d8c0e-ID_CARD",
+    "type": "ID_CARD",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      545,
+      567
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "9da6153be57d8c0e-EMAIL",
+    "type": "EMAIL",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      546,
+      566
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "7d9124af3517c8df-PHONE",
+    "type": "PHONE",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      401,
+      412
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "7d9124af3517c8df-EMAIL",
+    "type": "EMAIL",
+    "variant": "spaced",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      402,
+      426
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "7d9124af3517c8df-BANK_CARD",
+    "type": "BANK_CARD",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      401,
+      420
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "996b6c0dda93258a-ID_CARD",
+    "type": "ID_CARD",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      559,
+      577
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "996b6c0dda93258a-PHONE",
+    "type": "PHONE",
+    "variant": "spaced",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      559,
+      572
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "996b6c0dda93258a-EMAIL",
+    "type": "EMAIL",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      560,
+      584
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "cfb862f1b9052ae4-PHONE",
+    "type": "PHONE",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      789,
+      802
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "cfb862f1b9052ae4-BANK_CARD",
+    "type": "BANK_CARD",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      789,
+      805
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "642a2801fcbfbf99-ID_CARD",
+    "type": "ID_CARD",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      905,
+      927
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "642a2801fcbfbf99-EMAIL",
+    "type": "EMAIL",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      906,
+      926
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "54518f2f6a73090e-PHONE",
+    "type": "PHONE",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      431,
+      442
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "54518f2f6a73090e-EMAIL",
+    "type": "EMAIL",
+    "variant": "spaced",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      432,
+      456
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "54518f2f6a73090e-BANK_CARD",
+    "type": "BANK_CARD",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      431,
+      450
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "bf4ad086edfda543-ID_CARD",
+    "type": "ID_CARD",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      427,
+      445
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "bf4ad086edfda543-PHONE",
+    "type": "PHONE",
+    "variant": "spaced",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      427,
+      440
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "bf4ad086edfda543-EMAIL",
+    "type": "EMAIL",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      428,
+      452
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "d3d3f7d2f3253de1-PHONE",
+    "type": "PHONE",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      368,
+      381
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "d3d3f7d2f3253de1-BANK_CARD",
+    "type": "BANK_CARD",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      368,
+      384
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "de1807764198deaa-ID_CARD",
+    "type": "ID_CARD",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      406,
+      428
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "de1807764198deaa-EMAIL",
+    "type": "EMAIL",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      407,
+      427
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "f25ae75143f44b4f-PHONE",
+    "type": "PHONE",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      660,
+      671
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "f25ae75143f44b4f-EMAIL",
+    "type": "EMAIL",
+    "variant": "spaced",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      661,
+      685
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "f25ae75143f44b4f-BANK_CARD",
+    "type": "BANK_CARD",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      660,
+      679
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "32160dcf8546d5dc-ID_CARD",
+    "type": "ID_CARD",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      584,
+      602
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "32160dcf8546d5dc-PHONE",
+    "type": "PHONE",
+    "variant": "spaced",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      584,
+      597
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "32160dcf8546d5dc-EMAIL",
+    "type": "EMAIL",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      585,
+      609
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "db9adb556131c0a0-PHONE",
+    "type": "PHONE",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      328,
+      341
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "db9adb556131c0a0-BANK_CARD",
+    "type": "BANK_CARD",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      328,
+      344
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "d07ab18abe697fce-ID_CARD",
+    "type": "ID_CARD",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      361,
+      383
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "d07ab18abe697fce-EMAIL",
+    "type": "EMAIL",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      362,
+      382
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "ae7289149d195a5c-PHONE",
+    "type": "PHONE",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      865,
+      876
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "ae7289149d195a5c-EMAIL",
+    "type": "EMAIL",
+    "variant": "spaced",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      866,
+      890
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "ae7289149d195a5c-BANK_CARD",
+    "type": "BANK_CARD",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      865,
+      884
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "1d0b02c4fd581af0-ID_CARD",
+    "type": "ID_CARD",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      357,
+      375
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "1d0b02c4fd581af0-PHONE",
+    "type": "PHONE",
+    "variant": "spaced",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      357,
+      370
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "1d0b02c4fd581af0-EMAIL",
+    "type": "EMAIL",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      358,
+      382
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "192bf7504d6ad5fe-PHONE",
+    "type": "PHONE",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      439,
+      452
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "192bf7504d6ad5fe-BANK_CARD",
+    "type": "BANK_CARD",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      439,
+      455
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "600dfc4aa7e9905f-ID_CARD",
+    "type": "ID_CARD",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      908,
+      930
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "600dfc4aa7e9905f-EMAIL",
+    "type": "EMAIL",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      909,
+      929
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "3921f31ff586a775-PHONE",
+    "type": "PHONE",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      744,
+      755
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "3921f31ff586a775-EMAIL",
+    "type": "EMAIL",
+    "variant": "spaced",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      745,
+      769
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "3921f31ff586a775-BANK_CARD",
+    "type": "BANK_CARD",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      744,
+      763
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "d66c7fde79dad543-ID_CARD",
+    "type": "ID_CARD",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      426,
+      444
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "d66c7fde79dad543-PHONE",
+    "type": "PHONE",
+    "variant": "spaced",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      426,
+      439
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "d66c7fde79dad543-EMAIL",
+    "type": "EMAIL",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      427,
+      451
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "067978e2c9522d87-PHONE",
+    "type": "PHONE",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      663,
+      676
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "067978e2c9522d87-BANK_CARD",
+    "type": "BANK_CARD",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      663,
+      679
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "4dc9c38b589af491-ID_CARD",
+    "type": "ID_CARD",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      807,
+      829
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "4dc9c38b589af491-EMAIL",
+    "type": "EMAIL",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      808,
+      828
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "a9009020722ea410-PHONE",
+    "type": "PHONE",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      498,
+      509
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "a9009020722ea410-EMAIL",
+    "type": "EMAIL",
+    "variant": "spaced",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      499,
+      523
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "a9009020722ea410-BANK_CARD",
+    "type": "BANK_CARD",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      498,
+      517
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "f4f721bef4a155ce-ID_CARD",
+    "type": "ID_CARD",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      302,
+      320
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "f4f721bef4a155ce-PHONE",
+    "type": "PHONE",
+    "variant": "spaced",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      302,
+      315
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "f4f721bef4a155ce-EMAIL",
+    "type": "EMAIL",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      303,
+      327
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "848a72283d204361-PHONE",
+    "type": "PHONE",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      387,
+      400
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "848a72283d204361-BANK_CARD",
+    "type": "BANK_CARD",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      387,
+      403
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "49e095c5352289f1-ID_CARD",
+    "type": "ID_CARD",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      333,
+      355
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "49e095c5352289f1-EMAIL",
+    "type": "EMAIL",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      334,
+      354
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "4b48496c6d461584-PHONE",
+    "type": "PHONE",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      367,
+      378
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "4b48496c6d461584-EMAIL",
+    "type": "EMAIL",
+    "variant": "spaced",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      368,
+      392
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "4b48496c6d461584-BANK_CARD",
+    "type": "BANK_CARD",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      367,
+      386
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "3a0e3a5d94c79bd8-ID_CARD",
+    "type": "ID_CARD",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      372,
+      390
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "3a0e3a5d94c79bd8-PHONE",
+    "type": "PHONE",
+    "variant": "spaced",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      372,
+      385
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "3a0e3a5d94c79bd8-EMAIL",
+    "type": "EMAIL",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      373,
+      397
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "2a366f4445e5a78c-PHONE",
+    "type": "PHONE",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      347,
+      360
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "2a366f4445e5a78c-BANK_CARD",
+    "type": "BANK_CARD",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      347,
+      363
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "7379bf85268dbb72-ID_CARD",
+    "type": "ID_CARD",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      332,
+      354
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "7379bf85268dbb72-EMAIL",
+    "type": "EMAIL",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      333,
+      353
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "6c77dcf3907f3cdd-PHONE",
+    "type": "PHONE",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      387,
+      398
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "6c77dcf3907f3cdd-EMAIL",
+    "type": "EMAIL",
+    "variant": "spaced",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      388,
+      412
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "6c77dcf3907f3cdd-BANK_CARD",
+    "type": "BANK_CARD",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      387,
+      406
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "a4ed4937460e9506-ID_CARD",
+    "type": "ID_CARD",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      346,
+      364
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "a4ed4937460e9506-PHONE",
+    "type": "PHONE",
+    "variant": "spaced",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      346,
+      359
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "a4ed4937460e9506-EMAIL",
+    "type": "EMAIL",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      347,
+      371
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "ca18fa6b6a8a838d-PHONE",
+    "type": "PHONE",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      350,
+      363
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "ca18fa6b6a8a838d-BANK_CARD",
+    "type": "BANK_CARD",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      350,
+      366
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "579fe9a9799c1dfa-ID_CARD",
+    "type": "ID_CARD",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      383,
+      405
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "579fe9a9799c1dfa-EMAIL",
+    "type": "EMAIL",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      384,
+      404
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "fbec6eacae88e7a7-PHONE",
+    "type": "PHONE",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      367,
+      378
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "fbec6eacae88e7a7-EMAIL",
+    "type": "EMAIL",
+    "variant": "spaced",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      368,
+      392
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "fbec6eacae88e7a7-BANK_CARD",
+    "type": "BANK_CARD",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      367,
+      386
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "e39772a7f0088143-ID_CARD",
+    "type": "ID_CARD",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      897,
+      915
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "e39772a7f0088143-PHONE",
+    "type": "PHONE",
+    "variant": "spaced",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      897,
+      910
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "e39772a7f0088143-EMAIL",
+    "type": "EMAIL",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      898,
+      922
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "a8656d58e0565dc0-PHONE",
+    "type": "PHONE",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      462,
+      475
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "a8656d58e0565dc0-BANK_CARD",
+    "type": "BANK_CARD",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      462,
+      478
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "4a9cfb71aea45f0f-ID_CARD",
+    "type": "ID_CARD",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      569,
+      591
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "4a9cfb71aea45f0f-EMAIL",
+    "type": "EMAIL",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      570,
+      590
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "8c3922d52da13261-PHONE",
+    "type": "PHONE",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      310,
+      321
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "8c3922d52da13261-EMAIL",
+    "type": "EMAIL",
+    "variant": "spaced",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      311,
+      335
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "8c3922d52da13261-BANK_CARD",
+    "type": "BANK_CARD",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      310,
+      329
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "0dfab2e289fcc561-ID_CARD",
+    "type": "ID_CARD",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      680,
+      698
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "0dfab2e289fcc561-PHONE",
+    "type": "PHONE",
+    "variant": "spaced",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      680,
+      693
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "0dfab2e289fcc561-EMAIL",
+    "type": "EMAIL",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      681,
+      705
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "d74bb99f8bd2de4a-PHONE",
+    "type": "PHONE",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      464,
+      477
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "d74bb99f8bd2de4a-BANK_CARD",
+    "type": "BANK_CARD",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      464,
+      480
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "35eef3d5189e9873-ID_CARD",
+    "type": "ID_CARD",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      958,
+      980
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "35eef3d5189e9873-EMAIL",
+    "type": "EMAIL",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      959,
+      979
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "77407b10f7636f26-PHONE",
+    "type": "PHONE",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      489,
+      500
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "77407b10f7636f26-EMAIL",
+    "type": "EMAIL",
+    "variant": "spaced",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      490,
+      514
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "77407b10f7636f26-BANK_CARD",
+    "type": "BANK_CARD",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      489,
+      508
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "de670d188a8c6fa5-ID_CARD",
+    "type": "ID_CARD",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      587,
+      605
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "de670d188a8c6fa5-PHONE",
+    "type": "PHONE",
+    "variant": "spaced",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      587,
+      600
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "de670d188a8c6fa5-EMAIL",
+    "type": "EMAIL",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      588,
+      612
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "d668a45a231c6e37-PHONE",
+    "type": "PHONE",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      528,
+      541
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "d668a45a231c6e37-BANK_CARD",
+    "type": "BANK_CARD",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      528,
+      544
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "c7c8132d20e4378d-ID_CARD",
+    "type": "ID_CARD",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      318,
+      340
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "c7c8132d20e4378d-EMAIL",
+    "type": "EMAIL",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      319,
+      339
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "4566f993ec6e777b-PHONE",
+    "type": "PHONE",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      510,
+      521
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "4566f993ec6e777b-EMAIL",
+    "type": "EMAIL",
+    "variant": "spaced",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      511,
+      535
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "4566f993ec6e777b-BANK_CARD",
+    "type": "BANK_CARD",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      510,
+      529
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "3cd60b4dd2c33212-ID_CARD",
+    "type": "ID_CARD",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      425,
+      443
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "3cd60b4dd2c33212-PHONE",
+    "type": "PHONE",
+    "variant": "spaced",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      425,
+      438
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "3cd60b4dd2c33212-EMAIL",
+    "type": "EMAIL",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      426,
+      450
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "860cf1c6bf24b7e7-PHONE",
+    "type": "PHONE",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      330,
+      343
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "860cf1c6bf24b7e7-BANK_CARD",
+    "type": "BANK_CARD",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      330,
+      346
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "1ff2f0c4ebcd7af6-ID_CARD",
+    "type": "ID_CARD",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      366,
+      388
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "1ff2f0c4ebcd7af6-EMAIL",
+    "type": "EMAIL",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      367,
+      387
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "bcd4ba5d252f3dce-PHONE",
+    "type": "PHONE",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      382,
+      393
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "bcd4ba5d252f3dce-EMAIL",
+    "type": "EMAIL",
+    "variant": "spaced",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      383,
+      407
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "bcd4ba5d252f3dce-BANK_CARD",
+    "type": "BANK_CARD",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      382,
+      401
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "acabfaccf43f471b-ID_CARD",
+    "type": "ID_CARD",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      641,
+      659
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "acabfaccf43f471b-PHONE",
+    "type": "PHONE",
+    "variant": "spaced",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      641,
+      654
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "acabfaccf43f471b-EMAIL",
+    "type": "EMAIL",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      642,
+      666
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "d515ff1461bb545c-PHONE",
+    "type": "PHONE",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      400,
+      413
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "d515ff1461bb545c-BANK_CARD",
+    "type": "BANK_CARD",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      400,
+      416
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "cf767259671109ed-ID_CARD",
+    "type": "ID_CARD",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      303,
+      325
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "cf767259671109ed-EMAIL",
+    "type": "EMAIL",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      304,
+      324
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "b6e757dd12a22411-PHONE",
+    "type": "PHONE",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      634,
+      645
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "b6e757dd12a22411-EMAIL",
+    "type": "EMAIL",
+    "variant": "spaced",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      635,
+      659
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "b6e757dd12a22411-BANK_CARD",
+    "type": "BANK_CARD",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      634,
+      653
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "a0b9ab8684bd4d40-ID_CARD",
+    "type": "ID_CARD",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      358,
+      376
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "a0b9ab8684bd4d40-PHONE",
+    "type": "PHONE",
+    "variant": "spaced",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      358,
+      371
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "a0b9ab8684bd4d40-EMAIL",
+    "type": "EMAIL",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      359,
+      383
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "1f4eeab9efd27c8d-PHONE",
+    "type": "PHONE",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      306,
+      319
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "1f4eeab9efd27c8d-BANK_CARD",
+    "type": "BANK_CARD",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      306,
+      322
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "e301e12beac98bbe-ID_CARD",
+    "type": "ID_CARD",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      536,
+      558
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "e301e12beac98bbe-EMAIL",
+    "type": "EMAIL",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      537,
+      557
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "791b4b34a9529cc3-PHONE",
+    "type": "PHONE",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      412,
+      423
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "791b4b34a9529cc3-EMAIL",
+    "type": "EMAIL",
+    "variant": "spaced",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      413,
+      437
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "791b4b34a9529cc3-BANK_CARD",
+    "type": "BANK_CARD",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      412,
+      431
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "553911eea9a1ea50-ID_CARD",
+    "type": "ID_CARD",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      570,
+      588
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "553911eea9a1ea50-PHONE",
+    "type": "PHONE",
+    "variant": "spaced",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      570,
+      583
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "553911eea9a1ea50-EMAIL",
+    "type": "EMAIL",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      571,
+      595
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "96c3e78c44466892-PHONE",
+    "type": "PHONE",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      601,
+      614
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "96c3e78c44466892-BANK_CARD",
+    "type": "BANK_CARD",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      601,
+      617
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "20f8d513c9a304f7-ID_CARD",
+    "type": "ID_CARD",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      384,
+      406
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "20f8d513c9a304f7-EMAIL",
+    "type": "EMAIL",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      385,
+      405
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "c43ef57f6f65101e-PHONE",
+    "type": "PHONE",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      337,
+      348
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "c43ef57f6f65101e-EMAIL",
+    "type": "EMAIL",
+    "variant": "spaced",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      338,
+      362
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "c43ef57f6f65101e-BANK_CARD",
+    "type": "BANK_CARD",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      337,
+      356
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "6c5796cdc032335b-ID_CARD",
+    "type": "ID_CARD",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      361,
+      379
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "6c5796cdc032335b-PHONE",
+    "type": "PHONE",
+    "variant": "spaced",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      361,
+      374
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "6c5796cdc032335b-EMAIL",
+    "type": "EMAIL",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      362,
+      386
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "15d4086512779386-PHONE",
+    "type": "PHONE",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      320,
+      333
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "15d4086512779386-BANK_CARD",
+    "type": "BANK_CARD",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      320,
+      336
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "4e3311f2a6ba79c2-ID_CARD",
+    "type": "ID_CARD",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      842,
+      864
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "4e3311f2a6ba79c2-EMAIL",
+    "type": "EMAIL",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      843,
+      863
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "b61e5be42bbcad3b-PHONE",
+    "type": "PHONE",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      318,
+      329
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "b61e5be42bbcad3b-EMAIL",
+    "type": "EMAIL",
+    "variant": "spaced",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      319,
+      343
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "b61e5be42bbcad3b-BANK_CARD",
+    "type": "BANK_CARD",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      318,
+      337
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "22e14097d25a608a-ID_CARD",
+    "type": "ID_CARD",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      618,
+      636
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "22e14097d25a608a-PHONE",
+    "type": "PHONE",
+    "variant": "spaced",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      618,
+      631
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "22e14097d25a608a-EMAIL",
+    "type": "EMAIL",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      619,
+      643
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "9341a0bf09f82f9e-PHONE",
+    "type": "PHONE",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      656,
+      669
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "9341a0bf09f82f9e-BANK_CARD",
+    "type": "BANK_CARD",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      656,
+      672
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "cc06d65ea67cc7d1-ID_CARD",
+    "type": "ID_CARD",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      523,
+      545
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "cc06d65ea67cc7d1-EMAIL",
+    "type": "EMAIL",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      524,
+      544
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "192486de61b89b19-PHONE",
+    "type": "PHONE",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      379,
+      390
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "192486de61b89b19-EMAIL",
+    "type": "EMAIL",
+    "variant": "spaced",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      380,
+      404
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "192486de61b89b19-BANK_CARD",
+    "type": "BANK_CARD",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      379,
+      398
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "63b65b7344c4e3a4-ID_CARD",
+    "type": "ID_CARD",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      355,
+      373
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "63b65b7344c4e3a4-PHONE",
+    "type": "PHONE",
+    "variant": "spaced",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      355,
+      368
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "63b65b7344c4e3a4-EMAIL",
+    "type": "EMAIL",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      356,
+      380
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "bf0ff1db9cf74707-PHONE",
+    "type": "PHONE",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      398,
+      411
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "bf0ff1db9cf74707-BANK_CARD",
+    "type": "BANK_CARD",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      398,
+      414
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "4da3a5c1c2c09eb3-ID_CARD",
+    "type": "ID_CARD",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      483,
+      505
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "4da3a5c1c2c09eb3-EMAIL",
+    "type": "EMAIL",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      484,
+      504
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "6647c93f728ef419-PHONE",
+    "type": "PHONE",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      421,
+      432
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "6647c93f728ef419-EMAIL",
+    "type": "EMAIL",
+    "variant": "spaced",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      422,
+      446
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "6647c93f728ef419-BANK_CARD",
+    "type": "BANK_CARD",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      421,
+      440
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "3d7a91edc2448ac5-ID_CARD",
+    "type": "ID_CARD",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      780,
+      798
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "3d7a91edc2448ac5-PHONE",
+    "type": "PHONE",
+    "variant": "spaced",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      780,
+      793
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "3d7a91edc2448ac5-EMAIL",
+    "type": "EMAIL",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      781,
+      805
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "ccfdaa4e371f48b9-PHONE",
+    "type": "PHONE",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      895,
+      908
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "ccfdaa4e371f48b9-BANK_CARD",
+    "type": "BANK_CARD",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      895,
+      911
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "18b885ba779dc8a2-ID_CARD",
+    "type": "ID_CARD",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      294,
+      316
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "18b885ba779dc8a2-EMAIL",
+    "type": "EMAIL",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      295,
+      315
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "5e8bf268d2fe81f2-PHONE",
+    "type": "PHONE",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      544,
+      555
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "5e8bf268d2fe81f2-EMAIL",
+    "type": "EMAIL",
+    "variant": "spaced",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      545,
+      569
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "5e8bf268d2fe81f2-BANK_CARD",
+    "type": "BANK_CARD",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      544,
+      563
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "de43d686f57d8302-ID_CARD",
+    "type": "ID_CARD",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      502,
+      520
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "de43d686f57d8302-PHONE",
+    "type": "PHONE",
+    "variant": "spaced",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      502,
+      515
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "de43d686f57d8302-EMAIL",
+    "type": "EMAIL",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      503,
+      527
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "5e79aed1e68d4d68-PHONE",
+    "type": "PHONE",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      402,
+      415
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "5e79aed1e68d4d68-BANK_CARD",
+    "type": "BANK_CARD",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      402,
+      418
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "bfa9a1e54fb026de-ID_CARD",
+    "type": "ID_CARD",
+    "variant": "zero_width",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      327,
+      349
+    ],
+    "unexpected": []
+  },
+  {
+    "method": "helan",
+    "id": "bfa9a1e54fb026de-EMAIL",
+    "type": "EMAIL",
+    "variant": "fullwidth",
+    "hit": false,
+    "predictions": [],
+    "gold": [
+      328,
+      348
+    ],
+    "unexpected": []
+  }
+]

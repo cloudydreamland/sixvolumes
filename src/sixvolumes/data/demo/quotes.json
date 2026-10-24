@@ -1,0 +1,7 @@
+{
+  "dataset_kind": "synthetic-original-demo",
+  "quotes": [
+    {"id": "reimbursement-deadline", "source": "内部制度.txt", "quote": "员工差旅报销应在返程后十五个工作日内提交。"},
+    {"id": "transport-limit", "source": "内部制度.txt", "quote": "市内交通费凭发票据实报销，每天上限八十元。"}
+  ]
+}

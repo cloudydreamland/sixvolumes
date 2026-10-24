@@ -1,0 +1,78 @@
+{
+  "rows": [
+    {
+      "method": "worddael_recursive",
+      "questions": 238,
+      "chunks": 313,
+      "embedding_seconds": 9.274853700073436,
+      "mrr_at5": 0.9495798319327731,
+      "answer_span_recall_at1": 0.907563025210084,
+      "answer_span_recall_at3": 0.9957983193277311,
+      "answer_span_recall_at5": 0.9957983193277311
+    },
+    {
+      "method": "langchain_zh_recursive",
+      "questions": 238,
+      "chunks": 314,
+      "embedding_seconds": 9.738273599999957,
+      "mrr_at5": 0.9495798319327731,
+      "answer_span_recall_at1": 0.907563025210084,
+      "answer_span_recall_at3": 0.9957983193277311,
+      "answer_span_recall_at5": 0.9957983193277311
+    },
+    {
+      "method": "chonkie_zh_recursive",
+      "questions": 238,
+      "chunks": 314,
+      "embedding_seconds": 9.25152980000712,
+      "mrr_at5": 0.9495798319327731,
+      "answer_span_recall_at1": 0.907563025210084,
+      "answer_span_recall_at3": 0.9957983193277311,
+      "answer_span_recall_at5": 0.9957983193277311
+    },
+    {
+      "method": "fixed256",
+      "questions": 238,
+      "chunks": 296,
+      "embedding_seconds": 9.068999300012365,
+      "mrr_at5": 0.9423669467787116,
+      "answer_span_recall_at1": 0.9117647058823529,
+      "answer_span_recall_at3": 0.9747899159663865,
+      "answer_span_recall_at5": 0.9831932773109243
+    }
+  ],
+  "paired_document_bootstrap": [
+    {
+      "baseline": "langchain_zh_recursive",
+      "metric": "recall@3 difference worddael-baseline",
+      "difference": 0.0,
+      "document_bootstrap_95ci": [
+        0.0,
+        0.0
+      ],
+      "resamples": 2000
+    },
+    {
+      "baseline": "chonkie_zh_recursive",
+      "metric": "recall@3 difference worddael-baseline",
+      "difference": 0.0,
+      "document_bootstrap_95ci": [
+        0.0,
+        0.0
+      ],
+      "resamples": 2000
+    },
+    {
+      "baseline": "fixed256",
+      "metric": "recall@3 difference worddael-baseline",
+      "difference": 0.02100840336134454,
+      "document_bootstrap_95ci": [
+        0.0,
+        0.04219409282700422
+      ],
+      "resamples": 2000
+    }
+  ],
+  "total_seconds": 38.297675400041044,
+  "note": "Real public CMRC questions and answer spans, CPU learned ONNX embeddings. Retrieval only; no generation or LLM judge."
+}

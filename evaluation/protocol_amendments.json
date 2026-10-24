@@ -1,0 +1,23 @@
+{
+  "amendments": [
+    {
+      "change": "Chonkie space delimiter replaced by RecursiveLevel(whitespace=True)",
+      "reason": "API rejects whitespace-only custom delimiter; constructor failed before Chonkie results existed",
+      "changes_task": false
+    },
+    {
+      "change": "Siftan imported from siftan.index",
+      "reason": "README top-level import not exported; module API used; no algorithm changed"
+    },
+    {
+      "change": "nonmember control documents split first20 calibration,next20 holdout",
+      "reason": "prevent control-set leakage; done before first successful Siftan run/any threshold or holdout observation"
+    },
+    {
+      "change": "helan_same_normalization diagnostic added",
+      "reason": "after observing native Helan failures, same already-used Presidio normalization adapter applied to Helan",
+      "claim_restriction": "post-observation diagnostic, NOT independent holdout validation of a product repair"
+    }
+  ],
+  "baseline_version_policy": "Pinned disclosed available versions chosen before first results; not claimed latest or comprehensive. Upgrade comparisons require another explicitly labeled run."
+}

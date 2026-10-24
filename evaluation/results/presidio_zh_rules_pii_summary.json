@@ -1,0 +1,130 @@
+{
+  "method": "presidio_zh_rules",
+  "injections": 480,
+  "exact_injection_recall": 1.0,
+  "negative_controls": 120,
+  "negative_control_false_alarms": 0,
+  "unannotated_background_alerts": 0,
+  "performance": {
+    "elapsed_ms": 257.4814000399783,
+    "rss_peak_mb": 94.1796875,
+    "rss_start_mb": 92.96875,
+    "python_alloc_peak_mb": 0.5035696029663086,
+    "memory_note": "isolated worker RSS sampled every5ms after imports; Python allocations via tracemalloc; timing includes instrumentation"
+  },
+  "groups": [
+    {
+      "method": "presidio_zh_rules",
+      "type": "ID_CARD",
+      "variant": "plain",
+      "n": 30,
+      "exact_injection_recall": 1.0
+    },
+    {
+      "method": "presidio_zh_rules",
+      "type": "ID_CARD",
+      "variant": "fullwidth",
+      "n": 30,
+      "exact_injection_recall": 1.0
+    },
+    {
+      "method": "presidio_zh_rules",
+      "type": "ID_CARD",
+      "variant": "spaced",
+      "n": 30,
+      "exact_injection_recall": 1.0
+    },
+    {
+      "method": "presidio_zh_rules",
+      "type": "ID_CARD",
+      "variant": "zero_width",
+      "n": 30,
+      "exact_injection_recall": 1.0
+    },
+    {
+      "method": "presidio_zh_rules",
+      "type": "PHONE",
+      "variant": "plain",
+      "n": 30,
+      "exact_injection_recall": 1.0
+    },
+    {
+      "method": "presidio_zh_rules",
+      "type": "PHONE",
+      "variant": "fullwidth",
+      "n": 30,
+      "exact_injection_recall": 1.0
+    },
+    {
+      "method": "presidio_zh_rules",
+      "type": "PHONE",
+      "variant": "spaced",
+      "n": 30,
+      "exact_injection_recall": 1.0
+    },
+    {
+      "method": "presidio_zh_rules",
+      "type": "PHONE",
+      "variant": "zero_width",
+      "n": 30,
+      "exact_injection_recall": 1.0
+    },
+    {
+      "method": "presidio_zh_rules",
+      "type": "EMAIL",
+      "variant": "plain",
+      "n": 30,
+      "exact_injection_recall": 1.0
+    },
+    {
+      "method": "presidio_zh_rules",
+      "type": "EMAIL",
+      "variant": "fullwidth",
+      "n": 30,
+      "exact_injection_recall": 1.0
+    },
+    {
+      "method": "presidio_zh_rules",
+      "type": "EMAIL",
+      "variant": "spaced",
+      "n": 30,
+      "exact_injection_recall": 1.0
+    },
+    {
+      "method": "presidio_zh_rules",
+      "type": "EMAIL",
+      "variant": "zero_width",
+      "n": 30,
+      "exact_injection_recall": 1.0
+    },
+    {
+      "method": "presidio_zh_rules",
+      "type": "BANK_CARD",
+      "variant": "plain",
+      "n": 30,
+      "exact_injection_recall": 1.0
+    },
+    {
+      "method": "presidio_zh_rules",
+      "type": "BANK_CARD",
+      "variant": "fullwidth",
+      "n": 30,
+      "exact_injection_recall": 1.0
+    },
+    {
+      "method": "presidio_zh_rules",
+      "type": "BANK_CARD",
+      "variant": "spaced",
+      "n": 30,
+      "exact_injection_recall": 1.0
+    },
+    {
+      "method": "presidio_zh_rules",
+      "type": "BANK_CARD",
+      "variant": "zero_width",
+      "n": 30,
+      "exact_injection_recall": 1.0
+    }
+  ],
+  "scope": "4 structured entity types, synthetic injections; NOT production PII accuracy; background alerts require human adjudication; baseline is Presidio PatternRecognizer+independent Chinese normalizer/checksums, NOT full Presidio NER"
+}

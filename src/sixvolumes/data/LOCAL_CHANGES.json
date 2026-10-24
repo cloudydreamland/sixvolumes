@@ -1,0 +1,161 @@
+{
+  "schema_version": 1,
+  "changes": [
+    {
+      "package": "siftan",
+      "file": "GAP_PROOF.md",
+      "before": "c537a4eb8a797a43438feef66192ee6c1f34155f305e41d65f7300b22dee0d66",
+      "after": "f5b9f5c33561ead5efcf477937ed9221437fa274e26d73b7b1b5a5960e8e3780"
+    },
+    {
+      "package": "siftan",
+      "file": "REPORT.md",
+      "before": "4cb636a3553c62196c1a7044fccac71fb8f3d64c6f07c0e793f33fcccede1238",
+      "after": "f88b4fd8c6e7f686d3af7227abb8fba65bea468611a2bc1f74b2e25dd96b2fb7"
+    },
+    {
+      "package": "siftan",
+      "file": "src/siftan/__init__.py",
+      "before": "8a31f9c4d1383cb09647aee7afc3c2ad1701792c922356f1039390526f91540b",
+      "after": "7a424bc5d0fcb3b376e2254f5dfd08792144bfda5ba0980ceebf23384b0da702"
+    },
+    {
+      "package": "helan",
+      "file": "GAP_PROOF.md",
+      "before": "bf958374ab65a087db3528c8103051d1668322cedc69865721c12fde769f61c0",
+      "after": "d693df6b0c38d93a8ebf651c1d7c4492d9948c27339ba9117d4c6d7ed1d26b7f"
+    },
+    {
+      "package": "helan",
+      "file": "REPORT.md",
+      "before": "f36dc43467891c861e54df0b49deb99fe0f24322fa43d14c832616fde43430b2",
+      "after": "150441479531dce64ae4a7c390cc91e47e65cfc5e8deb46a943669f712981bf6"
+    },
+    {
+      "package": "gewita",
+      "file": "GAP_PROOF.md",
+      "before": "235c8d790fd7302a7873f875b24dd00bf0bb13391c2780c70e87e0d5aa40a44d",
+      "after": "b150e3a775cf2e2048d3559aac1d41642bf95d2ce5f54b2a983d907f33b23e63"
+    },
+    {
+      "package": "gewita",
+      "file": "REPORT.md",
+      "before": "88c4fccb7636902e9bf5cba046699bb8a33f870d41320e4d481e1aa98e40c592",
+      "after": "95d0f2aba18764fa10cb3043cdfe6e315858511f1090164a999f0657e31c1c6f"
+    },
+    {
+      "package": "worddael",
+      "file": "benchmarks/results.md",
+      "before": "fda5c4e36002fcc19cda00b857b2513cf7bbc06e70ae61f7487d07892f09e44d",
+      "after": "32e9a92c12be4e50e45d6d89342823f08c3832458794c0e68cbdb32ca654fa8e"
+    },
+    {
+      "package": "worddael",
+      "file": "GAP_PROOF.md",
+      "before": "c39c72d1c82f60fc609addaa07abb05d68e57c7e4bb729cc302517460466a245",
+      "after": "4f740819a6bafbdf5a2306fdd29f3ef6306c31564c6370ba2d00902193422896"
+    },
+    {
+      "package": "worddael",
+      "file": "REPORT.md",
+      "before": "4fa9de1be8e4aacc6c5a22475c73ede3e0f044f43154f97198995aa56af1174f",
+      "after": "2b587905536647abfb80d6dc47d369e6763ae362fe9ddebab64bd56ec80544a2"
+    },
+    {
+      "package": "worddael",
+      "file": "src/worddael/chunkers.py",
+      "before": "e7649882a328933190f40ed8734ff15d94ec73cc479d5cc0f024dc5ec96dc039",
+      "after": "90f2c140756fd0216481133314251e2d761d034a9e4c1a7fe49ef382550293c3"
+    },
+    {
+      "package": "worddael",
+      "file": "src/worddael/eval/report.py",
+      "before": "57adc79a68f07e38beb288998d70198e844eda3a1fcf59d0ec487bd386d91bf0",
+      "after": "a1b676ce0d53dcdb36592a4ccd53219872996b0c71cb377e8ec6910c19952240"
+    },
+    {
+      "package": "worddael",
+      "file": "src/worddael/eval/retrieval.py",
+      "before": "92488aba39427b56631efa0989948c070254e50b642fae8b992e4db024f2cf0c",
+      "after": "1e9f2dc4fe25b1bc6c2badc2e5659e74f1e9e451c8a706fe4c343f237d413005"
+    },
+    {
+      "package": "worddael",
+      "file": "tests/test_hygiene.py",
+      "before": "caa49a3a970034bfa060bf4566cfb0dfe771c723a1511cdf8c5379342f3536a9",
+      "after": "211586ff155b24bcf55150ffe5ba99a329eb9677fc6367bfd6a24650e7ec3599"
+    },
+    {
+      "package": "worddael",
+      "file": "tests/test_offsets.py",
+      "before": "6b65d28c5118d4d776a7d5673db53f77b82f581e9938959072e64ab7e5fa7075",
+      "after": "ccf47add1713179aec612d3b2b8c2f72d6d2a9e24590d6d184847ee9d9220f96"
+    },
+    {
+      "package": "worddael",
+      "file": "benchmarks/results.upstream-jieba.md",
+      "before": null,
+      "after": "fda5c4e36002fcc19cda00b857b2513cf7bbc06e70ae61f7487d07892f09e44d"
+    },
+    {
+      "package": "worddael",
+      "file": "tests/test_hard_budget.py",
+      "before": null,
+      "after": "384eb12a4048e0c05d03549c276774eb19f6e60965022e1b0d23a0524b723f29"
+    },
+    {
+      "package": "tellan",
+      "file": "GAP_PROOF.md",
+      "before": "311b3b770daa67f4b1f8a87e1dd4a58838143f193480ace18c89c43e0b4a4baa",
+      "after": "a88694d6c6220c3a09ef316df32428d39cee1619e0b32af7eeb0b15d05c8ffd7"
+    },
+    {
+      "package": "tellan",
+      "file": "REPORT.md",
+      "before": "cd70586cb2ecdb06bdd7252e7a1f25da1e021632e8ea783d547a47174d97d90f",
+      "after": "7328b4fd88b4c3348f241264fb049a29e466f52260bdf0c836d167377cd2e245"
+    },
+    {
+      "package": "tellan",
+      "file": "src/tellan/__init__.py",
+      "before": "90226edb08d3ff9ce21d498f1a7112885dd44e315c3ed55fe1365b501debc15f",
+      "after": "f23051a2bcbe8becd8c0f49b6dd85fe97c8987f40b2601a228be74e4058ceebf"
+    },
+    {
+      "package": "tellan",
+      "file": "src/tellan/capture.py",
+      "before": "74b93246d2316103690b051c4403733aac152876dc52178398b38124e3d88425",
+      "after": "d7dd1a55678fda0c23fbd3a282cfe13a74046dd1b2c0a9dc824cbb35b54a13a6"
+    },
+    {
+      "package": "tellan",
+      "file": "src/tellan/recount.py",
+      "before": "c1378a6eaa334209879f32374883d00644fab762ba3e139a15e21a9b75d6b0eb",
+      "after": "851131935a8ddccf9fbd96191aaae099d94156c9ad0228492de95c3eea551c04"
+    },
+    {
+      "package": "tellan",
+      "file": "tests/test_capture.py",
+      "before": "7b4e87825b3b62f9491dd5fef67074ff7c704307c583eae7dcaf7db0f3932f97",
+      "after": "c4d665bc4ca7fe3843c368697d0b18b5bcb4dc40a20118eee9d22cdf2e96e39a"
+    },
+    {
+      "package": "tellan",
+      "file": "tests/test_recount.py",
+      "before": "cb977d7c1302a5e4b23f1f83b011a37ecd93a7c992f7ab5160c70b0a4226dc7e",
+      "after": "a4166d6f23c53292178ba3e318373537bd999b5c611e3c256e2fd010ab3fc467"
+    },
+    {
+      "package": "sothstan",
+      "file": "GAP_PROOF.md",
+      "before": "7b5b6e2ecb1fea7042b4d2bd2b4a3e834cbac5c68482d210e46fa6e7d9ab219f",
+      "after": "14292447b301014793f10f4a7ae0030f29eb76efe2d828326c66423bfde7b59a"
+    },
+    {
+      "package": "sothstan",
+      "file": "REPORT.md",
+      "before": "e9b63ca63be3b501f294fbe590362163058d7799ea2d36d3cedc37883fbc1a18",
+      "after": "72b9aabb5929937b08cdc0238404cdff2397d927fc40e52720d3cb0ab6dd231a"
+    }
+  ]
+}

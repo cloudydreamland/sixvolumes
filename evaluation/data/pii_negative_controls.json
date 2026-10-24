@@ -1,0 +1,602 @@
+[
+  {
+    "id": "invalid_id_0",
+    "text": "此为无效校验码测试：身份证 110105198703122000。",
+    "type": "ID_CARD"
+  },
+  {
+    "id": "invalid_bank_0",
+    "text": "此为无效校验码测试：银行卡 6222020000002004。",
+    "type": "BANK_CARD"
+  },
+  {
+    "id": "invalid_phone_0",
+    "text": "此为无效号段测试：手机号 11100000000。",
+    "type": "PHONE"
+  },
+  {
+    "id": "invalid_id_1",
+    "text": "此为无效校验码测试：身份证 110105198703122010。",
+    "type": "ID_CARD"
+  },
+  {
+    "id": "invalid_bank_1",
+    "text": "此为无效校验码测试：银行卡 6222020000002012。",
+    "type": "BANK_CARD"
+  },
+  {
+    "id": "invalid_phone_1",
+    "text": "此为无效号段测试：手机号 11100000001。",
+    "type": "PHONE"
+  },
+  {
+    "id": "invalid_id_2",
+    "text": "此为无效校验码测试：身份证 110105198703122021。",
+    "type": "ID_CARD"
+  },
+  {
+    "id": "invalid_bank_2",
+    "text": "此为无效校验码测试：银行卡 6222020000002020。",
+    "type": "BANK_CARD"
+  },
+  {
+    "id": "invalid_phone_2",
+    "text": "此为无效号段测试：手机号 11100000002。",
+    "type": "PHONE"
+  },
+  {
+    "id": "invalid_id_3",
+    "text": "此为无效校验码测试：身份证 110105198703122030。",
+    "type": "ID_CARD"
+  },
+  {
+    "id": "invalid_bank_3",
+    "text": "此为无效校验码测试：银行卡 6222020000002038。",
+    "type": "BANK_CARD"
+  },
+  {
+    "id": "invalid_phone_3",
+    "text": "此为无效号段测试：手机号 11100000003。",
+    "type": "PHONE"
+  },
+  {
+    "id": "invalid_id_4",
+    "text": "此为无效校验码测试：身份证 110105198703122040。",
+    "type": "ID_CARD"
+  },
+  {
+    "id": "invalid_bank_4",
+    "text": "此为无效校验码测试：银行卡 6222020000002046。",
+    "type": "BANK_CARD"
+  },
+  {
+    "id": "invalid_phone_4",
+    "text": "此为无效号段测试：手机号 11100000004。",
+    "type": "PHONE"
+  },
+  {
+    "id": "invalid_id_5",
+    "text": "此为无效校验码测试：身份证 110105198703122050。",
+    "type": "ID_CARD"
+  },
+  {
+    "id": "invalid_bank_5",
+    "text": "此为无效校验码测试：银行卡 6222020000002053。",
+    "type": "BANK_CARD"
+  },
+  {
+    "id": "invalid_phone_5",
+    "text": "此为无效号段测试：手机号 11100000005。",
+    "type": "PHONE"
+  },
+  {
+    "id": "invalid_id_6",
+    "text": "此为无效校验码测试：身份证 110105198703122060。",
+    "type": "ID_CARD"
+  },
+  {
+    "id": "invalid_bank_6",
+    "text": "此为无效校验码测试：银行卡 6222020000002061。",
+    "type": "BANK_CARD"
+  },
+  {
+    "id": "invalid_phone_6",
+    "text": "此为无效号段测试：手机号 11100000006。",
+    "type": "PHONE"
+  },
+  {
+    "id": "invalid_id_7",
+    "text": "此为无效校验码测试：身份证 110105198703122070。",
+    "type": "ID_CARD"
+  },
+  {
+    "id": "invalid_bank_7",
+    "text": "此为无效校验码测试：银行卡 6222020000002079。",
+    "type": "BANK_CARD"
+  },
+  {
+    "id": "invalid_phone_7",
+    "text": "此为无效号段测试：手机号 11100000007。",
+    "type": "PHONE"
+  },
+  {
+    "id": "invalid_id_8",
+    "text": "此为无效校验码测试：身份证 110105198703122080。",
+    "type": "ID_CARD"
+  },
+  {
+    "id": "invalid_bank_8",
+    "text": "此为无效校验码测试：银行卡 6222020000002087。",
+    "type": "BANK_CARD"
+  },
+  {
+    "id": "invalid_phone_8",
+    "text": "此为无效号段测试：手机号 11100000008。",
+    "type": "PHONE"
+  },
+  {
+    "id": "invalid_id_9",
+    "text": "此为无效校验码测试：身份证 110105198703122090。",
+    "type": "ID_CARD"
+  },
+  {
+    "id": "invalid_bank_9",
+    "text": "此为无效校验码测试：银行卡 6222020000002095。",
+    "type": "BANK_CARD"
+  },
+  {
+    "id": "invalid_phone_9",
+    "text": "此为无效号段测试：手机号 11100000009。",
+    "type": "PHONE"
+  },
+  {
+    "id": "invalid_id_10",
+    "text": "此为无效校验码测试：身份证 110105198703122101。",
+    "type": "ID_CARD"
+  },
+  {
+    "id": "invalid_bank_10",
+    "text": "此为无效校验码测试：银行卡 6222020000002103。",
+    "type": "BANK_CARD"
+  },
+  {
+    "id": "invalid_phone_10",
+    "text": "此为无效号段测试：手机号 11100000010。",
+    "type": "PHONE"
+  },
+  {
+    "id": "invalid_id_11",
+    "text": "此为无效校验码测试：身份证 110105198703122110。",
+    "type": "ID_CARD"
+  },
+  {
+    "id": "invalid_bank_11",
+    "text": "此为无效校验码测试：银行卡 6222020000002111。",
+    "type": "BANK_CARD"
+  },
+  {
+    "id": "invalid_phone_11",
+    "text": "此为无效号段测试：手机号 11100000011。",
+    "type": "PHONE"
+  },
+  {
+    "id": "invalid_id_12",
+    "text": "此为无效校验码测试：身份证 110105198703122120。",
+    "type": "ID_CARD"
+  },
+  {
+    "id": "invalid_bank_12",
+    "text": "此为无效校验码测试：银行卡 6222020000002129。",
+    "type": "BANK_CARD"
+  },
+  {
+    "id": "invalid_phone_12",
+    "text": "此为无效号段测试：手机号 11100000012。",
+    "type": "PHONE"
+  },
+  {
+    "id": "invalid_id_13",
+    "text": "此为无效校验码测试：身份证 110105198703122130。",
+    "type": "ID_CARD"
+  },
+  {
+    "id": "invalid_bank_13",
+    "text": "此为无效校验码测试：银行卡 6222020000002137。",
+    "type": "BANK_CARD"
+  },
+  {
+    "id": "invalid_phone_13",
+    "text": "此为无效号段测试：手机号 11100000013。",
+    "type": "PHONE"
+  },
+  {
+    "id": "invalid_id_14",
+    "text": "此为无效校验码测试：身份证 110105198703122140。",
+    "type": "ID_CARD"
+  },
+  {
+    "id": "invalid_bank_14",
+    "text": "此为无效校验码测试：银行卡 6222020000002145。",
+    "type": "BANK_CARD"
+  },
+  {
+    "id": "invalid_phone_14",
+    "text": "此为无效号段测试：手机号 11100000014。",
+    "type": "PHONE"
+  },
+  {
+    "id": "invalid_id_15",
+    "text": "此为无效校验码测试：身份证 110105198703122150。",
+    "type": "ID_CARD"
+  },
+  {
+    "id": "invalid_bank_15",
+    "text": "此为无效校验码测试：银行卡 6222020000002152。",
+    "type": "BANK_CARD"
+  },
+  {
+    "id": "invalid_phone_15",
+    "text": "此为无效号段测试：手机号 11100000015。",
+    "type": "PHONE"
+  },
+  {
+    "id": "invalid_id_16",
+    "text": "此为无效校验码测试：身份证 110105198703122160。",
+    "type": "ID_CARD"
+  },
+  {
+    "id": "invalid_bank_16",
+    "text": "此为无效校验码测试：银行卡 6222020000002160。",
+    "type": "BANK_CARD"
+  },
+  {
+    "id": "invalid_phone_16",
+    "text": "此为无效号段测试：手机号 11100000016。",
+    "type": "PHONE"
+  },
+  {
+    "id": "invalid_id_17",
+    "text": "此为无效校验码测试：身份证 110105198703122170。",
+    "type": "ID_CARD"
+  },
+  {
+    "id": "invalid_bank_17",
+    "text": "此为无效校验码测试：银行卡 6222020000002178。",
+    "type": "BANK_CARD"
+  },
+  {
+    "id": "invalid_phone_17",
+    "text": "此为无效号段测试：手机号 11100000017。",
+    "type": "PHONE"
+  },
+  {
+    "id": "invalid_id_18",
+    "text": "此为无效校验码测试：身份证 110105198703122180。",
+    "type": "ID_CARD"
+  },
+  {
+    "id": "invalid_bank_18",
+    "text": "此为无效校验码测试：银行卡 6222020000002186。",
+    "type": "BANK_CARD"
+  },
+  {
+    "id": "invalid_phone_18",
+    "text": "此为无效号段测试：手机号 11100000018。",
+    "type": "PHONE"
+  },
+  {
+    "id": "invalid_id_19",
+    "text": "此为无效校验码测试：身份证 110105198703122190。",
+    "type": "ID_CARD"
+  },
+  {
+    "id": "invalid_bank_19",
+    "text": "此为无效校验码测试：银行卡 6222020000002194。",
+    "type": "BANK_CARD"
+  },
+  {
+    "id": "invalid_phone_19",
+    "text": "此为无效号段测试：手机号 11100000019。",
+    "type": "PHONE"
+  },
+  {
+    "id": "invalid_id_20",
+    "text": "此为无效校验码测试：身份证 110105198703122200。",
+    "type": "ID_CARD"
+  },
+  {
+    "id": "invalid_bank_20",
+    "text": "此为无效校验码测试：银行卡 6222020000002202。",
+    "type": "BANK_CARD"
+  },
+  {
+    "id": "invalid_phone_20",
+    "text": "此为无效号段测试：手机号 11100000020。",
+    "type": "PHONE"
+  },
+  {
+    "id": "invalid_id_21",
+    "text": "此为无效校验码测试：身份证 110105198703122210。",
+    "type": "ID_CARD"
+  },
+  {
+    "id": "invalid_bank_21",
+    "text": "此为无效校验码测试：银行卡 6222020000002210。",
+    "type": "BANK_CARD"
+  },
+  {
+    "id": "invalid_phone_21",
+    "text": "此为无效号段测试：手机号 11100000021。",
+    "type": "PHONE"
+  },
+  {
+    "id": "invalid_id_22",
+    "text": "此为无效校验码测试：身份证 110105198703122220。",
+    "type": "ID_CARD"
+  },
+  {
+    "id": "invalid_bank_22",
+    "text": "此为无效校验码测试：银行卡 6222020000002228。",
+    "type": "BANK_CARD"
+  },
+  {
+    "id": "invalid_phone_22",
+    "text": "此为无效号段测试：手机号 11100000022。",
+    "type": "PHONE"
+  },
+  {
+    "id": "invalid_id_23",
+    "text": "此为无效校验码测试：身份证 110105198703122230。",
+    "type": "ID_CARD"
+  },
+  {
+    "id": "invalid_bank_23",
+    "text": "此为无效校验码测试：银行卡 6222020000002236。",
+    "type": "BANK_CARD"
+  },
+  {
+    "id": "invalid_phone_23",
+    "text": "此为无效号段测试：手机号 11100000023。",
+    "type": "PHONE"
+  },
+  {
+    "id": "invalid_id_24",
+    "text": "此为无效校验码测试：身份证 110105198703122240。",
+    "type": "ID_CARD"
+  },
+  {
+    "id": "invalid_bank_24",
+    "text": "此为无效校验码测试：银行卡 6222020000002244。",
+    "type": "BANK_CARD"
+  },
+  {
+    "id": "invalid_phone_24",
+    "text": "此为无效号段测试：手机号 11100000024。",
+    "type": "PHONE"
+  },
+  {
+    "id": "invalid_id_25",
+    "text": "此为无效校验码测试：身份证 110105198703122250。",
+    "type": "ID_CARD"
+  },
+  {
+    "id": "invalid_bank_25",
+    "text": "此为无效校验码测试：银行卡 6222020000002251。",
+    "type": "BANK_CARD"
+  },
+  {
+    "id": "invalid_phone_25",
+    "text": "此为无效号段测试：手机号 11100000025。",
+    "type": "PHONE"
+  },
+  {
+    "id": "invalid_id_26",
+    "text": "此为无效校验码测试：身份证 110105198703122260。",
+    "type": "ID_CARD"
+  },
+  {
+    "id": "invalid_bank_26",
+    "text": "此为无效校验码测试：银行卡 6222020000002269。",
+    "type": "BANK_CARD"
+  },
+  {
+    "id": "invalid_phone_26",
+    "text": "此为无效号段测试：手机号 11100000026。",
+    "type": "PHONE"
+  },
+  {
+    "id": "invalid_id_27",
+    "text": "此为无效校验码测试：身份证 110105198703122270。",
+    "type": "ID_CARD"
+  },
+  {
+    "id": "invalid_bank_27",
+    "text": "此为无效校验码测试：银行卡 6222020000002277。",
+    "type": "BANK_CARD"
+  },
+  {
+    "id": "invalid_phone_27",
+    "text": "此为无效号段测试：手机号 11100000027。",
+    "type": "PHONE"
+  },
+  {
+    "id": "invalid_id_28",
+    "text": "此为无效校验码测试：身份证 110105198703122280。",
+    "type": "ID_CARD"
+  },
+  {
+    "id": "invalid_bank_28",
+    "text": "此为无效校验码测试：银行卡 6222020000002285。",
+    "type": "BANK_CARD"
+  },
+  {
+    "id": "invalid_phone_28",
+    "text": "此为无效号段测试：手机号 11100000028。",
+    "type": "PHONE"
+  },
+  {
+    "id": "invalid_id_29",
+    "text": "此为无效校验码测试：身份证 110105198703122291。",
+    "type": "ID_CARD"
+  },
+  {
+    "id": "invalid_bank_29",
+    "text": "此为无效校验码测试：银行卡 6222020000002293。",
+    "type": "BANK_CARD"
+  },
+  {
+    "id": "invalid_phone_29",
+    "text": "此为无效号段测试：手机号 11100000029。",
+    "type": "PHONE"
+  },
+  {
+    "id": "invalid_id_30",
+    "text": "此为无效校验码测试：身份证 110105198703122300。",
+    "type": "ID_CARD"
+  },
+  {
+    "id": "invalid_bank_30",
+    "text": "此为无效校验码测试：银行卡 6222020000002301。",
+    "type": "BANK_CARD"
+  },
+  {
+    "id": "invalid_phone_30",
+    "text": "此为无效号段测试：手机号 11100000030。",
+    "type": "PHONE"
+  },
+  {
+    "id": "invalid_id_31",
+    "text": "此为无效校验码测试：身份证 110105198703122310。",
+    "type": "ID_CARD"
+  },
+  {
+    "id": "invalid_bank_31",
+    "text": "此为无效校验码测试：银行卡 6222020000002319。",
+    "type": "BANK_CARD"
+  },
+  {
+    "id": "invalid_phone_31",
+    "text": "此为无效号段测试：手机号 11100000031。",
+    "type": "PHONE"
+  },
+  {
+    "id": "invalid_id_32",
+    "text": "此为无效校验码测试：身份证 110105198703122320。",
+    "type": "ID_CARD"
+  },
+  {
+    "id": "invalid_bank_32",
+    "text": "此为无效校验码测试：银行卡 6222020000002327。",
+    "type": "BANK_CARD"
+  },
+  {
+    "id": "invalid_phone_32",
+    "text": "此为无效号段测试：手机号 11100000032。",
+    "type": "PHONE"
+  },
+  {
+    "id": "invalid_id_33",
+    "text": "此为无效校验码测试：身份证 110105198703122330。",
+    "type": "ID_CARD"
+  },
+  {
+    "id": "invalid_bank_33",
+    "text": "此为无效校验码测试：银行卡 6222020000002335。",
+    "type": "BANK_CARD"
+  },
+  {
+    "id": "invalid_phone_33",
+    "text": "此为无效号段测试：手机号 11100000033。",
+    "type": "PHONE"
+  },
+  {
+    "id": "invalid_id_34",
+    "text": "此为无效校验码测试：身份证 110105198703122340。",
+    "type": "ID_CARD"
+  },
+  {
+    "id": "invalid_bank_34",
+    "text": "此为无效校验码测试：银行卡 6222020000002343。",
+    "type": "BANK_CARD"
+  },
+  {
+    "id": "invalid_phone_34",
+    "text": "此为无效号段测试：手机号 11100000034。",
+    "type": "PHONE"
+  },
+  {
+    "id": "invalid_id_35",
+    "text": "此为无效校验码测试：身份证 110105198703122350。",
+    "type": "ID_CARD"
+  },
+  {
+    "id": "invalid_bank_35",
+    "text": "此为无效校验码测试：银行卡 6222020000002350。",
+    "type": "BANK_CARD"
+  },
+  {
+    "id": "invalid_phone_35",
+    "text": "此为无效号段测试：手机号 11100000035。",
+    "type": "PHONE"
+  },
+  {
+    "id": "invalid_id_36",
+    "text": "此为无效校验码测试：身份证 110105198703122360。",
+    "type": "ID_CARD"
+  },
+  {
+    "id": "invalid_bank_36",
+    "text": "此为无效校验码测试：银行卡 6222020000002368。",
+    "type": "BANK_CARD"
+  },
+  {
+    "id": "invalid_phone_36",
+    "text": "此为无效号段测试：手机号 11100000036。",
+    "type": "PHONE"
+  },
+  {
+    "id": "invalid_id_37",
+    "text": "此为无效校验码测试：身份证 110105198703122371。",
+    "type": "ID_CARD"
+  },
+  {
+    "id": "invalid_bank_37",
+    "text": "此为无效校验码测试：银行卡 6222020000002376。",
+    "type": "BANK_CARD"
+  },
+  {
+    "id": "invalid_phone_37",
+    "text": "此为无效号段测试：手机号 11100000037。",
+    "type": "PHONE"
+  },
+  {
+    "id": "invalid_id_38",
+    "text": "此为无效校验码测试：身份证 110105198703122380。",
+    "type": "ID_CARD"
+  },
+  {
+    "id": "invalid_bank_38",
+    "text": "此为无效校验码测试：银行卡 6222020000002384。",
+    "type": "BANK_CARD"
+  },
+  {
+    "id": "invalid_phone_38",
+    "text": "此为无效号段测试：手机号 11100000038。",
+    "type": "PHONE"
+  },
+  {
+    "id": "invalid_id_39",
+    "text": "此为无效校验码测试：身份证 110105198703122390。",
+    "type": "ID_CARD"
+  },
+  {
+    "id": "invalid_bank_39",
+    "text": "此为无效校验码测试：银行卡 6222020000002392。",
+    "type": "BANK_CARD"
+  },
+  {
+    "id": "invalid_phone_39",
+    "text": "此为无效号段测试：手机号 11100000039。",
+    "type": "PHONE"
+  }
+]

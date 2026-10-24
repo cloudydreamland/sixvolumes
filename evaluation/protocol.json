@@ -1,0 +1,74 @@
+{
+  "protocol_version": "1.0-before-first-run",
+  "split_counts": {
+    "calibration": 40,
+    "holdout": 120,
+    "nonmember_control": 40
+  },
+  "worddael": {
+    "chunk_char_budget": 256,
+    "overlap": 0,
+    "k": [
+      1,
+      3,
+      5
+    ],
+    "max_questions_per_document": 2,
+    "metric": "gold answer span contained in retrieved chunk from the correct original document; original CMRC labels; not generated-answer quality",
+    "model": "BAAI/bge-small-zh-v1.5 via FastEmbed CPU ONNX, fixed for every splitter"
+  },
+  "helan": {
+    "labels": "independent deterministic injection; NOT human labels or real customer PII",
+    "types": [
+      "ID_CARD",
+      "PHONE",
+      "EMAIL",
+      "BANK_CARD"
+    ],
+    "variants": [
+      "plain",
+      "fullwidth",
+      "spaced",
+      "zero_width"
+    ],
+    "negative_controls": [
+      "invalid checksum",
+      "invalid mobile prefix",
+      "ordinary numerical code"
+    ],
+    "report_scope": "typed exact spans; no PERSON/ADDRESS/semantic PII claims"
+  },
+  "siftan": {
+    "positive_cases": [
+      "exact",
+      "partial128",
+      "fullwidth",
+      "insert_every10",
+      "delete_every7"
+    ],
+    "negative_label": "nonmember_control, not certified uncontaminated",
+    "threshold_grid": [
+      0.05,
+      0.1,
+      0.15,
+      0.2,
+      0.25,
+      0.3,
+      0.4,
+      0.5
+    ],
+    "calibration": "maximize F1 on calibration only; tie choose higher threshold; frozen before holdout",
+    "near_dup_advisory_only": true
+  },
+  "gewita": {
+    "source_queries": "at most 8 known real DOI works and arXiv metadata; cache raw responses; structured modified-year controls are synthetic",
+    "quote_alignment": "real CMRC excerpts + deterministic normalization/negation transformations; negation is NOT human semantic annotation"
+  },
+  "honesty": [
+    "No external human review claimed",
+    "No API bill/customer data",
+    "No post-holdout parameter optimization",
+    "All failures retained",
+    "Synthetic perturbation labels do not measure production accuracy"
+  ]
+}

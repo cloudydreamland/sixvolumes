@@ -1,0 +1,310 @@
+{
+  "rows": [
+    {
+      "doi": "10.18653/v1/D19-1600",
+      "variant": "authentic_metadata",
+      "expected": "EXISTS",
+      "actual": {
+        "status": "EXISTS",
+        "detail": "Crossref 命中（包含度 1.00）",
+        "matched_title": "A Span-Extraction Dataset for Chinese Machine Reading Comprehension",
+        "provider": "crossref"
+      },
+      "rendered_reference": "[1] Cui Yiming，Liu Ting，Che Wanxiang. A Span-Extraction Dataset for Chinese Machine Reading Comprehension[J]. Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP), 2019. DOI:10.18653/v1/D19-1600.",
+      "rendering_note": "GB/T-like rendering generated from real metadata, not a naturally occurring citation string",
+      "parse_result": [
+        {
+          "index": 1,
+          "raw": "[1] Cui Yiming，Liu Ting，Che Wanxiang. A Span-Extraction Dataset for Chinese Machine Reading Comprehension[J]. Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP), 2019. DOI:10.18653/v1/D19-1600.",
+          "span": [
+            0,
+            318
+          ],
+          "title": "A Span-Extraction Dataset for Chinese Machine Reading Comprehension",
+          "authors": [
+            "Cui Yiming",
+            "Liu Ting",
+            "Che Wanxiang"
+          ],
+          "year": 2019,
+          "venue": "Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP)",
+          "doi": "10.18653/v1/D19-1600",
+          "arxiv_id": "",
+          "url": "",
+          "entry_type": "J",
+          "parsed": true
+        }
+      ],
+      "title_parse_exact": true,
+      "year_parse_exact": true
+    },
+    {
+      "doi": "10.18653/v1/D19-1600",
+      "variant": "synthetic_year_plus5",
+      "expected": "SUSPECT",
+      "actual": {
+        "status": "SUSPECT",
+        "detail": "年份不符：条目标注 2024，Crossref 记录 2019",
+        "matched_title": "A Span-Extraction Dataset for Chinese Machine Reading Comprehension",
+        "provider": "crossref"
+      },
+      "rendered_reference": "[1] Cui Yiming，Liu Ting，Che Wanxiang. A Span-Extraction Dataset for Chinese Machine Reading Comprehension[J]. Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP), 2019. DOI:10.18653/v1/D19-1600.",
+      "rendering_note": "GB/T-like rendering generated from real metadata, not a naturally occurring citation string",
+      "parse_result": [
+        {
+          "index": 1,
+          "raw": "[1] Cui Yiming，Liu Ting，Che Wanxiang. A Span-Extraction Dataset for Chinese Machine Reading Comprehension[J]. Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP), 2019. DOI:10.18653/v1/D19-1600.",
+          "span": [
+            0,
+            318
+          ],
+          "title": "A Span-Extraction Dataset for Chinese Machine Reading Comprehension",
+          "authors": [
+            "Cui Yiming",
+            "Liu Ting",
+            "Che Wanxiang"
+          ],
+          "year": 2019,
+          "venue": "Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP)",
+          "doi": "10.18653/v1/D19-1600",
+          "arxiv_id": "",
+          "url": "",
+          "entry_type": "J",
+          "parsed": true
+        }
+      ],
+      "title_parse_exact": true,
+      "year_parse_exact": true
+    },
+    {
+      "doi": "10.18653/v1/N19-1423",
+      "variant": "authentic_metadata",
+      "expected": "EXISTS",
+      "actual": {
+        "status": "EXISTS",
+        "detail": "Crossref 命中（包含度 1.00）",
+        "matched_title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+        "provider": "crossref"
+      },
+      "rendered_reference": "[2] Devlin Jacob，Chang Ming-Wei，Lee Kenton. BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding[J]. Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers), 2019. DOI:10.18653/v1/N19-1423.",
+      "rendering_note": "GB/T-like rendering generated from real metadata, not a naturally occurring citation string",
+      "parse_result": [
+        {
+          "index": 2,
+          "raw": "[2] Devlin Jacob，Chang Ming-Wei，Lee Kenton. BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding[J]. Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers), 2019. DOI:10.18653/v1/N19-1423.",
+          "span": [
+            0,
+            338
+          ],
+          "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+          "authors": [
+            "Devlin Jacob",
+            "Chang Ming-Wei",
+            "Lee Kenton"
+          ],
+          "year": 2019,
+          "venue": "Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
+          "doi": "10.18653/v1/N19-1423",
+          "arxiv_id": "",
+          "url": "",
+          "entry_type": "J",
+          "parsed": true
+        }
+      ],
+      "title_parse_exact": true,
+      "year_parse_exact": true
+    },
+    {
+      "doi": "10.18653/v1/N19-1423",
+      "variant": "synthetic_year_plus5",
+      "expected": "SUSPECT",
+      "actual": {
+        "status": "SUSPECT",
+        "detail": "年份不符：条目标注 2024，Crossref 记录 2019",
+        "matched_title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+        "provider": "crossref"
+      },
+      "rendered_reference": "[2] Devlin Jacob，Chang Ming-Wei，Lee Kenton. BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding[J]. Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers), 2019. DOI:10.18653/v1/N19-1423.",
+      "rendering_note": "GB/T-like rendering generated from real metadata, not a naturally occurring citation string",
+      "parse_result": [
+        {
+          "index": 2,
+          "raw": "[2] Devlin Jacob，Chang Ming-Wei，Lee Kenton. BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding[J]. Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers), 2019. DOI:10.18653/v1/N19-1423.",
+          "span": [
+            0,
+            338
+          ],
+          "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+          "authors": [
+            "Devlin Jacob",
+            "Chang Ming-Wei",
+            "Lee Kenton"
+          ],
+          "year": 2019,
+          "venue": "Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
+          "doi": "10.18653/v1/N19-1423",
+          "arxiv_id": "",
+          "url": "",
+          "entry_type": "J",
+          "parsed": true
+        }
+      ],
+      "title_parse_exact": true,
+      "year_parse_exact": true
+    },
+    {
+      "doi": "10.18653/v1/2023.emnlp-main.398",
+      "variant": "authentic_metadata",
+      "expected": "EXISTS",
+      "actual": {
+        "status": "EXISTS",
+        "detail": "Crossref 命中（包含度 1.00）",
+        "matched_title": "Enabling Large Language Models to Generate Text with Citations",
+        "provider": "crossref"
+      },
+      "rendered_reference": "[3] Gao Tianyu，Yen Howard，Yu Jiatong. Enabling Large Language Models to Generate Text with Citations[J]. Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing, 2023. DOI:10.18653/v1/2023.emnlp-main.398.",
+      "rendering_note": "GB/T-like rendering generated from real metadata, not a naturally occurring citation string",
+      "parse_result": [
+        {
+          "index": 3,
+          "raw": "[3] Gao Tianyu，Yen Howard，Yu Jiatong. Enabling Large Language Models to Generate Text with Citations[J]. Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing, 2023. DOI:10.18653/v1/2023.emnlp-main.398.",
+          "span": [
+            0,
+            235
+          ],
+          "title": "Enabling Large Language Models to Generate Text with Citations",
+          "authors": [
+            "Gao Tianyu",
+            "Yen Howard",
+            "Yu Jiatong"
+          ],
+          "year": 2023,
+          "venue": "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
+          "doi": "10.18653/v1/2023.emnlp-main.398",
+          "arxiv_id": "",
+          "url": "",
+          "entry_type": "J",
+          "parsed": true
+        }
+      ],
+      "title_parse_exact": true,
+      "year_parse_exact": true
+    },
+    {
+      "doi": "10.18653/v1/2023.emnlp-main.398",
+      "variant": "synthetic_year_plus5",
+      "expected": "SUSPECT",
+      "actual": {
+        "status": "SUSPECT",
+        "detail": "年份不符：条目标注 2028，Crossref 记录 2023",
+        "matched_title": "Enabling Large Language Models to Generate Text with Citations",
+        "provider": "crossref"
+      },
+      "rendered_reference": "[3] Gao Tianyu，Yen Howard，Yu Jiatong. Enabling Large Language Models to Generate Text with Citations[J]. Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing, 2023. DOI:10.18653/v1/2023.emnlp-main.398.",
+      "rendering_note": "GB/T-like rendering generated from real metadata, not a naturally occurring citation string",
+      "parse_result": [
+        {
+          "index": 3,
+          "raw": "[3] Gao Tianyu，Yen Howard，Yu Jiatong. Enabling Large Language Models to Generate Text with Citations[J]. Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing, 2023. DOI:10.18653/v1/2023.emnlp-main.398.",
+          "span": [
+            0,
+            235
+          ],
+          "title": "Enabling Large Language Models to Generate Text with Citations",
+          "authors": [
+            "Gao Tianyu",
+            "Yen Howard",
+            "Yu Jiatong"
+          ],
+          "year": 2023,
+          "venue": "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
+          "doi": "10.18653/v1/2023.emnlp-main.398",
+          "arxiv_id": "",
+          "url": "",
+          "entry_type": "J",
+          "parsed": true
+        }
+      ],
+      "title_parse_exact": true,
+      "year_parse_exact": true
+    },
+    {
+      "doi": "10.1109/TWC.2024.3454073",
+      "variant": "authentic_metadata",
+      "expected": "EXISTS",
+      "actual": {
+        "status": "EXISTS",
+        "detail": "Crossref 命中（包含度 1.00）",
+        "matched_title": "UAV-Enabled Semantic Communication in Mobile Edge Computing Under Jamming Attacks: An Intelligent Resource Management Approach",
+        "provider": "crossref"
+      },
+      "rendered_reference": "[4] Liu Shuai，Yang Helin，Zheng Mengting. UAV-Enabled Semantic Communication in Mobile Edge Computing Under Jamming Attacks: An Intelligent Resource Management Approach[J]. IEEE Transactions on Wireless Communications, 2024. DOI:10.1109/TWC.2024.3454073.",
+      "rendering_note": "GB/T-like rendering generated from real metadata, not a naturally occurring citation string",
+      "parse_result": [
+        {
+          "index": 4,
+          "raw": "[4] Liu Shuai，Yang Helin，Zheng Mengting. UAV-Enabled Semantic Communication in Mobile Edge Computing Under Jamming Attacks: An Intelligent Resource Management Approach[J]. IEEE Transactions on Wireless Communications, 2024. DOI:10.1109/TWC.2024.3454073.",
+          "span": [
+            0,
+            253
+          ],
+          "title": "UAV-Enabled Semantic Communication in Mobile Edge Computing Under Jamming Attacks: An Intelligent Resource Management Approach",
+          "authors": [
+            "Liu Shuai",
+            "Yang Helin",
+            "Zheng Mengting"
+          ],
+          "year": 2024,
+          "venue": "IEEE Transactions on Wireless Communications",
+          "doi": "10.1109/TWC.2024.3454073",
+          "arxiv_id": "",
+          "url": "",
+          "entry_type": "J",
+          "parsed": true
+        }
+      ],
+      "title_parse_exact": true,
+      "year_parse_exact": true
+    },
+    {
+      "doi": "10.1109/TWC.2024.3454073",
+      "variant": "synthetic_year_plus5",
+      "expected": "SUSPECT",
+      "actual": {
+        "status": "SUSPECT",
+        "detail": "年份不符：条目标注 2029，Crossref 记录 2024",
+        "matched_title": "UAV-Enabled Semantic Communication in Mobile Edge Computing Under Jamming Attacks: An Intelligent Resource Management Approach",
+        "provider": "crossref"
+      },
+      "rendered_reference": "[4] Liu Shuai，Yang Helin，Zheng Mengting. UAV-Enabled Semantic Communication in Mobile Edge Computing Under Jamming Attacks: An Intelligent Resource Management Approach[J]. IEEE Transactions on Wireless Communications, 2024. DOI:10.1109/TWC.2024.3454073.",
+      "rendering_note": "GB/T-like rendering generated from real metadata, not a naturally occurring citation string",
+      "parse_result": [
+        {
+          "index": 4,
+          "raw": "[4] Liu Shuai，Yang Helin，Zheng Mengting. UAV-Enabled Semantic Communication in Mobile Edge Computing Under Jamming Attacks: An Intelligent Resource Management Approach[J]. IEEE Transactions on Wireless Communications, 2024. DOI:10.1109/TWC.2024.3454073.",
+          "span": [
+            0,
+            253
+          ],
+          "title": "UAV-Enabled Semantic Communication in Mobile Edge Computing Under Jamming Attacks: An Intelligent Resource Management Approach",
+          "authors": [
+            "Liu Shuai",
+            "Yang Helin",
+            "Zheng Mengting"
+          ],
+          "year": 2024,
+          "venue": "IEEE Transactions on Wireless Communications",
+          "doi": "10.1109/TWC.2024.3454073",
+          "arxiv_id": "",
+          "url": "",
+          "entry_type": "J",
+          "parsed": true
+        }
+      ],
+      "title_parse_exact": true,
+      "year_parse_exact": true
+    }
+  ],
+  "query_budget_used": 8,
+  "note": "Cached real network responses. Network failures stay UNVERIFIED; absent metadata does not establish nonexistent publication."
+}

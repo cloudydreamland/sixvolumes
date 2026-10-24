@@ -1,0 +1,84 @@
+{
+  "integration_version": "0.2.0",
+  "snapshot_note": "Declared upstream version plus exact archive SHA-256; no unverified commit SHA or release identity claimed",
+  "resources": [
+    {
+      "package": "siftan",
+      "declared_version": "0.1.0",
+      "repository": "https://github.com/cloudydreamland/TheSieveBeneathTheStars",
+      "ref": "main",
+      "retrieved_date": "2026-10-23",
+      "upstream_archive_sha256": "87ffdf579c8473472c1a9b3834ba77ca14f99452b23028691254673a1efa6bd9",
+      "license": "MIT",
+      "license_path": "vendor/siftan/LICENSE",
+      "purpose": "可选污染筛查",
+      "modifications": "见LOCAL_PATCHES.md及逐文件LOCAL_CHANGES.json",
+      "obligations": "MIT：保留版权和许可全文；当前本地修复不冒称上游新版本"
+    },
+    {
+      "package": "helan",
+      "declared_version": "0.1.0",
+      "repository": "https://github.com/cloudydreamland/TheVeilOfHiddenNames",
+      "ref": "main",
+      "retrieved_date": "2026-10-23",
+      "upstream_archive_sha256": "207429ffaeda2f204814335b9a9016e124bec6f36f08d96956ffe796daa494eb",
+      "license": "MIT",
+      "license_path": "vendor/helan/LICENSE",
+      "purpose": "中文脱敏与原文偏移",
+      "modifications": "见LOCAL_PATCHES.md及逐文件LOCAL_CHANGES.json",
+      "obligations": "MIT：保留版权和许可全文；当前本地修复不冒称上游新版本"
+    },
+    {
+      "package": "gewita",
+      "declared_version": "0.1.0",
+      "repository": "https://github.com/cloudydreamland/WitnessesInTheMargins",
+      "ref": "main",
+      "retrieved_date": "2026-10-23",
+      "upstream_archive_sha256": "546636a05674002e86db2bb73e2e64eca328fd1f72abd9749e2f5d4cdf66f046",
+      "license": "MIT",
+      "license_path": "vendor/gewita/LICENSE",
+      "purpose": "引用格式与引语对齐",
+      "modifications": "见LOCAL_PATCHES.md及逐文件LOCAL_CHANGES.json",
+      "obligations": "MIT：保留版权和许可全文；当前本地修复不冒称上游新版本"
+    },
+    {
+      "package": "worddael",
+      "declared_version": "0.1.0",
+      "repository": "https://github.com/cloudydreamland/TheDaleOfRememberedWords",
+      "ref": "main",
+      "retrieved_date": "2026-10-23",
+      "upstream_archive_sha256": "a5b98bb38506abbfaf503973f7d57839e317dbcb871725b0d520cf7a7c650632",
+      "license": "MIT",
+      "license_path": "vendor/worddael/LICENSE",
+      "purpose": "结构分块",
+      "modifications": "见LOCAL_PATCHES.md及逐文件LOCAL_CHANGES.json",
+      "obligations": "MIT：保留版权和许可全文；当前本地修复不冒称上游新版本"
+    },
+    {
+      "package": "tellan",
+      "declared_version": "0.1.0",
+      "repository": "https://github.com/cloudydreamland/TheLedgerOfVanishingTokens",
+      "ref": "main",
+      "retrieved_date": "2026-10-23",
+      "upstream_archive_sha256": "009cf206ecbfedd6144430ba7e79918e31bf6d35103dc2dc251e04410ec12639",
+      "license": "MIT",
+      "license_path": "vendor/tellan/LICENSE",
+      "purpose": "可选token对账与链一致性",
+      "modifications": "见LOCAL_PATCHES.md及逐文件LOCAL_CHANGES.json",
+      "obligations": "MIT：保留版权和许可全文；当前本地修复不冒称上游新版本"
+    },
+    {
+      "package": "sothstan",
+      "declared_version": "0.1.0",
+      "repository": "https://github.com/cloudydreamland/TheTrialOfTheHiddenVoice",
+      "ref": "main",
+      "retrieved_date": "2026-10-23",
+      "upstream_archive_sha256": "383dbf73b959065dfcd5409db6a71d277c3d1ff2682f13433abaacdf679203ab",
+      "license": "MIT",
+      "license_path": "vendor/sothstan/LICENSE",
+      "purpose": "可选模型身份统计证据",
+      "modifications": "见LOCAL_PATCHES.md及逐文件LOCAL_CHANGES.json",
+      "obligations": "MIT：保留版权和许可全文；当前本地修复不冒称上游新版本"
+    }
+  ]
+}

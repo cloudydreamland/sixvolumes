@@ -1,0 +1,110 @@
+[
+  {
+    "split": "calibration",
+    "kind": "delete_every7",
+    "n": 40,
+    "exact_flag_rate": 0.0,
+    "near_default_flag_rate": 0.0,
+    "near_calibrated_flag_rate": 0.0,
+    "calibrated_threshold": 0.15
+  },
+  {
+    "split": "calibration",
+    "kind": "exact",
+    "n": 40,
+    "exact_flag_rate": 1.0,
+    "near_default_flag_rate": 1.0,
+    "near_calibrated_flag_rate": 1.0,
+    "calibrated_threshold": 0.15
+  },
+  {
+    "split": "calibration",
+    "kind": "fullwidth",
+    "n": 40,
+    "exact_flag_rate": 1.0,
+    "near_default_flag_rate": 1.0,
+    "near_calibrated_flag_rate": 1.0,
+    "calibrated_threshold": 0.15
+  },
+  {
+    "split": "calibration",
+    "kind": "insert_every10",
+    "n": 40,
+    "exact_flag_rate": 0.025,
+    "near_default_flag_rate": 0.0,
+    "near_calibrated_flag_rate": 1.0,
+    "calibrated_threshold": 0.15
+  },
+  {
+    "split": "calibration",
+    "kind": "nonmember_control",
+    "n": 20,
+    "exact_flag_rate": 0.0,
+    "near_default_flag_rate": 0.0,
+    "near_calibrated_flag_rate": 0.0,
+    "calibrated_threshold": 0.15
+  },
+  {
+    "split": "calibration",
+    "kind": "partial128",
+    "n": 40,
+    "exact_flag_rate": 1.0,
+    "near_default_flag_rate": 1.0,
+    "near_calibrated_flag_rate": 1.0,
+    "calibrated_threshold": 0.15
+  },
+  {
+    "split": "holdout",
+    "kind": "delete_every7",
+    "n": 120,
+    "exact_flag_rate": 0.0,
+    "near_default_flag_rate": 0.0,
+    "near_calibrated_flag_rate": 0.0,
+    "calibrated_threshold": 0.15
+  },
+  {
+    "split": "holdout",
+    "kind": "exact",
+    "n": 120,
+    "exact_flag_rate": 1.0,
+    "near_default_flag_rate": 1.0,
+    "near_calibrated_flag_rate": 1.0,
+    "calibrated_threshold": 0.15
+  },
+  {
+    "split": "holdout",
+    "kind": "fullwidth",
+    "n": 120,
+    "exact_flag_rate": 1.0,
+    "near_default_flag_rate": 1.0,
+    "near_calibrated_flag_rate": 1.0,
+    "calibrated_threshold": 0.15
+  },
+  {
+    "split": "holdout",
+    "kind": "insert_every10",
+    "n": 120,
+    "exact_flag_rate": 0.0,
+    "near_default_flag_rate": 0.0,
+    "near_calibrated_flag_rate": 1.0,
+    "calibrated_threshold": 0.15
+  },
+  {
+    "split": "holdout",
+    "kind": "nonmember_control",
+    "n": 20,
+    "exact_flag_rate": 0.15,
+    "near_default_flag_rate": 0.0,
+    "near_calibrated_flag_rate": 0.0,
+    "calibrated_threshold": 0.15
+  },
+  {
+    "split": "holdout",
+    "kind": "partial128",
+    "n": 120,
+    "exact_flag_rate": 1.0,
+    "near_default_flag_rate": 1.0,
+    "near_calibrated_flag_rate": 1.0,
+    "calibrated_threshold": 0.15
+  }
+]

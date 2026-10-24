@@ -1,0 +1,358 @@
+{
+  "created_utc": "2026-10-23T15:21:15.039299+00:00",
+  "cmrc_commit": "c0eb1b6ba219847457e6af3180da722bbeb656af",
+  "sources": [
+    {
+      "path": "data\\cmrc2018_dev.json",
+      "url": "https://raw.githubusercontent.com/ymcui/cmrc2018/c0eb1b6ba219847457e6af3180da722bbeb656af/squad-style-data/cmrc2018_dev.json",
+      "sha256": "e9ff74231f05c230c6fa88b84441ee334d97234cbb610991cd94b82db00c7f1f",
+      "bytes": 3299139,
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "path": "data\\cmrc2018_LICENCE",
+      "url": "https://raw.githubusercontent.com/ymcui/cmrc2018/c0eb1b6ba219847457e6af3180da722bbeb656af/LICENCE",
+      "sha256": "7abe19ec9bb73b36141b999b861d24ad855e808bafe0f81e84cce28556f6c297",
+      "bytes": 20131,
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "path": "data\\cmrc2018_README.md",
+      "url": "https://raw.githubusercontent.com/ymcui/cmrc2018/c0eb1b6ba219847457e6af3180da722bbeb656af/README.md",
+      "sha256": "07047da7471a21f70b4fbe6756450fff761bf59cf4ccb8c1d5994724c661a436",
+      "bytes": 3487,
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "path": "data/documents.json",
+      "sha256": "8b5e456d408101b0e0ee9eb6b7154c8429a0c01f21665591cecb80031205a368",
+      "derived_from": "cmrc2018_dev.json",
+      "license": "CC-BY-SA-4.0",
+      "selection": "one paragraph per title; titles SHA256(20261023|title) sorted; first40 calibration,next120 holdout,next40 nonmember control; len>=256 and valid answer offsets"
+    },
+    {
+      "package": "helan",
+      "repository": "https://github.com/cloudydreamland/TheVeilOfHiddenNames",
+      "source": "local audit source snapshot; content hashes authoritative, no remote commit claimed",
+      "files": [
+        {
+          "path": "source_snapshot\\helan\\LICENSE",
+          "sha256": "a964c0e5960ba8622de59d22372ecb1d2c4dbb8acc47e5f88e9ea4f311811b8b"
+        },
+        {
+          "path": "source_snapshot\\helan\\pyproject.toml",
+          "sha256": "a667af174a273abd947ee8e8e3085b94dfc7a1a2036e6ba1f948a027b69d73aa"
+        },
+        {
+          "path": "source_snapshot\\helan\\src\\helan\\__init__.py",
+          "sha256": "682b20ad2e3587f80443f685e7400893e224c4e1067a804424844cd903edebab"
+        },
+        {
+          "path": "source_snapshot\\helan\\src\\helan\\__main__.py",
+          "sha256": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d"
+        },
+        {
+          "path": "source_snapshot\\helan\\src\\helan\\bench.py",
+          "sha256": "7b04f676de63a551201641ad7c674b2e221aadea2dbacc4f4fe89fcbd569e999"
+        },
+        {
+          "path": "source_snapshot\\helan\\src\\helan\\calibrate.py",
+          "sha256": "36fde142b6bf75364444fdd7a2ba79fe391944d86bdebd08943e568e9a1dd7f3"
+        },
+        {
+          "path": "source_snapshot\\helan\\src\\helan\\checksum.py",
+          "sha256": "ed466381db5e7f86785dbc790c8c2181f82189de2e55540e9f3d209c67351e09"
+        },
+        {
+          "path": "source_snapshot\\helan\\src\\helan\\cli.py",
+          "sha256": "cf1c42d45eb7b682fe0c77c919992448b6704d2a9ee53ba7db7df52ff410d907"
+        },
+        {
+          "path": "source_snapshot\\helan\\src\\helan\\compat_presidio.py",
+          "sha256": "567aa27fefb0a9ac4630b2ed4dd119706e2b831269acf9f3b2bab32604b2b4d0"
+        },
+        {
+          "path": "source_snapshot\\helan\\src\\helan\\data.py",
+          "sha256": "fb0990032bd345bf7986e2fd213bb14272dce274c343d9a12b514189b8b9a6e7"
+        },
+        {
+          "path": "source_snapshot\\helan\\src\\helan\\eval\\__init__.py",
+          "sha256": "9c0c02ca3f5b5abdf86b5af33a1f6fa990a4e8bcc9ce8f3f81ec339ab8505672"
+        },
+        {
+          "path": "source_snapshot\\helan\\src\\helan\\eval\\corpus.py",
+          "sha256": "e9094ef3ce3be2c89d690ea6dc9aa0fafa3c7191752c8c4560986fd055e1481d"
+        },
+        {
+          "path": "source_snapshot\\helan\\src\\helan\\eval\\metrics.py",
+          "sha256": "e9a5b2185fd61c13abf29f6130489db7d4f20cd6c58f0aaf824aca1df49f4729"
+        },
+        {
+          "path": "source_snapshot\\helan\\src\\helan\\eval\\report.py",
+          "sha256": "024f3d39acb930c7a4d7567b0c7d9a64c7e859f34e0cb7bc7f263a52c45c93a1"
+        },
+        {
+          "path": "source_snapshot\\helan\\src\\helan\\io_utils.py",
+          "sha256": "73dc66ba75a144ff8c1ce8afde367d724f2b2a1d6c6a8f3b62e0dc3afec09241"
+        },
+        {
+          "path": "source_snapshot\\helan\\src\\helan\\operators.py",
+          "sha256": "c0cc512e93144524178d52edbc47efd22c03d2d3f30b3494a7fcc5130623d7c3"
+        },
+        {
+          "path": "source_snapshot\\helan\\src\\helan\\pipeline.py",
+          "sha256": "827225e65b5bd722553cf24e415b49ca7215209e0d1bea3187a56d6f2ff6501a"
+        },
+        {
+          "path": "source_snapshot\\helan\\src\\helan\\py.typed",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "source_snapshot\\helan\\src\\helan\\recognizers\\__init__.py",
+          "sha256": "3aae5bd254e3a2bdbb6e02517620125e86b596580aa0576bda2cce9f331bde9f"
+        },
+        {
+          "path": "source_snapshot\\helan\\src\\helan\\recognizers\\base.py",
+          "sha256": "13020f9bfa800f9fae39e7ec360cf26799450990aed699976deba1d82c05e9f9"
+        },
+        {
+          "path": "source_snapshot\\helan\\src\\helan\\recognizers\\chinese.py",
+          "sha256": "52be7bf7d3edbabb3f874074b246073c49d23a4f3473faf91cc930e49d22792b"
+        },
+        {
+          "path": "source_snapshot\\helan\\src\\helan\\recognizers\\llm.py",
+          "sha256": "19b52b38c56d4e59199c17792eafbdab72f4136a6f45bffa52656be25198047f"
+        },
+        {
+          "path": "source_snapshot\\helan\\src\\helan\\recognizers\\ner_jieba.py",
+          "sha256": "35c3b9bd9bfecfdc8f1d16f0b3d1dbe44bfb3e9d2e4a975b6e9c8ce9c6dcd3ce"
+        },
+        {
+          "path": "source_snapshot\\helan\\src\\helan\\recognizers\\official.py",
+          "sha256": "d7f83b193ff1f25d7d11ca960736287fdc0e9cb0047c226753752cf1be772999"
+        },
+        {
+          "path": "source_snapshot\\helan\\src\\helan\\recognizers\\rules.py",
+          "sha256": "adf0ae3385ac77ec7ed013dbaae785ad70a1dec8a0c2b30cd73c9bc792949c95"
+        },
+        {
+          "path": "source_snapshot\\helan\\src\\helan\\resolver.py",
+          "sha256": "687c278b53a9e853fb3e0638391804d283e1cc280511608b783fd0da730a6e85"
+        },
+        {
+          "path": "source_snapshot\\helan\\src\\helan\\streaming.py",
+          "sha256": "8dbbba46b68f69a3b20829e2e74c32227a28b87aaea4a76d2d755090b0a49ecc"
+        },
+        {
+          "path": "source_snapshot\\helan\\src\\helan\\types.py",
+          "sha256": "9395b9e338ced3e8c194c0b011928bac64925cc3919d4c21eee4d8733c66f228"
+        },
+        {
+          "path": "source_snapshot\\helan\\src\\helan\\vault.py",
+          "sha256": "ce40fc25423be6bb0c14c7ee7cb5a76bc979bae97ade53a1f18863bea9e22be7"
+        }
+      ]
+    },
+    {
+      "package": "worddael",
+      "repository": "https://github.com/cloudydreamland/TheDaleOfRememberedWords",
+      "source": "local audit source snapshot; content hashes authoritative, no remote commit claimed",
+      "files": [
+        {
+          "path": "source_snapshot\\worddael\\LICENSE",
+          "sha256": "f498fd2b0598b0b9e687314d1560557328f5a722845b6d629d2afbc547a19b89"
+        },
+        {
+          "path": "source_snapshot\\worddael\\pyproject.toml",
+          "sha256": "b4b37f3c2f62bbdaa6e9604f9fe86d96c9748038e9032d663c39093631bbde25"
+        },
+        {
+          "path": "source_snapshot\\worddael\\src\\worddael\\__init__.py",
+          "sha256": "9be69b21cf35eb6fa6249a02c1ab19142b88b45724e391fe70650367afedb9e8"
+        },
+        {
+          "path": "source_snapshot\\worddael\\src\\worddael\\adapters.py",
+          "sha256": "1843ad7606b88d7d6c944b14286f4776d85c3424a136985e78ecc130959e1ce6"
+        },
+        {
+          "path": "source_snapshot\\worddael\\src\\worddael\\chunkers.py",
+          "sha256": "e7649882a328933190f40ed8734ff15d94ec73cc479d5cc0f024dc5ec96dc039"
+        },
+        {
+          "path": "source_snapshot\\worddael\\src\\worddael\\cli.py",
+          "sha256": "ceac23c24afaab1f364fc549d6501d0a4b2cd5acc52bf4092c8f6cec82fc5902"
+        },
+        {
+          "path": "source_snapshot\\worddael\\src\\worddael\\compare.py",
+          "sha256": "69e0901680ea1f10277ef7280276deba359aa60f694d987051174e1e0b658e1d"
+        },
+        {
+          "path": "source_snapshot\\worddael\\src\\worddael\\counters.py",
+          "sha256": "553062c1de73e2e90c1ac5e81ce8ed5a415370c2ec81d79271433e9cf22b12fb"
+        },
+        {
+          "path": "source_snapshot\\worddael\\src\\worddael\\embedders.py",
+          "sha256": "d0cd4a704b374032f4e6589d3f85da81e10573dcc25988600975a9b5c9db3595"
+        },
+        {
+          "path": "source_snapshot\\worddael\\src\\worddael\\eval\\__init__.py",
+          "sha256": "ef8e8d4202c9d439dcf0522286374500d106d1f9de941ab70eeab958d582f501"
+        },
+        {
+          "path": "source_snapshot\\worddael\\src\\worddael\\eval\\judge_runner.py",
+          "sha256": "e4469f2a4252cfa161a681b1e7a741f416afe58da9d57d3cce87a811b62ab4e0"
+        },
+        {
+          "path": "source_snapshot\\worddael\\src\\worddael\\eval\\llm_judge.py",
+          "sha256": "5fe9e311e36ca2268d334698de8c19c7e291164437924270dc466cf9eb45f5f6"
+        },
+        {
+          "path": "source_snapshot\\worddael\\src\\worddael\\eval\\qa_gen.py",
+          "sha256": "d495558aa1b6703788aa5dfdec573ef4e4cdbae8fc1e920c74cf1d192aeb0a60"
+        },
+        {
+          "path": "source_snapshot\\worddael\\src\\worddael\\eval\\report.py",
+          "sha256": "57adc79a68f07e38beb288998d70198e844eda3a1fcf59d0ec487bd386d91bf0"
+        },
+        {
+          "path": "source_snapshot\\worddael\\src\\worddael\\eval\\retrieval.py",
+          "sha256": "92488aba39427b56631efa0989948c070254e50b642fae8b992e4db024f2cf0c"
+        },
+        {
+          "path": "source_snapshot\\worddael\\src\\worddael\\eval\\sample_data.py",
+          "sha256": "9bf042f019254397ea5a9cd2020e3ebf3f9da6a75bf1b59887b8ef68c7091e0d"
+        },
+        {
+          "path": "source_snapshot\\worddael\\src\\worddael\\explain.py",
+          "sha256": "1e02aecc33913cd469fe670d2a00c5d21a9db1a83188b71cce2051e955788b52"
+        },
+        {
+          "path": "source_snapshot\\worddael\\src\\worddael\\io_utils.py",
+          "sha256": "a46c8221036622273c7753a510980a962d39a6700ffde9c517570aeef8ca319f"
+        },
+        {
+          "path": "source_snapshot\\worddael\\src\\worddael\\parent_child.py",
+          "sha256": "8518761a8eb313bfb08edbccb26c045fe2c4d23ad4da7fda13333d18dabbc588"
+        },
+        {
+          "path": "source_snapshot\\worddael\\src\\worddael\\py.typed",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "source_snapshot\\worddael\\src\\worddael\\sentences.py",
+          "sha256": "864fa523ed40febf2d332639a12843875ec0fc0bbe5b74a8bb06b5ccf53caab5"
+        },
+        {
+          "path": "source_snapshot\\worddael\\src\\worddael\\types.py",
+          "sha256": "becc1f9d95925a8d5341e791bfb3319d57d0e50c9dd3ecced5de87b2d6bd368a"
+        }
+      ]
+    },
+    {
+      "package": "gewita",
+      "repository": "https://github.com/cloudydreamland/WitnessesInTheMargins",
+      "source": "local audit source snapshot; content hashes authoritative, no remote commit claimed",
+      "files": [
+        {
+          "path": "source_snapshot\\gewita\\LICENSE",
+          "sha256": "7aeffe67c39583eb8c94f9b30c572813ee0b5c17ab1b060dd1e8a19e863c4dd0"
+        },
+        {
+          "path": "source_snapshot\\gewita\\pyproject.toml",
+          "sha256": "f0d12821d3c0716603a48e600d185e8f202197d1f4e217cae4db25d7d63b1345"
+        },
+        {
+          "path": "source_snapshot\\gewita\\src\\gewita\\__init__.py",
+          "sha256": "810e51ca4b24fb922ba0b6f1707bb4e2fd2ffa88fae3bf59a7675aec8835f3a0"
+        },
+        {
+          "path": "source_snapshot\\gewita\\src\\gewita\\__main__.py",
+          "sha256": "f8ede5b6f1d2d03362d7f10fd76b3ce555fec83409240fff4cf8b2d23e9b1c24"
+        },
+        {
+          "path": "source_snapshot\\gewita\\src\\gewita\\align.py",
+          "sha256": "0bc62a9939d3d39ff0c411bc1eb8c42492d65bcf902ab45d2ac00d7abf3f27ef"
+        },
+        {
+          "path": "source_snapshot\\gewita\\src\\gewita\\bench.py",
+          "sha256": "f7c6aff2b41e8dd40ccce229a0461310d776a4e87b684ddfba21b4480d861ccf"
+        },
+        {
+          "path": "source_snapshot\\gewita\\src\\gewita\\cli.py",
+          "sha256": "572c6a2c7f47b2b57400fc2823d15810c617b72facfa4756748497f57aed8d33"
+        },
+        {
+          "path": "source_snapshot\\gewita\\src\\gewita\\existence.py",
+          "sha256": "a65073599af031c12708aef5f1dbd661c732a7b290f2c96a2c1e237206123826"
+        },
+        {
+          "path": "source_snapshot\\gewita\\src\\gewita\\extract.py",
+          "sha256": "59b60a6bd287f917c1076d29c44d07a529d830b2be4a2979bf9b828718320f5e"
+        },
+        {
+          "path": "source_snapshot\\gewita\\src\\gewita\\py.typed",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "source_snapshot\\gewita\\src\\gewita\\refs.py",
+          "sha256": "7a70feac47c23e49ab23200d742fe93d4832e8ba322e99e027c296a3337fb3b4"
+        },
+        {
+          "path": "source_snapshot\\gewita\\src\\gewita\\refstore.py",
+          "sha256": "e48eb9c5c7513fc03c75d7a4c7c9a46da9f301ad0d38e09b43e2e927ce714bc8"
+        },
+        {
+          "path": "source_snapshot\\gewita\\src\\gewita\\report.py",
+          "sha256": "ce6753ad0fe2b8c7b2d96947a2c43f15e8114e639d5eec96ff99fcf51aad68e9"
+        },
+        {
+          "path": "source_snapshot\\gewita\\src\\gewita\\text.py",
+          "sha256": "13bccfe66efc0f96c6c90e5d0b93ee283c9b93d10ccc4632c19f0888be2345e7"
+        },
+        {
+          "path": "source_snapshot\\gewita\\src\\gewita\\verdict.py",
+          "sha256": "d42d7eda052ba48a56c6afeb6ea3589c73cec0b77838017f298aaa767f9871a2"
+        }
+      ]
+    },
+    {
+      "package": "siftan",
+      "repository": "https://github.com/cloudydreamland/TheSieveBeneathTheStars",
+      "source": "local audit source snapshot; content hashes authoritative, no remote commit claimed",
+      "files": [
+        {
+          "path": "source_snapshot\\siftan\\LICENSE",
+          "sha256": "17d80187e1226290138fb64d2e2f5966013b8a0e6c0b95eac880f9936e0a4dfc"
+        },
+        {
+          "path": "source_snapshot\\siftan\\pyproject.toml",
+          "sha256": "fade0786ac4d02813a18c9afd4b872f08253024742acb35c187348c688eca05c"
+        },
+        {
+          "path": "source_snapshot\\siftan\\src\\siftan\\__init__.py",
+          "sha256": "8a31f9c4d1383cb09647aee7afc3c2ad1701792c922356f1039390526f91540b"
+        },
+        {
+          "path": "source_snapshot\\siftan\\src\\siftan\\_version.py",
+          "sha256": "67b3f7c63d1be38da8eac06c8c77d98b9769073aef5f3fdf0e7b852e7f36b332"
+        },
+        {
+          "path": "source_snapshot\\siftan\\src\\siftan\\check.py",
+          "sha256": "72b0d4024ef6e2673016e340ab5eda9f33a9beb7d9f23d1a5b394c488906a356"
+        },
+        {
+          "path": "source_snapshot\\siftan\\src\\siftan\\cli.py",
+          "sha256": "99fbf1605987750e61ad32bdc256d8859c0def47efae90d846c0cf7e1825cd77"
+        },
+        {
+          "path": "source_snapshot\\siftan\\src\\siftan\\index.py",
+          "sha256": "6e9175b88538cbe5a2957f6d2c4776b28e0548e5f95fd96b669abf3fea3ddb24"
+        },
+        {
+          "path": "source_snapshot\\siftan\\src\\siftan\\ngrams.py",
+          "sha256": "63451ce1c2efbbffcabfbed33dbb4d95a42dc299ab38d18a1914dcf82e9874c2"
+        }
+      ]
+    }
+  ]
+}

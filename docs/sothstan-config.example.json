@@ -1,0 +1,11 @@
+{
+  "base_url": "https://REPLACE-WITH-AUTHORIZED-ENDPOINT.example/v1",
+  "model": "REPLACE-MODEL-ID",
+  "registry": "./baselines",
+  "official_baseline_source": "Replace with official endpoint, collection date, model versions and acquisition evidence",
+  "api_key_env": "MODEL_API_KEY",
+  "seed": 20261023,
+  "max_requests": 24,
+  "max_prompt_tokens": 4000,
+  "timeout": 10
+}

@@ -1,0 +1,5 @@
+include UPSTREAM_PROVENANCE.json LOCAL_PATCHES.md LICENSE
+recursive-include vendor *.py *.json *.md *.txt LICENSE py.typed
+recursive-include src/sixvolumes/data *
+recursive-include scripts *.py *.ps1
+recursive-include tests *.py
