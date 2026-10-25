@@ -1,0 +1,2118 @@
+{
+ "schema": "sixvolumes-preresearch-negquote/0.3",
+ "protocol": "v0.1.1 缺口修复复测：仅新增'不+动词'线索白名单；探针语料 import 自 run_negquote.E（未复制未改动），门控逻辑与 v0.1 逐字一致；合成新语料；非第三方认证",
+ "cues_v01": [
+  "并不是没有",
+  "并不是",
+  "不再是",
+  "未采用",
+  "未使用",
+  "未经过",
+  "并非",
+  "不再",
+  "并不",
+  "没有",
+  "不含",
+  "不得",
+  "不能",
+  "不会",
+  "未达",
+  "拒绝",
+  "禁止",
+  "勿",
+  "无",
+  "非",
+  "未"
+ ],
+ "cues_v011": [
+  "并不是没有",
+  "不成立",
+  "未经过",
+  "不具备",
+  "不达标",
+  "不存在",
+  "不包含",
+  "不属于",
+  "不适用",
+  "并不是",
+  "不通过",
+  "不再是",
+  "不可行",
+  "不符合",
+  "未采用",
+  "不同意",
+  "不允许",
+  "不支持",
+  "不合格",
+  "不满足",
+  "未使用",
+  "不接受",
+  "不会",
+  "不得",
+  "拒绝",
+  "并非",
+  "没有",
+  "并不",
+  "不能",
+  "不再",
+  "未达",
+  "禁止",
+  "不含",
+  "未",
+  "非",
+  "无",
+  "勿"
+ ],
+ "additional_cues": [
+  "不支持",
+  "不存在",
+  "不包含",
+  "不具备",
+  "不符合",
+  "不满足",
+  "不达标",
+  "不同意",
+  "不允许",
+  "不接受",
+  "不属于",
+  "不合格",
+  "不通过",
+  "不成立",
+  "不适用",
+  "不可行"
+ ],
+ "corpus_check_vs_v01": {
+  "status": "passed",
+  "note": "逐组 n 与 raw_levels 分布与 v0.1 完全一致"
+ },
+ "diff_vs_v01": [
+  {
+   "group": "near_negation",
+   "gated_v01": 39,
+   "gated_v011": 40,
+   "newly_gated_titles": [
+    "青禾牌智能灌溉控制器说明"
+   ],
+   "no_longer_gated_titles": []
+  },
+  {
+   "group": "numeric_perturbation",
+   "gated_v01": 2,
+   "gated_v011": 3,
+   "newly_gated_titles": [
+    "绿源蔬菜检测报告"
+   ],
+   "no_longer_gated_titles": []
+  }
+ ],
+ "summary": {
+  "verbatim": {
+   "n": 45,
+   "gated": 0,
+   "gate_rate": 0.0,
+   "raw_levels": {
+    "PARAPHRASE": 13,
+    "VERBATIM": 32
+   },
+   "near_or_better_unmasked": 32
+  },
+  "near_negation": {
+   "n": 40,
+   "gated": 40,
+   "gate_rate": 1.0,
+   "raw_levels": {
+    "PARAPHRASE": 40
+   },
+   "near_or_better_unmasked": 0
+  },
+  "numeric_perturbation": {
+   "n": 40,
+   "gated": 3,
+   "gate_rate": 0.075,
+   "raw_levels": {
+    "PARAPHRASE": 40
+   },
+   "near_or_better_unmasked": 0
+  },
+  "paraphrase": {
+   "n": 40,
+   "gated": 0,
+   "gate_rate": 0.0,
+   "raw_levels": {
+    "NOT_FOUND": 18,
+    "PARAPHRASE": 22
+   },
+   "near_or_better_unmasked": 0
+  },
+  "fullwidth": {
+   "n": 45,
+   "gated": 0,
+   "gate_rate": 0.0,
+   "raw_levels": {
+    "PARAPHRASE": 13,
+    "VERBATIM": 32
+   },
+   "near_or_better_unmasked": 32
+  },
+  "control_neg": {
+   "n": 5,
+   "gated": 0,
+   "gate_rate": 0.0,
+   "raw_levels": {
+    "VERBATIM": 5
+   },
+   "near_or_better_unmasked": 5
+  }
+ },
+ "near_negation_misses": [],
+ "false_fires": {},
+ "details": {
+  "verbatim": [
+   {
+    "verdict": "PARAPHRASE",
+    "gated": false,
+    "cue": null,
+    "span_text": "青禾牌智能灌溉控制器采用双通道电磁阀设计，默认支持八区轮灌，主机防护等级为IP66，保修期为三年。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.9411764705882353,
+    "title": "青禾牌智能灌溉控制器说明"
+   },
+   {
+    "verdict": "VERBATIM",
+    "gated": false,
+    "cue": null,
+    "span_text": "绿洲合作社的烘干塔每小时处理湿粮十五吨",
+    "raw_level": "VERBATIM",
+    "score": 1.0,
+    "title": "绿洲合作社烘干塔记录"
+   },
+   {
+    "verdict": "VERBATIM",
+    "gated": false,
+    "cue": null,
+    "span_text": "恒信冷链车队全程温控设定为零上四摄氏度",
+    "raw_level": "VERBATIM",
+    "score": 1.0,
+    "title": "恒信冷链运输协议"
+   },
+   {
+    "verdict": "VERBATIM",
+    "gated": false,
+    "cue": "无",
+    "span_text": "云杉植保无人机单架次载药量为四十升",
+    "raw_level": "VERBATIM",
+    "score": 1.0,
+    "title": "云杉植保无人机培训手册"
+   },
+   {
+    "verdict": "PARAPHRASE",
+    "gated": false,
+    "cue": "不得",
+    "span_text": "金穗粮库的平房仓每垛间距不小于一点五米，入库水分不得超过百分之十三点五，熏蒸作业须两人同时在场。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.9444444444444444,
+    "title": "金穗仓储管理制度"
+   },
+   {
+    "verdict": "PARAPHRASE",
+    "gated": false,
+    "cue": null,
+    "span_text": "蓝溪净水器的反渗透膜建议每两年更换一次，额定净水量为八千升，废水比为二比一。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.9230769230769231,
+    "title": "蓝溪净水设备保修卡"
+   },
+   {
+    "verdict": "VERBATIM",
+    "gated": false,
+    "cue": null,
+    "span_text": "山川物流对冷链件实行当日达承诺",
+    "raw_level": "VERBATIM",
+    "score": 1.0,
+    "title": "山川物流派送细则"
+   },
+   {
+    "verdict": "PARAPHRASE",
+    "gated": false,
+    "cue": null,
+    "span_text": "启明温室的空气湿度传感器量程为零到百分之百，精度为百分之三，输出信号为四到二十毫安。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.9444444444444444,
+    "title": "启明温室传感器规格"
+   },
+   {
+    "verdict": "VERBATIM",
+    "gated": false,
+    "cue": null,
+    "span_text": "丰泽合作社的收割机在跨区作业前必须更换机油滤芯",
+    "raw_level": "VERBATIM",
+    "score": 1.0,
+    "title": "丰泽农机合作社章程"
+   },
+   {
+    "verdict": "PARAPHRASE",
+    "gated": false,
+    "cue": null,
+    "span_text": "北极星农资连锁对会员农户提供赊销服务，单户授信上限为五万元，年利率按基准利率上浮百分之十执行。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.9375,
+    "title": "北极星农资连锁协议"
+   },
+   {
+    "verdict": "VERBATIM",
+    "gated": false,
+    "cue": null,
+    "span_text": "长风三五零型拖拉机的磨合期为五十小时",
+    "raw_level": "VERBATIM",
+    "score": 1.0,
+    "title": "长风拖拉机保养手册"
+   },
+   {
+    "verdict": "PARAPHRASE",
+    "gated": false,
+    "cue": null,
+    "span_text": "白云面粉厂收购今年新麦的容重标准为七百七十克每升以上，不完善粒控制在百分之六以内。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.9565217391304348,
+    "title": "白云面粉厂收购公告"
+   },
+   {
+    "verdict": "VERBATIM",
+    "gated": false,
+    "cue": null,
+    "span_text": "红星果园在气温降至零下二度时启动熏烟防冻",
+    "raw_level": "VERBATIM",
+    "score": 1.0,
+    "title": "红星果园防冻预案"
+   },
+   {
+    "verdict": "VERBATIM",
+    "gated": false,
+    "cue": null,
+    "span_text": "港湾一号鱼饲料的粗蛋白含量为百分之三十二",
+    "raw_level": "VERBATIM",
+    "score": 1.0,
+    "title": "港湾水产饲料配方"
+   },
+   {
+    "verdict": "VERBATIM",
+    "gated": false,
+    "cue": null,
+    "span_text": "青峰农电站的三号变压器额定容量为二百千伏安",
+    "raw_level": "VERBATIM",
+    "score": 1.0,
+    "title": "青峰农电站运行日志"
+   },
+   {
+    "verdict": "VERBATIM",
+    "gated": false,
+    "cue": null,
+    "span_text": "绿源基地的黄瓜采样检测结果为农药残留合格",
+    "raw_level": "VERBATIM",
+    "score": 1.0,
+    "title": "绿源蔬菜检测报告"
+   },
+   {
+    "verdict": "PARAPHRASE",
+    "gated": false,
+    "cue": null,
+    "span_text": "大河灌区本轮春灌自三月二十日起，亩均供水量为一百二十立方米，水价按零点零八元每立方米执行。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.9375,
+    "title": "大河灌区供水通知"
+   },
+   {
+    "verdict": "PARAPHRASE",
+    "gated": false,
+    "cue": null,
+    "span_text": "丰收维修站为一号联合收割机更换了离合器片，工时费为四百二十元，配件费为九百六十元。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.9230769230769231,
+    "title": "丰收农机维修单"
+   },
+   {
+    "verdict": "VERBATIM",
+    "gated": false,
+    "cue": null,
+    "span_text": "晨光奶站收购生鲜乳的乳蛋白率要求为百分之二点九五以上",
+    "raw_level": "VERBATIM",
+    "score": 1.0,
+    "title": "晨光奶站收购标准"
+   },
+   {
+    "verdict": "VERBATIM",
+    "gated": false,
+    "cue": null,
+    "span_text": "南山茶厂的杀青机筒温设定为二百二十度",
+    "raw_level": "VERBATIM",
+    "score": 1.0,
+    "title": "南山茶厂加工规程"
+   },
+   {
+    "verdict": "VERBATIM",
+    "gated": false,
+    "cue": null,
+    "span_text": "永固大棚的骨架采用热镀锌钢管",
+    "raw_level": "VERBATIM",
+    "score": 1.0,
+    "title": "永固大棚建材清单"
+   },
+   {
+    "verdict": "VERBATIM",
+    "gated": false,
+    "cue": null,
+    "span_text": "望天村在玉米地东侧架设脉冲电网",
+    "raw_level": "VERBATIM",
+    "score": 1.0,
+    "title": "望田野猪防护通告"
+   },
+   {
+    "verdict": "VERBATIM",
+    "gated": false,
+    "cue": null,
+    "span_text": "灯塔渔港小型渔船出海须报备北斗终端号",
+    "raw_level": "VERBATIM",
+    "score": 1.0,
+    "title": "灯塔渔港进出港规定"
+   },
+   {
+    "verdict": "VERBATIM",
+    "gated": false,
+    "cue": null,
+    "span_text": "盛夏果园的滴灌带滴头间距为三十厘米",
+    "raw_level": "VERBATIM",
+    "score": 1.0,
+    "title": "盛夏果园滴灌方案"
+   },
+   {
+    "verdict": "VERBATIM",
+    "gated": false,
+    "cue": null,
+    "span_text": "北岭种羊场新进种羊隔离观察四十五天",
+    "raw_level": "VERBATIM",
+    "score": 1.0,
+    "title": "北岭种羊场检疫记录"
+   },
+   {
+    "verdict": "VERBATIM",
+    "gated": false,
+    "cue": null,
+    "span_text": "宏图掺混肥的基肥配方为氮磷钾比例十五比十五比十五",
+    "raw_level": "VERBATIM",
+    "score": 1.0,
+    "title": "宏图化肥掺混配方"
+   },
+   {
+    "verdict": "VERBATIM",
+    "gated": false,
+    "cue": null,
+    "span_text": "清河农机手跨乡镇作业按每亩八元结算",
+    "raw_level": "VERBATIM",
+    "score": 1.0,
+    "title": "清河农机手协议"
+   },
+   {
+    "verdict": "PARAPHRASE",
+    "gated": false,
+    "cue": null,
+    "span_text": "甘泉井灌区农业排灌用电执行农业生产电价，每千瓦时零点五四四六元，月末统一结算。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.9333333333333333,
+    "title": "甘泉井灌区电价公示"
+   },
+   {
+    "verdict": "VERBATIM",
+    "gated": false,
+    "cue": null,
+    "span_text": "金桥农膜回收点按旧膜每公斤一元回收",
+    "raw_level": "VERBATIM",
+    "score": 1.0,
+    "title": "金桥农膜回收点公告"
+   },
+   {
+    "verdict": "VERBATIM",
+    "gated": false,
+    "cue": null,
+    "span_text": "翠岭果园今年疏果后每亩留果一万二千个",
+    "raw_level": "VERBATIM",
+    "score": 1.0,
+    "title": "翠岭果园套袋通知"
+   },
+   {
+    "verdict": "VERBATIM",
+    "gated": false,
+    "cue": null,
+    "span_text": "祥云展销会共设展位一百二十个",
+    "raw_level": "VERBATIM",
+    "score": 1.0,
+    "title": "祥云农产品展销会纪要"
+   },
+   {
+    "verdict": "VERBATIM",
+    "gated": false,
+    "cue": null,
+    "span_text": "石门水库汛限水位为一百零五米",
+    "raw_level": "VERBATIM",
+    "score": 1.0,
+    "title": "石门水库防汛预案"
+   },
+   {
+    "verdict": "VERBATIM",
+    "gated": false,
+    "cue": null,
+    "span_text": "双丰合作社今年柴油支出为四万三千元",
+    "raw_level": "VERBATIM",
+    "score": 1.0,
+    "title": "双丰拖拉机合作社账目"
+   },
+   {
+    "verdict": "PARAPHRASE",
+    "gated": false,
+    "cue": null,
+    "span_text": "百顺种业向农户供应的玉米杂交种发芽率不低于百分之九十五，净度不低于百分之九十九。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.95,
+    "title": "百顺种业购销合同"
+   },
+   {
+    "verdict": "PARAPHRASE",
+    "gated": false,
+    "cue": null,
+    "span_text": "天目山货的电商件默认发顺丰，干菌类单品满一百二十元包邮，破损包赔。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.9375,
+    "title": "天目山货合作社电商细则"
+   },
+   {
+    "verdict": "VERBATIM",
+    "gated": false,
+    "cue": null,
+    "span_text": "新港秸秆收储点年收储能力为两万吨",
+    "raw_level": "VERBATIM",
+    "score": 1.0,
+    "title": "新港秸秆收储点运行说明"
+   },
+   {
+    "verdict": "PARAPHRASE",
+    "gated": false,
+    "cue": null,
+    "span_text": "古城飞防队为本村小麦实施一喷三防作业，用药为戊唑醇与吡虫啉混配，亩用药液量一升。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.9090909090909091,
+    "title": "古城植保飞防作业单"
+   },
+   {
+    "verdict": "VERBATIM",
+    "gated": false,
+    "cue": null,
+    "span_text": "雪原牧场挤奶前用碘液药浴乳头",
+    "raw_level": "VERBATIM",
+    "score": 1.0,
+    "title": "雪原牧场挤奶流程"
+   },
+   {
+    "verdict": "PARAPHRASE",
+    "gated": false,
+    "cue": null,
+    "span_text": "北港冷链库零下十八度冻品仓租金为每月每平方米五十八元，零上四度冷藏仓为三十六元。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.95,
+    "title": "北港冷链库租赁价目"
+   },
+   {
+    "verdict": "VERBATIM",
+    "gated": false,
+    "cue": null,
+    "span_text": "杏花村光伏提水站装机五千瓦",
+    "raw_level": "VERBATIM",
+    "score": 1.0,
+    "title": "杏花村光伏提水站验收单"
+   },
+   {
+    "verdict": "VERBATIM",
+    "gated": false,
+    "cue": "不得",
+    "span_text": "农药仓库内不得存放食品与饮料",
+    "raw_level": "VERBATIM",
+    "score": 1.0,
+    "title": "丰泽农药存放规定"
+   },
+   {
+    "verdict": "VERBATIM",
+    "gated": false,
+    "cue": "不得",
+    "span_text": "未经检疫的生猪一律不得进入屠宰环节",
+    "raw_level": "VERBATIM",
+    "score": 1.0,
+    "title": "清河检疫公示"
+   },
+   {
+    "verdict": "VERBATIM",
+    "gated": false,
+    "cue": null,
+    "span_text": "滤芯属于耗材，不在整机保修范围内",
+    "raw_level": "VERBATIM",
+    "score": 1.0,
+    "title": "蓝溪质保条款"
+   },
+   {
+    "verdict": "VERBATIM",
+    "gated": false,
+    "cue": "禁止",
+    "span_text": "休渔期内禁止一切捕捞作业",
+    "raw_level": "VERBATIM",
+    "score": 1.0,
+    "title": "港湾禁渔通告"
+   },
+   {
+    "verdict": "VERBATIM",
+    "gated": false,
+    "cue": "不得",
+    "span_text": "熏蒸期间仓房四周三十米内不得有明火作业",
+    "raw_level": "VERBATIM",
+    "score": 1.0,
+    "title": "金穗熏蒸守则"
+   }
+  ],
+  "near_negation": [
+   {
+    "verdict": "UNSUPPORTED_PENDING_REVIEW",
+    "gated": true,
+    "cue": "不支持",
+    "span_text": "青禾牌智能灌溉控制器采用双通道电磁阀设计，默认支持八区轮灌，主机防护等级为IP66，保修期为三年。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.8333333333333334,
+    "title": "青禾牌智能灌溉控制器说明"
+   },
+   {
+    "verdict": "UNSUPPORTED_PENDING_REVIEW",
+    "gated": true,
+    "cue": "没有",
+    "span_text": "绿洲合作社的烘干塔每小时处理湿粮十五吨，采用天然气热源，除尘风机功率为十一千瓦。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.85,
+    "title": "绿洲合作社烘干塔记录"
+   },
+   {
+    "verdict": "UNSUPPORTED_PENDING_REVIEW",
+    "gated": true,
+    "cue": "并非",
+    "span_text": "恒信冷链车队全程温控设定为零上四摄氏度，车厢内配备两支独立温度记录仪，数据保存期为一百八十天。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.8421052631578947,
+    "title": "恒信冷链运输协议"
+   },
+   {
+    "verdict": "UNSUPPORTED_PENDING_REVIEW",
+    "gated": true,
+    "cue": "没有",
+    "span_text": "云杉植保无人机单架次载药量为四十升，满载续航约十八分钟，作业宽度可达九米。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.8235294117647058,
+    "title": "云杉植保无人机培训手册"
+   },
+   {
+    "verdict": "UNSUPPORTED_PENDING_REVIEW",
+    "gated": true,
+    "cue": "并非",
+    "span_text": "金穗粮库的平房仓每垛间距不小于一点五米，入库水分不得超过百分之十三点五，熏蒸作业须两人同时在场。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.6666666666666666,
+    "title": "金穗仓储管理制度"
+   },
+   {
+    "verdict": "UNSUPPORTED_PENDING_REVIEW",
+    "gated": true,
+    "cue": "未达",
+    "span_text": "蓝溪净水器的反渗透膜建议每两年更换一次，额定净水量为八千升，废水比为二比一。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.7142857142857143,
+    "title": "蓝溪净水设备保修卡"
+   },
+   {
+    "verdict": "UNSUPPORTED_PENDING_REVIEW",
+    "gated": true,
+    "cue": "并不",
+    "span_text": "山川物流对冷链件实行当日达承诺，晚于二十二点签收的订单按运费双倍赔付。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.7142857142857143,
+    "title": "山川物流派送细则"
+   },
+   {
+    "verdict": "UNSUPPORTED_PENDING_REVIEW",
+    "gated": true,
+    "cue": "没有",
+    "span_text": "启明温室的空气湿度传感器量程为零到百分之百，精度为百分之三，输出信号为四到二十毫安。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.7894736842105263,
+    "title": "启明温室传感器规格"
+   },
+   {
+    "verdict": "UNSUPPORTED_PENDING_REVIEW",
+    "gated": true,
+    "cue": "并非",
+    "span_text": "丰泽合作社的收割机在跨区作业前必须更换机油滤芯，转运时须拆除割台并用专用支架固定。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.875,
+    "title": "丰泽农机合作社章程"
+   },
+   {
+    "verdict": "UNSUPPORTED_PENDING_REVIEW",
+    "gated": true,
+    "cue": "没有",
+    "span_text": "北极星农资连锁对会员农户提供赊销服务，单户授信上限为五万元，年利率按基准利率上浮百分之十执行。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.7647058823529411,
+    "title": "北极星农资连锁协议"
+   },
+   {
+    "verdict": "UNSUPPORTED_PENDING_REVIEW",
+    "gated": true,
+    "cue": "没有",
+    "span_text": "长风三五零型拖拉机的磨合期为五十小时，磨合期内禁止满负荷作业，首次保养须更换三滤。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.8333333333333334,
+    "title": "长风拖拉机保养手册"
+   },
+   {
+    "verdict": "UNSUPPORTED_PENDING_REVIEW",
+    "gated": true,
+    "cue": "并非",
+    "span_text": "白云面粉厂收购今年新麦的容重标准为七百七十克每升以上，不完善粒控制在百分之六以内。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.8333333333333334,
+    "title": "白云面粉厂收购公告"
+   },
+   {
+    "verdict": "UNSUPPORTED_PENDING_REVIEW",
+    "gated": true,
+    "cue": "没有",
+    "span_text": "红星果园在气温降至零下二度时启动熏烟防冻，每亩布置烟点四个，风机在凌晨两点开机。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.8571428571428571,
+    "title": "红星果园防冻预案"
+   },
+   {
+    "verdict": "UNSUPPORTED_PENDING_REVIEW",
+    "gated": true,
+    "cue": "并非",
+    "span_text": "港湾一号鱼饲料的粗蛋白含量为百分之三十二，投喂率为鱼体重的百分之三，每天投喂两次。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.85,
+    "title": "港湾水产饲料配方"
+   },
+   {
+    "verdict": "UNSUPPORTED_PENDING_REVIEW",
+    "gated": true,
+    "cue": "没有",
+    "span_text": "青峰农电站的三号变压器额定容量为二百千伏安，低压侧额定电流为二百八十八安。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.8571428571428571,
+    "title": "青峰农电站运行日志"
+   },
+   {
+    "verdict": "UNSUPPORTED_PENDING_REVIEW",
+    "gated": true,
+    "cue": "并非",
+    "span_text": "绿源基地的黄瓜采样检测结果为农药残留合格，检测依据为现行国家标准，样品数为十二份。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.85,
+    "title": "绿源蔬菜检测报告"
+   },
+   {
+    "verdict": "UNSUPPORTED_PENDING_REVIEW",
+    "gated": true,
+    "cue": "没有",
+    "span_text": "大河灌区本轮春灌自三月二十日起，亩均供水量为一百二十立方米，水价按零点零八元每立方米执行。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.7647058823529411,
+    "title": "大河灌区供水通知"
+   },
+   {
+    "verdict": "UNSUPPORTED_PENDING_REVIEW",
+    "gated": true,
+    "cue": "没有",
+    "span_text": "丰收维修站为一号联合收割机更换了离合器片，工时费为四百二十元，配件费为九百六十元。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.7142857142857143,
+    "title": "丰收农机维修单"
+   },
+   {
+    "verdict": "UNSUPPORTED_PENDING_REVIEW",
+    "gated": true,
+    "cue": "并非",
+    "span_text": "晨光奶站收购生鲜乳的乳蛋白率要求为百分之二点九五以上，体细胞数不超过每毫升四十万个。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.8846153846153846,
+    "title": "晨光奶站收购标准"
+   },
+   {
+    "verdict": "UNSUPPORTED_PENDING_REVIEW",
+    "gated": true,
+    "cue": "没有",
+    "span_text": "南山茶厂的杀青机筒温设定为二百二十度，杀青时长九十秒，摊晾厚度不超过三厘米。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.8333333333333334,
+    "title": "南山茶厂加工规程"
+   },
+   {
+    "verdict": "UNSUPPORTED_PENDING_REVIEW",
+    "gated": true,
+    "cue": "并非",
+    "span_text": "永固大棚的骨架采用热镀锌钢管，壁厚二点五毫米，间距一米，抗风等级为八级。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.7692307692307693,
+    "title": "永固大棚建材清单"
+   },
+   {
+    "verdict": "UNSUPPORTED_PENDING_REVIEW",
+    "gated": true,
+    "cue": "没有",
+    "span_text": "望天村在玉米地东侧架设脉冲电网，电压为五千伏，脉冲间隔一秒，日均触发次数记录在案。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.8125,
+    "title": "望田野猪防护通告"
+   },
+   {
+    "verdict": "UNSUPPORTED_PENDING_REVIEW",
+    "gated": true,
+    "cue": "并非",
+    "span_text": "灯塔渔港小型渔船出海须报备北斗终端号，返港后两小时内上传渔获品种与数量。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.8421052631578947,
+    "title": "灯塔渔港进出港规定"
+   },
+   {
+    "verdict": "UNSUPPORTED_PENDING_REVIEW",
+    "gated": true,
+    "cue": "没有",
+    "span_text": "盛夏果园的滴灌带滴头间距为三十厘米，流量每小时二点零升，单次灌溉时长四小时。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.8235294117647058,
+    "title": "盛夏果园滴灌方案"
+   },
+   {
+    "verdict": "UNSUPPORTED_PENDING_REVIEW",
+    "gated": true,
+    "cue": "并非",
+    "span_text": "北岭种羊场新进种羊隔离观察四十五天，布病检测合格后方可并群，耳标编号同步录入档案。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.8235294117647058,
+    "title": "北岭种羊场检疫记录"
+   },
+   {
+    "verdict": "UNSUPPORTED_PENDING_REVIEW",
+    "gated": true,
+    "cue": "并非",
+    "span_text": "宏图掺混肥的基肥配方为氮磷钾比例十五比十五比十五，另添加硼元素千分之一。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.85,
+    "title": "宏图化肥掺混配方"
+   },
+   {
+    "verdict": "UNSUPPORTED_PENDING_REVIEW",
+    "gated": true,
+    "cue": "没有",
+    "span_text": "清河农机手跨乡镇作业按每亩八元结算，油料由雇主承担，故障停机超过半天按七折计费。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.8333333333333334,
+    "title": "清河农机手协议"
+   },
+   {
+    "verdict": "UNSUPPORTED_PENDING_REVIEW",
+    "gated": true,
+    "cue": "并非",
+    "span_text": "甘泉井灌区农业排灌用电执行农业生产电价，每千瓦时零点五四四六元，月末统一结算。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.8235294117647058,
+    "title": "甘泉井灌区电价公示"
+   },
+   {
+    "verdict": "UNSUPPORTED_PENDING_REVIEW",
+    "gated": true,
+    "cue": "没有",
+    "span_text": "金桥农膜回收点按旧膜每公斤一元回收，交售量达到五十公斤以上的另送一卷新地膜。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.8235294117647058,
+    "title": "金桥农膜回收点公告"
+   },
+   {
+    "verdict": "UNSUPPORTED_PENDING_REVIEW",
+    "gated": true,
+    "cue": "并非",
+    "span_text": "翠岭果园今年疏果后每亩留果一万二千个，套袋作业在六月十日前完成，纸袋由合作社统一采购。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.8421052631578947,
+    "title": "翠岭果园套袋通知"
+   },
+   {
+    "verdict": "UNSUPPORTED_PENDING_REVIEW",
+    "gated": true,
+    "cue": "没有",
+    "span_text": "祥云展销会共设展位一百二十个，其中脱贫地区专项展位三十个，展期三天，免收展位费。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.8,
+    "title": "祥云农产品展销会纪要"
+   },
+   {
+    "verdict": "UNSUPPORTED_PENDING_REVIEW",
+    "gated": true,
+    "cue": "并非",
+    "span_text": "石门水库汛限水位为一百零五米，超汛限时开闸泄洪，泄洪前通知下游三个村的广播站。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.7857142857142857,
+    "title": "石门水库防汛预案"
+   },
+   {
+    "verdict": "UNSUPPORTED_PENDING_REVIEW",
+    "gated": true,
+    "cue": "没有",
+    "span_text": "双丰合作社今年柴油支出为四万三千元，同比减少一成，主要因统一采购了节油喷嘴。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.8235294117647058,
+    "title": "双丰拖拉机合作社账目"
+   },
+   {
+    "verdict": "UNSUPPORTED_PENDING_REVIEW",
+    "gated": true,
+    "cue": "并非",
+    "span_text": "百顺种业向农户供应的玉米杂交种发芽率不低于百分之九十五，净度不低于百分之九十九。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.8181818181818182,
+    "title": "百顺种业购销合同"
+   },
+   {
+    "verdict": "UNSUPPORTED_PENDING_REVIEW",
+    "gated": true,
+    "cue": "并非",
+    "span_text": "天目山货的电商件默认发顺丰，干菌类单品满一百二十元包邮，破损包赔。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.7777777777777778,
+    "title": "天目山货合作社电商细则"
+   },
+   {
+    "verdict": "UNSUPPORTED_PENDING_REVIEW",
+    "gated": true,
+    "cue": "没有",
+    "span_text": "新港秸秆收储点年收储能力为两万吨，打捆密度每立方米三百公斤，离田补贴每亩四十元。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.8,
+    "title": "新港秸秆收储点运行说明"
+   },
+   {
+    "verdict": "UNSUPPORTED_PENDING_REVIEW",
+    "gated": true,
+    "cue": "并非",
+    "span_text": "古城飞防队为本村小麦实施一喷三防作业，用药为戊唑醇与吡虫啉混配，亩用药液量一升。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.6923076923076923,
+    "title": "古城植保飞防作业单"
+   },
+   {
+    "verdict": "UNSUPPORTED_PENDING_REVIEW",
+    "gated": true,
+    "cue": "并非",
+    "span_text": "雪原牧场挤奶前用碘液药浴乳头，每头牛挤奶全程八分钟，管道系统每次挤完后循环清洗四十分钟。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.8,
+    "title": "雪原牧场挤奶流程"
+   },
+   {
+    "verdict": "UNSUPPORTED_PENDING_REVIEW",
+    "gated": true,
+    "cue": "没有",
+    "span_text": "北港冷链库零下十八度冻品仓租金为每月每平方米五十八元，零上四度冷藏仓为三十六元。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.8095238095238095,
+    "title": "北港冷链库租赁价目"
+   },
+   {
+    "verdict": "UNSUPPORTED_PENDING_REVIEW",
+    "gated": true,
+    "cue": "没有",
+    "span_text": "杏花村光伏提水站装机五千瓦，扬程三十五米，晴天日提水量为一百二十立方米。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.7857142857142857,
+    "title": "杏花村光伏提水站验收单"
+   }
+  ],
+  "numeric_perturbation": [
+   {
+    "verdict": "PARAPHRASE",
+    "gated": false,
+    "cue": null,
+    "span_text": "青禾牌智能灌溉控制器采用双通道电磁阀设计，默认支持八区轮灌，主机防护等级为IP66，保修期为三年。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.7777777777777778,
+    "title": "青禾牌智能灌溉控制器说明"
+   },
+   {
+    "verdict": "PARAPHRASE",
+    "gated": false,
+    "cue": null,
+    "span_text": "绿洲合作社的烘干塔每小时处理湿粮十五吨，采用天然气热源，除尘风机功率为十一千瓦。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.8333333333333334,
+    "title": "绿洲合作社烘干塔记录"
+   },
+   {
+    "verdict": "PARAPHRASE",
+    "gated": false,
+    "cue": null,
+    "span_text": "恒信冷链车队全程温控设定为零上四摄氏度，车厢内配备两支独立温度记录仪，数据保存期为一百八十天。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.8888888888888888,
+    "title": "恒信冷链运输协议"
+   },
+   {
+    "verdict": "PARAPHRASE",
+    "gated": false,
+    "cue": "无",
+    "span_text": "云杉植保无人机单架次载药量为四十升，满载续航约十八分钟，作业宽度可达九米。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.8125,
+    "title": "云杉植保无人机培训手册"
+   },
+   {
+    "verdict": "PARAPHRASE",
+    "gated": false,
+    "cue": "不得",
+    "span_text": "金穗粮库的平房仓每垛间距不小于一点五米，入库水分不得超过百分之十三点五，熏蒸作业须两人同时在场。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.7777777777777778,
+    "title": "金穗仓储管理制度"
+   },
+   {
+    "verdict": "PARAPHRASE",
+    "gated": false,
+    "cue": null,
+    "span_text": "蓝溪净水器的反渗透膜建议每两年更换一次，额定净水量为八千升，废水比为二比一。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.7692307692307693,
+    "title": "蓝溪净水设备保修卡"
+   },
+   {
+    "verdict": "PARAPHRASE",
+    "gated": false,
+    "cue": null,
+    "span_text": "山川物流对冷链件实行当日达承诺，晚于二十二点签收的订单按运费双倍赔付。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.8125,
+    "title": "山川物流派送细则"
+   },
+   {
+    "verdict": "PARAPHRASE",
+    "gated": false,
+    "cue": null,
+    "span_text": "启明温室的空气湿度传感器量程为零到百分之百，精度为百分之三，输出信号为四到二十毫安。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.8947368421052632,
+    "title": "启明温室传感器规格"
+   },
+   {
+    "verdict": "UNSUPPORTED_PENDING_REVIEW",
+    "gated": true,
+    "cue": "无",
+    "span_text": "丰泽合作社的收割机在跨区作业前必须更换机油滤芯，转运时须拆除割台并用专用支架固定。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.9090909090909091,
+    "title": "丰泽农机合作社章程"
+   },
+   {
+    "verdict": "PARAPHRASE",
+    "gated": false,
+    "cue": null,
+    "span_text": "北极星农资连锁对会员农户提供赊销服务，单户授信上限为五万元，年利率按基准利率上浮百分之十执行。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.8235294117647058,
+    "title": "北极星农资连锁协议"
+   },
+   {
+    "verdict": "PARAPHRASE",
+    "gated": false,
+    "cue": null,
+    "span_text": "长风三五零型拖拉机的磨合期为五十小时，磨合期内禁止满负荷作业，首次保养须更换三滤。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.8823529411764706,
+    "title": "长风拖拉机保养手册"
+   },
+   {
+    "verdict": "PARAPHRASE",
+    "gated": false,
+    "cue": null,
+    "span_text": "白云面粉厂收购今年新麦的容重标准为七百七十克每升以上，不完善粒控制在百分之六以内。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.8260869565217391,
+    "title": "白云面粉厂收购公告"
+   },
+   {
+    "verdict": "PARAPHRASE",
+    "gated": false,
+    "cue": null,
+    "span_text": "红星果园在气温降至零下二度时启动熏烟防冻，每亩布置烟点四个，风机在凌晨两点开机。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.9,
+    "title": "红星果园防冻预案"
+   },
+   {
+    "verdict": "PARAPHRASE",
+    "gated": false,
+    "cue": null,
+    "span_text": "港湾一号鱼饲料的粗蛋白含量为百分之三十二，投喂率为鱼体重的百分之三，每天投喂两次。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.8947368421052632,
+    "title": "港湾水产饲料配方"
+   },
+   {
+    "verdict": "PARAPHRASE",
+    "gated": false,
+    "cue": null,
+    "span_text": "青峰农电站的三号变压器额定容量为二百千伏安，低压侧额定电流为二百八十八安。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.9,
+    "title": "青峰农电站运行日志"
+   },
+   {
+    "verdict": "UNSUPPORTED_PENDING_REVIEW",
+    "gated": true,
+    "cue": "不合格",
+    "span_text": "绿源基地的黄瓜采样检测结果为农药残留合格，检测依据为现行国家标准，样品数为十二份。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.9,
+    "title": "绿源蔬菜检测报告"
+   },
+   {
+    "verdict": "PARAPHRASE",
+    "gated": false,
+    "cue": null,
+    "span_text": "大河灌区本轮春灌自三月二十日起，亩均供水量为一百二十立方米，水价按零点零八元每立方米执行。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.6875,
+    "title": "大河灌区供水通知"
+   },
+   {
+    "verdict": "PARAPHRASE",
+    "gated": false,
+    "cue": null,
+    "span_text": "丰收维修站为一号联合收割机更换了离合器片，工时费为四百二十元，配件费为九百六十元。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.7857142857142857,
+    "title": "丰收农机维修单"
+   },
+   {
+    "verdict": "PARAPHRASE",
+    "gated": false,
+    "cue": null,
+    "span_text": "晨光奶站收购生鲜乳的乳蛋白率要求为百分之二点九五以上，体细胞数不超过每毫升四十万个。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.8461538461538461,
+    "title": "晨光奶站收购标准"
+   },
+   {
+    "verdict": "PARAPHRASE",
+    "gated": false,
+    "cue": null,
+    "span_text": "南山茶厂的杀青机筒温设定为二百二十度，杀青时长九十秒，摊晾厚度不超过三厘米。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.8947368421052632,
+    "title": "南山茶厂加工规程"
+   },
+   {
+    "verdict": "PARAPHRASE",
+    "gated": false,
+    "cue": null,
+    "span_text": "永固大棚的骨架采用热镀锌钢管，壁厚二点五毫米，间距一米，抗风等级为八级。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.8125,
+    "title": "永固大棚建材清单"
+   },
+   {
+    "verdict": "PARAPHRASE",
+    "gated": false,
+    "cue": null,
+    "span_text": "望天村在玉米地东侧架设脉冲电网，电压为五千伏，脉冲间隔一秒，日均触发次数记录在案。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.7777777777777778,
+    "title": "望田野猪防护通告"
+   },
+   {
+    "verdict": "UNSUPPORTED_PENDING_REVIEW",
+    "gated": true,
+    "cue": "无",
+    "span_text": "灯塔渔港小型渔船出海须报备北斗终端号，返港后两小时内上传渔获品种与数量。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.8888888888888888,
+    "title": "灯塔渔港进出港规定"
+   },
+   {
+    "verdict": "PARAPHRASE",
+    "gated": false,
+    "cue": null,
+    "span_text": "盛夏果园的滴灌带滴头间距为三十厘米，流量每小时二点零升，单次灌溉时长四小时。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.9333333333333333,
+    "title": "盛夏果园滴灌方案"
+   },
+   {
+    "verdict": "PARAPHRASE",
+    "gated": false,
+    "cue": null,
+    "span_text": "北岭种羊场新进种羊隔离观察四十五天，布病检测合格后方可并群，耳标编号同步录入档案。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.8461538461538461,
+    "title": "北岭种羊场检疫记录"
+   },
+   {
+    "verdict": "PARAPHRASE",
+    "gated": false,
+    "cue": null,
+    "span_text": "宏图掺混肥的基肥配方为氮磷钾比例十五比十五比十五，另添加硼元素千分之一。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.9047619047619048,
+    "title": "宏图化肥掺混配方"
+   },
+   {
+    "verdict": "PARAPHRASE",
+    "gated": false,
+    "cue": null,
+    "span_text": "清河农机手跨乡镇作业按每亩八元结算，油料由雇主承担，故障停机超过半天按七折计费。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.8823529411764706,
+    "title": "清河农机手协议"
+   },
+   {
+    "verdict": "PARAPHRASE",
+    "gated": false,
+    "cue": null,
+    "span_text": "甘泉井灌区农业排灌用电执行农业生产电价，每千瓦时零点五四四六元，月末统一结算。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.7142857142857143,
+    "title": "甘泉井灌区电价公示"
+   },
+   {
+    "verdict": "PARAPHRASE",
+    "gated": false,
+    "cue": null,
+    "span_text": "金桥农膜回收点按旧膜每公斤一元回收，交售量达到五十公斤以上的另送一卷新地膜。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.8666666666666667,
+    "title": "金桥农膜回收点公告"
+   },
+   {
+    "verdict": "PARAPHRASE",
+    "gated": false,
+    "cue": null,
+    "span_text": "翠岭果园今年疏果后每亩留果一万二千个，套袋作业在六月十日前完成，纸袋由合作社统一采购。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.9411764705882353,
+    "title": "翠岭果园套袋通知"
+   },
+   {
+    "verdict": "PARAPHRASE",
+    "gated": false,
+    "cue": null,
+    "span_text": "祥云展销会共设展位一百二十个，其中脱贫地区专项展位三十个，展期三天，免收展位费。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.8571428571428571,
+    "title": "祥云农产品展销会纪要"
+   },
+   {
+    "verdict": "PARAPHRASE",
+    "gated": false,
+    "cue": null,
+    "span_text": "石门水库汛限水位为一百零五米，超汛限时开闸泄洪，泄洪前通知下游三个村的广播站。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.8571428571428571,
+    "title": "石门水库防汛预案"
+   },
+   {
+    "verdict": "PARAPHRASE",
+    "gated": false,
+    "cue": null,
+    "span_text": "双丰合作社今年柴油支出为四万三千元，同比减少一成，主要因统一采购了节油喷嘴。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.75,
+    "title": "双丰拖拉机合作社账目"
+   },
+   {
+    "verdict": "PARAPHRASE",
+    "gated": false,
+    "cue": null,
+    "span_text": "百顺种业向农户供应的玉米杂交种发芽率不低于百分之九十五，净度不低于百分之九十九。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.85,
+    "title": "百顺种业购销合同"
+   },
+   {
+    "verdict": "PARAPHRASE",
+    "gated": false,
+    "cue": null,
+    "span_text": "天目山货的电商件默认发顺丰，干菌类单品满一百二十元包邮，破损包赔。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.8125,
+    "title": "天目山货合作社电商细则"
+   },
+   {
+    "verdict": "PARAPHRASE",
+    "gated": false,
+    "cue": null,
+    "span_text": "新港秸秆收储点年收储能力为两万吨，打捆密度每立方米三百公斤，离田补贴每亩四十元。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.8571428571428571,
+    "title": "新港秸秆收储点运行说明"
+   },
+   {
+    "verdict": "PARAPHRASE",
+    "gated": false,
+    "cue": null,
+    "span_text": "古城飞防队为本村小麦实施一喷三防作业，用药为戊唑醇与吡虫啉混配，亩用药液量一升。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.75,
+    "title": "古城植保飞防作业单"
+   },
+   {
+    "verdict": "PARAPHRASE",
+    "gated": false,
+    "cue": null,
+    "span_text": "雪原牧场挤奶前用碘液药浴乳头，每头牛挤奶全程八分钟，管道系统每次挤完后循环清洗四十分钟。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.8461538461538461,
+    "title": "雪原牧场挤奶流程"
+   },
+   {
+    "verdict": "PARAPHRASE",
+    "gated": false,
+    "cue": null,
+    "span_text": "北港冷链库零下十八度冻品仓租金为每月每平方米五十八元，零上四度冷藏仓为三十六元。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.9,
+    "title": "北港冷链库租赁价目"
+   },
+   {
+    "verdict": "PARAPHRASE",
+    "gated": false,
+    "cue": null,
+    "span_text": "杏花村光伏提水站装机五千瓦，扬程三十五米，晴天日提水量为一百二十立方米。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.8461538461538461,
+    "title": "杏花村光伏提水站验收单"
+   }
+  ],
+  "paraphrase": [
+   {
+    "verdict": "NOT_FOUND",
+    "gated": false,
+    "cue": null,
+    "span_text": null,
+    "raw_level": "NOT_FOUND",
+    "score": 0.0,
+    "title": "青禾牌智能灌溉控制器说明"
+   },
+   {
+    "verdict": "NOT_FOUND",
+    "gated": false,
+    "cue": null,
+    "span_text": null,
+    "raw_level": "NOT_FOUND",
+    "score": 0.0,
+    "title": "绿洲合作社烘干塔记录"
+   },
+   {
+    "verdict": "NOT_FOUND",
+    "gated": false,
+    "cue": null,
+    "span_text": null,
+    "raw_level": "NOT_FOUND",
+    "score": 0.0,
+    "title": "恒信冷链运输协议"
+   },
+   {
+    "verdict": "NOT_FOUND",
+    "gated": false,
+    "cue": null,
+    "span_text": null,
+    "raw_level": "NOT_FOUND",
+    "score": 0.0,
+    "title": "云杉植保无人机培训手册"
+   },
+   {
+    "verdict": "NOT_FOUND",
+    "gated": false,
+    "cue": null,
+    "span_text": null,
+    "raw_level": "NOT_FOUND",
+    "score": 0.0,
+    "title": "金穗仓储管理制度"
+   },
+   {
+    "verdict": "NOT_FOUND",
+    "gated": false,
+    "cue": null,
+    "span_text": null,
+    "raw_level": "NOT_FOUND",
+    "score": 0.0,
+    "title": "蓝溪净水设备保修卡"
+   },
+   {
+    "verdict": "PARAPHRASE",
+    "gated": false,
+    "cue": null,
+    "span_text": "山川物流对冷链件实行当日达承诺，晚于二十二点签收的订单按运费双倍赔付。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.5,
+    "title": "山川物流派送细则"
+   },
+   {
+    "verdict": "PARAPHRASE",
+    "gated": false,
+    "cue": null,
+    "span_text": "启明温室的空气湿度传感器量程为零到百分之百，精度为百分之三，输出信号为四到二十毫安。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.5714285714285714,
+    "title": "启明温室传感器规格"
+   },
+   {
+    "verdict": "NOT_FOUND",
+    "gated": false,
+    "cue": null,
+    "span_text": null,
+    "raw_level": "NOT_FOUND",
+    "score": 0.0,
+    "title": "丰泽农机合作社章程"
+   },
+   {
+    "verdict": "NOT_FOUND",
+    "gated": false,
+    "cue": null,
+    "span_text": null,
+    "raw_level": "NOT_FOUND",
+    "score": 0.0,
+    "title": "北极星农资连锁协议"
+   },
+   {
+    "verdict": "PARAPHRASE",
+    "gated": false,
+    "cue": null,
+    "span_text": "长风三五零型拖拉机的磨合期为五十小时，磨合期内禁止满负荷作业，首次保养须更换三滤。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.5,
+    "title": "长风拖拉机保养手册"
+   },
+   {
+    "verdict": "PARAPHRASE",
+    "gated": false,
+    "cue": null,
+    "span_text": "白云面粉厂收购今年新麦的容重标准为七百七十克每升以上，不完善粒控制在百分之六以内。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.6,
+    "title": "白云面粉厂收购公告"
+   },
+   {
+    "verdict": "PARAPHRASE",
+    "gated": false,
+    "cue": null,
+    "span_text": "红星果园在气温降至零下二度时启动熏烟防冻，每亩布置烟点四个，风机在凌晨两点开机。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.5,
+    "title": "红星果园防冻预案"
+   },
+   {
+    "verdict": "NOT_FOUND",
+    "gated": false,
+    "cue": null,
+    "span_text": null,
+    "raw_level": "NOT_FOUND",
+    "score": 0.0,
+    "title": "港湾水产饲料配方"
+   },
+   {
+    "verdict": "PARAPHRASE",
+    "gated": false,
+    "cue": null,
+    "span_text": "青峰农电站的三号变压器额定容量为二百千伏安，低压侧额定电流为二百八十八安。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.6153846153846154,
+    "title": "青峰农电站运行日志"
+   },
+   {
+    "verdict": "NOT_FOUND",
+    "gated": false,
+    "cue": null,
+    "span_text": null,
+    "raw_level": "NOT_FOUND",
+    "score": 0.0,
+    "title": "绿源蔬菜检测报告"
+   },
+   {
+    "verdict": "NOT_FOUND",
+    "gated": false,
+    "cue": null,
+    "span_text": null,
+    "raw_level": "NOT_FOUND",
+    "score": 0.0,
+    "title": "大河灌区供水通知"
+   },
+   {
+    "verdict": "PARAPHRASE",
+    "gated": false,
+    "cue": null,
+    "span_text": "丰收维修站为一号联合收割机更换了离合器片，工时费为四百二十元，配件费为九百六十元。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.5714285714285714,
+    "title": "丰收农机维修单"
+   },
+   {
+    "verdict": "PARAPHRASE",
+    "gated": false,
+    "cue": null,
+    "span_text": "晨光奶站收购生鲜乳的乳蛋白率要求为百分之二点九五以上，体细胞数不超过每毫升四十万个。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.7142857142857143,
+    "title": "晨光奶站收购标准"
+   },
+   {
+    "verdict": "PARAPHRASE",
+    "gated": false,
+    "cue": null,
+    "span_text": "南山茶厂的杀青机筒温设定为二百二十度，杀青时长九十秒，摊晾厚度不超过三厘米。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.5,
+    "title": "南山茶厂加工规程"
+   },
+   {
+    "verdict": "PARAPHRASE",
+    "gated": false,
+    "cue": null,
+    "span_text": "永固大棚的骨架采用热镀锌钢管，壁厚二点五毫米，间距一米，抗风等级为八级。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.5,
+    "title": "永固大棚建材清单"
+   },
+   {
+    "verdict": "PARAPHRASE",
+    "gated": false,
+    "cue": null,
+    "span_text": "望天村在玉米地东侧架设脉冲电网，电压为五千伏，脉冲间隔一秒，日均触发次数记录在案。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.6153846153846154,
+    "title": "望田野猪防护通告"
+   },
+   {
+    "verdict": "NOT_FOUND",
+    "gated": false,
+    "cue": null,
+    "span_text": null,
+    "raw_level": "NOT_FOUND",
+    "score": 0.0,
+    "title": "灯塔渔港进出港规定"
+   },
+   {
+    "verdict": "PARAPHRASE",
+    "gated": false,
+    "cue": null,
+    "span_text": "盛夏果园的滴灌带滴头间距为三十厘米，流量每小时二点零升，单次灌溉时长四小时。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.6428571428571429,
+    "title": "盛夏果园滴灌方案"
+   },
+   {
+    "verdict": "PARAPHRASE",
+    "gated": false,
+    "cue": null,
+    "span_text": "北岭种羊场新进种羊隔离观察四十五天，布病检测合格后方可并群，耳标编号同步录入档案。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.6923076923076923,
+    "title": "北岭种羊场检疫记录"
+   },
+   {
+    "verdict": "PARAPHRASE",
+    "gated": false,
+    "cue": null,
+    "span_text": "宏图掺混肥的基肥配方为氮磷钾比例十五比十五比十五，另添加硼元素千分之一。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.5833333333333334,
+    "title": "宏图化肥掺混配方"
+   },
+   {
+    "verdict": "NOT_FOUND",
+    "gated": false,
+    "cue": null,
+    "span_text": null,
+    "raw_level": "NOT_FOUND",
+    "score": 0.0,
+    "title": "清河农机手协议"
+   },
+   {
+    "verdict": "NOT_FOUND",
+    "gated": false,
+    "cue": null,
+    "span_text": null,
+    "raw_level": "NOT_FOUND",
+    "score": 0.0,
+    "title": "甘泉井灌区电价公示"
+   },
+   {
+    "verdict": "NOT_FOUND",
+    "gated": false,
+    "cue": null,
+    "span_text": null,
+    "raw_level": "NOT_FOUND",
+    "score": 0.0,
+    "title": "金桥农膜回收点公告"
+   },
+   {
+    "verdict": "PARAPHRASE",
+    "gated": false,
+    "cue": null,
+    "span_text": "翠岭果园今年疏果后每亩留果一万二千个，套袋作业在六月十日前完成，纸袋由合作社统一采购。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.7,
+    "title": "翠岭果园套袋通知"
+   },
+   {
+    "verdict": "PARAPHRASE",
+    "gated": false,
+    "cue": null,
+    "span_text": "祥云展销会共设展位一百二十个，其中脱贫地区专项展位三十个，展期三天，免收展位费。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.6923076923076923,
+    "title": "祥云农产品展销会纪要"
+   },
+   {
+    "verdict": "PARAPHRASE",
+    "gated": false,
+    "cue": null,
+    "span_text": "石门水库汛限水位为一百零五米，超汛限时开闸泄洪，泄洪前通知下游三个村的广播站。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.9166666666666666,
+    "title": "石门水库防汛预案"
+   },
+   {
+    "verdict": "PARAPHRASE",
+    "gated": false,
+    "cue": null,
+    "span_text": "双丰合作社今年柴油支出为四万三千元，同比减少一成，主要因统一采购了节油喷嘴。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.7272727272727273,
+    "title": "双丰拖拉机合作社账目"
+   },
+   {
+    "verdict": "PARAPHRASE",
+    "gated": false,
+    "cue": null,
+    "span_text": "百顺种业向农户供应的玉米杂交种发芽率不低于百分之九十五，净度不低于百分之九十九。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.5,
+    "title": "百顺种业购销合同"
+   },
+   {
+    "verdict": "PARAPHRASE",
+    "gated": false,
+    "cue": null,
+    "span_text": "天目山货的电商件默认发顺丰，干菌类单品满一百二十元包邮，破损包赔。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.7272727272727273,
+    "title": "天目山货合作社电商细则"
+   },
+   {
+    "verdict": "NOT_FOUND",
+    "gated": false,
+    "cue": null,
+    "span_text": null,
+    "raw_level": "NOT_FOUND",
+    "score": 0.0,
+    "title": "新港秸秆收储点运行说明"
+   },
+   {
+    "verdict": "NOT_FOUND",
+    "gated": false,
+    "cue": null,
+    "span_text": null,
+    "raw_level": "NOT_FOUND",
+    "score": 0.0,
+    "title": "古城植保飞防作业单"
+   },
+   {
+    "verdict": "PARAPHRASE",
+    "gated": false,
+    "cue": null,
+    "span_text": "雪原牧场挤奶前用碘液药浴乳头，每头牛挤奶全程八分钟，管道系统每次挤完后循环清洗四十分钟。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.6666666666666666,
+    "title": "雪原牧场挤奶流程"
+   },
+   {
+    "verdict": "NOT_FOUND",
+    "gated": false,
+    "cue": null,
+    "span_text": null,
+    "raw_level": "NOT_FOUND",
+    "score": 0.0,
+    "title": "北港冷链库租赁价目"
+   },
+   {
+    "verdict": "PARAPHRASE",
+    "gated": false,
+    "cue": null,
+    "span_text": "杏花村光伏提水站装机五千瓦，扬程三十五米，晴天日提水量为一百二十立方米。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.6666666666666666,
+    "title": "杏花村光伏提水站验收单"
+   }
+  ],
+  "fullwidth": [
+   {
+    "verdict": "PARAPHRASE",
+    "gated": false,
+    "cue": null,
+    "span_text": "青禾牌智能灌溉控制器采用双通道电磁阀设计，默认支持八区轮灌，主机防护等级为IP66，保修期为三年。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.9411764705882353,
+    "title": "青禾牌智能灌溉控制器说明"
+   },
+   {
+    "verdict": "VERBATIM",
+    "gated": false,
+    "cue": null,
+    "span_text": "绿洲合作社的烘干塔每小时处理湿粮十五吨",
+    "raw_level": "VERBATIM",
+    "score": 1.0,
+    "title": "绿洲合作社烘干塔记录"
+   },
+   {
+    "verdict": "VERBATIM",
+    "gated": false,
+    "cue": null,
+    "span_text": "恒信冷链车队全程温控设定为零上四摄氏度",
+    "raw_level": "VERBATIM",
+    "score": 1.0,
+    "title": "恒信冷链运输协议"
+   },
+   {
+    "verdict": "VERBATIM",
+    "gated": false,
+    "cue": "无",
+    "span_text": "云杉植保无人机单架次载药量为四十升",
+    "raw_level": "VERBATIM",
+    "score": 1.0,
+    "title": "云杉植保无人机培训手册"
+   },
+   {
+    "verdict": "PARAPHRASE",
+    "gated": false,
+    "cue": "不得",
+    "span_text": "金穗粮库的平房仓每垛间距不小于一点五米，入库水分不得超过百分之十三点五，熏蒸作业须两人同时在场。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.9444444444444444,
+    "title": "金穗仓储管理制度"
+   },
+   {
+    "verdict": "PARAPHRASE",
+    "gated": false,
+    "cue": null,
+    "span_text": "蓝溪净水器的反渗透膜建议每两年更换一次，额定净水量为八千升，废水比为二比一。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.9230769230769231,
+    "title": "蓝溪净水设备保修卡"
+   },
+   {
+    "verdict": "VERBATIM",
+    "gated": false,
+    "cue": null,
+    "span_text": "山川物流对冷链件实行当日达承诺",
+    "raw_level": "VERBATIM",
+    "score": 1.0,
+    "title": "山川物流派送细则"
+   },
+   {
+    "verdict": "PARAPHRASE",
+    "gated": false,
+    "cue": null,
+    "span_text": "启明温室的空气湿度传感器量程为零到百分之百，精度为百分之三，输出信号为四到二十毫安。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.9444444444444444,
+    "title": "启明温室传感器规格"
+   },
+   {
+    "verdict": "VERBATIM",
+    "gated": false,
+    "cue": null,
+    "span_text": "丰泽合作社的收割机在跨区作业前必须更换机油滤芯",
+    "raw_level": "VERBATIM",
+    "score": 1.0,
+    "title": "丰泽农机合作社章程"
+   },
+   {
+    "verdict": "PARAPHRASE",
+    "gated": false,
+    "cue": null,
+    "span_text": "北极星农资连锁对会员农户提供赊销服务，单户授信上限为五万元，年利率按基准利率上浮百分之十执行。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.9375,
+    "title": "北极星农资连锁协议"
+   },
+   {
+    "verdict": "VERBATIM",
+    "gated": false,
+    "cue": null,
+    "span_text": "长风三五零型拖拉机的磨合期为五十小时",
+    "raw_level": "VERBATIM",
+    "score": 1.0,
+    "title": "长风拖拉机保养手册"
+   },
+   {
+    "verdict": "PARAPHRASE",
+    "gated": false,
+    "cue": null,
+    "span_text": "白云面粉厂收购今年新麦的容重标准为七百七十克每升以上，不完善粒控制在百分之六以内。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.9565217391304348,
+    "title": "白云面粉厂收购公告"
+   },
+   {
+    "verdict": "VERBATIM",
+    "gated": false,
+    "cue": null,
+    "span_text": "红星果园在气温降至零下二度时启动熏烟防冻",
+    "raw_level": "VERBATIM",
+    "score": 1.0,
+    "title": "红星果园防冻预案"
+   },
+   {
+    "verdict": "VERBATIM",
+    "gated": false,
+    "cue": null,
+    "span_text": "港湾一号鱼饲料的粗蛋白含量为百分之三十二",
+    "raw_level": "VERBATIM",
+    "score": 1.0,
+    "title": "港湾水产饲料配方"
+   },
+   {
+    "verdict": "VERBATIM",
+    "gated": false,
+    "cue": null,
+    "span_text": "青峰农电站的三号变压器额定容量为二百千伏安",
+    "raw_level": "VERBATIM",
+    "score": 1.0,
+    "title": "青峰农电站运行日志"
+   },
+   {
+    "verdict": "VERBATIM",
+    "gated": false,
+    "cue": null,
+    "span_text": "绿源基地的黄瓜采样检测结果为农药残留合格",
+    "raw_level": "VERBATIM",
+    "score": 1.0,
+    "title": "绿源蔬菜检测报告"
+   },
+   {
+    "verdict": "PARAPHRASE",
+    "gated": false,
+    "cue": null,
+    "span_text": "大河灌区本轮春灌自三月二十日起，亩均供水量为一百二十立方米，水价按零点零八元每立方米执行。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.9375,
+    "title": "大河灌区供水通知"
+   },
+   {
+    "verdict": "PARAPHRASE",
+    "gated": false,
+    "cue": null,
+    "span_text": "丰收维修站为一号联合收割机更换了离合器片，工时费为四百二十元，配件费为九百六十元。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.9230769230769231,
+    "title": "丰收农机维修单"
+   },
+   {
+    "verdict": "VERBATIM",
+    "gated": false,
+    "cue": null,
+    "span_text": "晨光奶站收购生鲜乳的乳蛋白率要求为百分之二点九五以上",
+    "raw_level": "VERBATIM",
+    "score": 1.0,
+    "title": "晨光奶站收购标准"
+   },
+   {
+    "verdict": "VERBATIM",
+    "gated": false,
+    "cue": null,
+    "span_text": "南山茶厂的杀青机筒温设定为二百二十度",
+    "raw_level": "VERBATIM",
+    "score": 1.0,
+    "title": "南山茶厂加工规程"
+   },
+   {
+    "verdict": "VERBATIM",
+    "gated": false,
+    "cue": null,
+    "span_text": "永固大棚的骨架采用热镀锌钢管",
+    "raw_level": "VERBATIM",
+    "score": 1.0,
+    "title": "永固大棚建材清单"
+   },
+   {
+    "verdict": "VERBATIM",
+    "gated": false,
+    "cue": null,
+    "span_text": "望天村在玉米地东侧架设脉冲电网",
+    "raw_level": "VERBATIM",
+    "score": 1.0,
+    "title": "望田野猪防护通告"
+   },
+   {
+    "verdict": "VERBATIM",
+    "gated": false,
+    "cue": null,
+    "span_text": "灯塔渔港小型渔船出海须报备北斗终端号",
+    "raw_level": "VERBATIM",
+    "score": 1.0,
+    "title": "灯塔渔港进出港规定"
+   },
+   {
+    "verdict": "VERBATIM",
+    "gated": false,
+    "cue": null,
+    "span_text": "盛夏果园的滴灌带滴头间距为三十厘米",
+    "raw_level": "VERBATIM",
+    "score": 1.0,
+    "title": "盛夏果园滴灌方案"
+   },
+   {
+    "verdict": "VERBATIM",
+    "gated": false,
+    "cue": null,
+    "span_text": "北岭种羊场新进种羊隔离观察四十五天",
+    "raw_level": "VERBATIM",
+    "score": 1.0,
+    "title": "北岭种羊场检疫记录"
+   },
+   {
+    "verdict": "VERBATIM",
+    "gated": false,
+    "cue": null,
+    "span_text": "宏图掺混肥的基肥配方为氮磷钾比例十五比十五比十五",
+    "raw_level": "VERBATIM",
+    "score": 1.0,
+    "title": "宏图化肥掺混配方"
+   },
+   {
+    "verdict": "VERBATIM",
+    "gated": false,
+    "cue": null,
+    "span_text": "清河农机手跨乡镇作业按每亩八元结算",
+    "raw_level": "VERBATIM",
+    "score": 1.0,
+    "title": "清河农机手协议"
+   },
+   {
+    "verdict": "PARAPHRASE",
+    "gated": false,
+    "cue": null,
+    "span_text": "甘泉井灌区农业排灌用电执行农业生产电价，每千瓦时零点五四四六元，月末统一结算。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.9333333333333333,
+    "title": "甘泉井灌区电价公示"
+   },
+   {
+    "verdict": "VERBATIM",
+    "gated": false,
+    "cue": null,
+    "span_text": "金桥农膜回收点按旧膜每公斤一元回收",
+    "raw_level": "VERBATIM",
+    "score": 1.0,
+    "title": "金桥农膜回收点公告"
+   },
+   {
+    "verdict": "VERBATIM",
+    "gated": false,
+    "cue": null,
+    "span_text": "翠岭果园今年疏果后每亩留果一万二千个",
+    "raw_level": "VERBATIM",
+    "score": 1.0,
+    "title": "翠岭果园套袋通知"
+   },
+   {
+    "verdict": "VERBATIM",
+    "gated": false,
+    "cue": null,
+    "span_text": "祥云展销会共设展位一百二十个",
+    "raw_level": "VERBATIM",
+    "score": 1.0,
+    "title": "祥云农产品展销会纪要"
+   },
+   {
+    "verdict": "VERBATIM",
+    "gated": false,
+    "cue": null,
+    "span_text": "石门水库汛限水位为一百零五米",
+    "raw_level": "VERBATIM",
+    "score": 1.0,
+    "title": "石门水库防汛预案"
+   },
+   {
+    "verdict": "VERBATIM",
+    "gated": false,
+    "cue": null,
+    "span_text": "双丰合作社今年柴油支出为四万三千元",
+    "raw_level": "VERBATIM",
+    "score": 1.0,
+    "title": "双丰拖拉机合作社账目"
+   },
+   {
+    "verdict": "PARAPHRASE",
+    "gated": false,
+    "cue": null,
+    "span_text": "百顺种业向农户供应的玉米杂交种发芽率不低于百分之九十五，净度不低于百分之九十九。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.95,
+    "title": "百顺种业购销合同"
+   },
+   {
+    "verdict": "PARAPHRASE",
+    "gated": false,
+    "cue": null,
+    "span_text": "天目山货的电商件默认发顺丰，干菌类单品满一百二十元包邮，破损包赔。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.9375,
+    "title": "天目山货合作社电商细则"
+   },
+   {
+    "verdict": "VERBATIM",
+    "gated": false,
+    "cue": null,
+    "span_text": "新港秸秆收储点年收储能力为两万吨",
+    "raw_level": "VERBATIM",
+    "score": 1.0,
+    "title": "新港秸秆收储点运行说明"
+   },
+   {
+    "verdict": "PARAPHRASE",
+    "gated": false,
+    "cue": null,
+    "span_text": "古城飞防队为本村小麦实施一喷三防作业，用药为戊唑醇与吡虫啉混配，亩用药液量一升。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.9090909090909091,
+    "title": "古城植保飞防作业单"
+   },
+   {
+    "verdict": "VERBATIM",
+    "gated": false,
+    "cue": null,
+    "span_text": "雪原牧场挤奶前用碘液药浴乳头",
+    "raw_level": "VERBATIM",
+    "score": 1.0,
+    "title": "雪原牧场挤奶流程"
+   },
+   {
+    "verdict": "PARAPHRASE",
+    "gated": false,
+    "cue": null,
+    "span_text": "北港冷链库零下十八度冻品仓租金为每月每平方米五十八元，零上四度冷藏仓为三十六元。",
+    "raw_level": "PARAPHRASE",
+    "score": 0.95,
+    "title": "北港冷链库租赁价目"
+   },
+   {
+    "verdict": "VERBATIM",
+    "gated": false,
+    "cue": null,
+    "span_text": "杏花村光伏提水站装机五千瓦",
+    "raw_level": "VERBATIM",
+    "score": 1.0,
+    "title": "杏花村光伏提水站验收单"
+   },
+   {
+    "verdict": "VERBATIM",
+    "gated": false,
+    "cue": "不得",
+    "span_text": "农药仓库内不得存放食品与饮料",
+    "raw_level": "VERBATIM",
+    "score": 1.0,
+    "title": "丰泽农药存放规定"
+   },
+   {
+    "verdict": "VERBATIM",
+    "gated": false,
+    "cue": "不得",
+    "span_text": "未经检疫的生猪一律不得进入屠宰环节",
+    "raw_level": "VERBATIM",
+    "score": 1.0,
+    "title": "清河检疫公示"
+   },
+   {
+    "verdict": "VERBATIM",
+    "gated": false,
+    "cue": null,
+    "span_text": "滤芯属于耗材，不在整机保修范围内",
+    "raw_level": "VERBATIM",
+    "score": 1.0,
+    "title": "蓝溪质保条款"
+   },
+   {
+    "verdict": "VERBATIM",
+    "gated": false,
+    "cue": "禁止",
+    "span_text": "休渔期内禁止一切捕捞作业",
+    "raw_level": "VERBATIM",
+    "score": 1.0,
+    "title": "港湾禁渔通告"
+   },
+   {
+    "verdict": "VERBATIM",
+    "gated": false,
+    "cue": "不得",
+    "span_text": "熏蒸期间仓房四周三十米内不得有明火作业",
+    "raw_level": "VERBATIM",
+    "score": 1.0,
+    "title": "金穗熏蒸守则"
+   }
+  ],
+  "control_neg": [
+   {
+    "verdict": "VERBATIM",
+    "gated": false,
+    "cue": "不得",
+    "span_text": "农药仓库内不得存放食品与饮料",
+    "raw_level": "VERBATIM",
+    "score": 1.0,
+    "title": "丰泽农药存放规定"
+   },
+   {
+    "verdict": "VERBATIM",
+    "gated": false,
+    "cue": "不得",
+    "span_text": "未经检疫的生猪一律不得进入屠宰环节",
+    "raw_level": "VERBATIM",
+    "score": 1.0,
+    "title": "清河检疫公示"
+   },
+   {
+    "verdict": "VERBATIM",
+    "gated": false,
+    "cue": null,
+    "span_text": "滤芯属于耗材，不在整机保修范围内",
+    "raw_level": "VERBATIM",
+    "score": 1.0,
+    "title": "蓝溪质保条款"
+   },
+   {
+    "verdict": "VERBATIM",
+    "gated": false,
+    "cue": "禁止",
+    "span_text": "休渔期内禁止一切捕捞作业",
+    "raw_level": "VERBATIM",
+    "score": 1.0,
+    "title": "港湾禁渔通告"
+   },
+   {
+    "verdict": "VERBATIM",
+    "gated": false,
+    "cue": "不得",
+    "span_text": "熏蒸期间仓房四周三十米内不得有明火作业",
+    "raw_level": "VERBATIM",
+    "score": 1.0,
+    "title": "金穗熏蒸守则"
+   }
+  ]
+ }
+}
