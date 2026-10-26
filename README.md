@@ -82,7 +82,14 @@ sixvolumes audit knowledge -o report --sothstan-config model.json --allow-live
 
 ## 安装、离线使用与验证
 
-已有 Python 3.10+ 时，源码的 `run.py` 可直接离线运行。wheel 安装也没有运行依赖：
+发布于 PyPI（`pip install sixvolumes-trust-pipeline`），源码的 `run.py` 也可直接离线运行；wheel 无运行依赖：
+
+```powershell
+python -m pip install sixvolumes-trust-pipeline
+python -m sixvolumes demo -o outputs/installed-demo
+```
+
+已有 Python 3.10+ 时，源码的 `run.py` 可直接离线运行。离线安装：
 
 ```powershell
 python -m pip install --no-index --find-links wheelhouse sixvolumes-trust-pipeline
