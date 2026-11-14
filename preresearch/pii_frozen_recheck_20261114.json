@@ -1,0 +1,61 @@
+{
+ "frozen_baseline": {
+  "helan": {
+   "injections": 480,
+   "exact_injection_recall": 0.375,
+   "negative_controls": 120,
+   "negative_control_false_alarms": 0,
+   "unannotated_background_alerts": 0
+  },
+  "helan_same_normalization": {
+   "injections": 480,
+   "exact_injection_recall": 1.0,
+   "negative_controls": 120,
+   "negative_control_false_alarms": 0,
+   "unannotated_background_alerts": 0
+  }
+ },
+ "recheck_20261114_fixed_helan": {
+  "helan": {
+   "method": "helan",
+   "injections": 480,
+   "exact_injection_recall": 0.375,
+   "negative_controls": 120,
+   "negative_control_false_alarms": 0,
+   "unannotated_background_alerts": 0,
+   "elapsed_s_recheck": 0.103,
+   "missed_ids": [
+    "bd38ad756cd32a94-PHONE",
+    "bd38ad756cd32a94-EMAIL",
+    "bd38ad756cd32a94-BANK_CARD",
+    "e122bf2732cdbdb4-ID_CARD",
+    "e122bf2732cdbdb4-PHONE",
+    "e122bf2732cdbdb4-EMAIL",
+    "9e4de19a5548eae1-PHONE",
+    "9e4de19a5548eae1-BANK_CARD",
+    "b5c15fa84ba3a8bc-ID_CARD",
+    "b5c15fa84ba3a8bc-EMAIL",
+    "27926d534cf011cc-PHONE",
+    "27926d534cf011cc-EMAIL",
+    "27926d534cf011cc-BANK_CARD",
+    "6add336ef3ee51dd-ID_CARD",
+    "6add336ef3ee51dd-PHONE",
+    "6add336ef3ee51dd-EMAIL",
+    "14c0c3825f171286-PHONE",
+    "14c0c3825f171286-BANK_CARD",
+    "e7beb2810ec0c7c9-ID_CARD",
+    "e7beb2810ec0c7c9-EMAIL"
+   ]
+  },
+  "helan_same_normalization": {
+   "method": "helan_same_normalization",
+   "injections": 480,
+   "exact_injection_recall": 1.0,
+   "negative_controls": 120,
+   "negative_control_false_alarms": 0,
+   "unannotated_background_alerts": 0,
+   "elapsed_s_recheck": 0.199,
+   "missed_ids": []
+  }
+ }
+}
