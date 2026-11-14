@@ -19,6 +19,12 @@ _ID15_RE = guarded_pattern(r"\d{15}")
 
 _MOBILE_RE = guarded_pattern(r"1[3-9]\d{9}")
 
+# 分组写法手机号（3-4-4）：横杠/空格/全角横杠/全角空格分隔。
+# 来源：使用者实测反馈漏检样例 138-1234-5678（连续与空格写法此前已可识别）。
+_MOBILE_GROUPED_RE = guarded_pattern(r"1[3-9]\d[-－ 　]\d{4}[-－ 　]\d{4}")
+
+_MOBILE_SEP_CHARS = r"[-－ 　]"
+
 # 大陆身份证全角/符号分隔写法：1101 0519 4912 3100 2X / 1101·0519·4912·3100·2X
 _ID_GROUPED_RE = guarded_pattern(r"\d{4}(?:[ 　.．·•-]\d{4}){3}[ 　.．·•-]\d[0-9Xx]")
 
@@ -93,12 +99,20 @@ def recognize_uscc(text: str) -> list[Entity]:
 
 
 def recognize_phone(text: str) -> list[Entity]:
-    """手机号：号段表严格校验（号段表随时间校准，见 data.MOBILE_SEGMENTS）。"""
+    """手机号：号段表严格校验（号段表随时间校准，见 data.MOBILE_SEGMENTS）。
+
+    分组写法（138-1234-5678 / 138 1234 5678 / 全角分隔）归一化后同样过号段表，
+    meta.normalized 记录去分隔符后的 11 位号码。
+    """
     out = []
     for m in _MOBILE_RE.finditer(text):
         value = m.group(0)
         if value[:3] in MOBILE_SEGMENTS:
             out.append(make(PHONE, m, 0.9, "rule"))
+    for m in _MOBILE_GROUPED_RE.finditer(text):
+        value = re.sub(_MOBILE_SEP_CHARS, "", m.group(0))
+        if value[:3] in MOBILE_SEGMENTS:
+            out.append(make(PHONE, m, 0.9, "rule", normalized=value))
     return out
 
 

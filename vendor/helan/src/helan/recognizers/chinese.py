@@ -42,12 +42,14 @@ _NAME_IN_ENUM = re.compile(
     rf"(?<=[、，])\s*([{SURNAMES}])([\u4e00-\u9fff]{{1,2}})(?![\u4e00-\u9fff])"
 )
 
-# 地址：引导词后到句读的一段，内含至少一个地址尾词
+# 地址：引导词后到句读的一段，内含至少一个地址尾词。
+# 允许地址内部出现空格/全角空格/制表符（使用者反馈漏检样例：
+# “地址：北京市 朝阳区 建国路 88 号”），行界仍不得进入地址。
 _ADDR_KEY_ALT = "|".join(ADDRESS_KEYS)
 _ADDR_HEAD_ALT = "|".join(ADDRESS_HEADS)
 _ADDR_RE = re.compile(
     rf"(?:{_ADDR_KEY_ALT}|{_ADDR_HEAD_ALT})\s*[:：]?\s*"
-    rf"([\u4e00-\u9fffA-Za-z0-9()（）-]{{8,60}}?)(?=[。；;！!？?\n，,]|$)"
+    rf"([\u4e00-\u9fffA-Za-z0-9()（）\- 　\t]{{8,60}}?)(?=[。；;！!？?\n，,]|$)"
 )
 
 
@@ -63,7 +65,9 @@ def recognize_person(text: str) -> list[Entity]:
     for m in _NAME_AFTER_HONORIFIC.finditer(text):
         start = m.start()
         end = m.end()
-        if (start, end) in seen:
+        # 职衔短语误报治理（使用者反馈样例：“高级工程师”≠人名“高级”），
+        # 停用词表与枚举线索同口径
+        if (start, end) in seen or _blocked(text, start, end):
             continue
         seen.add((start, end))
         out.append(
@@ -116,9 +120,10 @@ def recognize_person(text: str) -> list[Entity]:
 def recognize_address(text: str) -> list[Entity]:
     out: list[Entity] = []
     for m in _ADDR_RE.finditer(text):
-        value_start = m.start(1)
-        value_end = m.end(1)
         value = m.group(1)
+        value = value.rstrip(" \t　")  # 句读前的尾随空白不并入地址
+        value_start = m.start(1)
+        value_end = value_start + len(value)
         if not any(tail in value for tail in ADDRESS_TAILS):
             continue
         out.append(
@@ -192,9 +197,18 @@ _WECHAT_RE = re.compile(
     rf"(?:{'|'.join(WECHAT_KEYS)})\s*[:：]?\s*([A-Za-z][-_A-Za-z0-9]{{5,19}})"
 )
 
+# wxid_ 前缀微信号（无关键词上下文）。来源：使用者反馈漏检样例
+# “加我wxid_8fjkl12345”。左侧不接字母/数字/下划线/斜杠，避免从更长
+# token（如路径、邮箱前缀）内部切出；右侧同理。
+_WECHAT_STANDALONE_RE = re.compile(
+    r"(?<![0-9A-Za-z_\-/\\])(wxid_[0-9A-Za-z_\-]{4,19})(?![0-9A-Za-z_\-])",
+    re.IGNORECASE,
+)
+
 
 def recognize_wechat(text: str) -> list[Entity]:
     out = []
+    seen: set[tuple[int, int]] = set()
     for m in _WECHAT_RE.finditer(text):
         out.append(
             Entity(
@@ -205,6 +219,21 @@ def recognize_wechat(text: str) -> list[Entity]:
                 score=0.85,
                 source="context",
                 meta={"cue": "wechat_key"},
+            )
+        )
+        seen.add(m.span(1))
+    for m in _WECHAT_STANDALONE_RE.finditer(text):
+        if m.span(1) in seen:
+            continue  # 关键词形式已覆盖同一 span
+        out.append(
+            Entity(
+                type=WECHAT_ID,
+                start=m.start(1),
+                end=m.end(1),
+                text=m.group(1),
+                score=0.85,
+                source="rule",
+                meta={"cue": "wxid_prefix"},
             )
         )
     return out

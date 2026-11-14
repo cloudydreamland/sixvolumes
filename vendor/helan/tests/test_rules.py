@@ -4,6 +4,7 @@ from __future__ import annotations
 
 from helan.recognizers.rules import (
     recognize_email,
+    recognize_file_path,
     recognize_ip,
     recognize_landline,
     recognize_passport,
@@ -93,3 +94,46 @@ class TestPassport:
 
     def test_short_rejected(self):
         assert recognize_passport("E1234567") == []
+
+
+class TestFilePathFromUserFeedback:
+    def test_windows_backslash_path(self):
+        # 用户反馈漏检样例：C:\Users\name\file.txt 未脱敏
+        ents = recognize_file_path("配置文件在C:\\Users\\zhangsan\\AppData\\config.txt里")
+        assert len(ents) == 1
+        assert ents[0].text == "C:\\Users\\zhangsan\\AppData\\config.txt"
+        assert ents[0].type == "FILE_PATH"
+
+    def test_forward_slash_path_with_trailing_punct(self):
+        ents = recognize_file_path("日志位于D:/data/backup/user_info.xlsx。")
+        assert len(ents) == 1
+        assert ents[0].text == "D:/data/backup/user_info.xlsx"
+
+    def test_unix_absolute_path(self):
+        ents = recognize_file_path("配置见/etc/nginx/nginx.conf，请检查。")
+        assert ents[0].text == "/etc/nginx/nginx.conf"
+
+    def test_unc_path(self):
+        ents = recognize_file_path("共享盘\\\\fileserver\\docs\\合同2026.docx已收到")
+        assert ents[0].text == "\\\\fileserver\\docs\\合同2026.docx"
+
+    def test_path_with_spaces_in_components(self):
+        ents = recognize_file_path("安装在C:\\Program Files (x86)\\app\\run.exe目录")
+        assert ents[0].text == "C:\\Program Files (x86)\\app\\run.exe"
+
+    def test_chinese_components_with_extension(self):
+        ents = recognize_file_path("材料在D:\\资料\\合同.docx。")
+        assert ents[0].text == "D:\\资料\\合同.docx"
+
+    def test_plain_sentence_not_path(self):
+        # 无扩展名/无盘符的普通句子不误报
+        assert recognize_file_path("比例3:1/2和A:B/2都不该算路径") == []
+        assert recognize_file_path("没有路径的普通文本。") == []
+
+    def test_bare_drive_not_path(self):
+        assert recognize_file_path("盘符是C:后面没有内容") == []
+
+    def test_url_keeps_priority_over_path(self):
+        ents = recognize_file_path("官网 https://example.com/docs/README.md 已更新")
+        # URL recognizer 负责整段 URL；FILE_PATH 不在 URL 内部切出
+        assert all(not e.text.startswith("/") for e in ents)

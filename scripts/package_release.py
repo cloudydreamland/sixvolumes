@@ -42,7 +42,7 @@ env["PIP_NO_INDEX"]="1"
 if not args.skip_build:
     result=subprocess.run([sys.executable,"-m","pip","wheel",".","--no-deps","--no-build-isolation","--disable-pip-version-check","--wheel-dir","wheelhouse"],cwd=root,env=env)
     if result.returncode:raise SystemExit(result.returncode)
-elif not list((root/"wheelhouse").glob("sixvolumes_trust_pipeline-0.2.0-*.whl")):
+elif not list((root/"wheelhouse").glob("sixvolumes_trust_pipeline-0.2.1-*.whl")):
     raise SystemExit("No existing core wheel to repackage")
 ignore={"outputs","build","dist",".venv",".evaluation-deps",".build-tools",".pytest_cache","__pycache__",".git","pip-cache"}
 files=[]
@@ -52,7 +52,7 @@ for p in sorted(root.rglob("*")):
         files.append(p)
 write(root/"SOURCE_MANIFEST.json",dict(schema_version=1,files=[dict(file=p.relative_to(root).as_posix(),sha256=sha(p),bytes=p.stat().st_size) for p in files]))
 release=root/"dist";release.mkdir(exist_ok=True)
-target=release/"sixvolumes-0.2.0-offline-source.zip"
+target=release/"sixvolumes-0.2.1-offline-source.zip"
 with zipfile.ZipFile(target,"w",zipfile.ZIP_DEFLATED) as z:
     for p in files+[root/"SOURCE_MANIFEST.json"]:z.write(p,p.relative_to(root))
     # Only the intended synthetic demo and validation summaries; never temp data.

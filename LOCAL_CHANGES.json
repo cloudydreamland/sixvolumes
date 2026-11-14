@@ -32,6 +32,66 @@
       "after": "150441479531dce64ae4a7c390cc91e47e65cfc5e8deb46a943669f712981bf6"
     },
     {
+      "package": "helan",
+      "file": "src/helan/__init__.py",
+      "before": "682b20ad2e3587f80443f685e7400893e224c4e1067a804424844cd903edebab",
+      "after": "db36902f64203d99ad65aba3be1c67ab5895dc41a689eb98ff6eeb9b85a7ef80"
+    },
+    {
+      "package": "helan",
+      "file": "src/helan/data.py",
+      "before": "fb0990032bd345bf7986e2fd213bb14272dce274c343d9a12b514189b8b9a6e7",
+      "after": "226e914ba5c269663977e40c02b415fa96cfc313473bda3cd0b4eff9e917c3f0"
+    },
+    {
+      "package": "helan",
+      "file": "src/helan/pipeline.py",
+      "before": "827225e65b5bd722553cf24e415b49ca7215209e0d1bea3187a56d6f2ff6501a",
+      "after": "cf063b307d39a2ec28ed36d192a8e8df65f1d4c288b891ce320916f327ec42bd"
+    },
+    {
+      "package": "helan",
+      "file": "src/helan/recognizers/chinese.py",
+      "before": "52be7bf7d3edbabb3f874074b246073c49d23a4f3473faf91cc930e49d22792b",
+      "after": "152d70b197f98a11b10fd066c5a0258c96d738ef842bf79650c4d29b1e408049"
+    },
+    {
+      "package": "helan",
+      "file": "src/helan/recognizers/official.py",
+      "before": "d7f83b193ff1f25d7d11ca960736287fdc0e9cb0047c226753752cf1be772999",
+      "after": "ae2e7a3f80eadcfb801a3555da89d35b88f7c1375717a19b7490f9e0be05fd7d"
+    },
+    {
+      "package": "helan",
+      "file": "src/helan/recognizers/rules.py",
+      "before": "adf0ae3385ac77ec7ed013dbaae785ad70a1dec8a0c2b30cd73c9bc792949c95",
+      "after": "2d5929d2dc3bdbf21e1c77768bc72c6e24c415122e883933d6d813fe7155c4fc"
+    },
+    {
+      "package": "helan",
+      "file": "src/helan/resolver.py",
+      "before": "687c278b53a9e853fb3e0638391804d283e1cc280511608b783fd0da730a6e85",
+      "after": "d7e15419cb6eb8a921a3f11b1ee668a5a552d1568db0cf6c3d32c6740c276323"
+    },
+    {
+      "package": "helan",
+      "file": "src/helan/types.py",
+      "before": "9395b9e338ced3e8c194c0b011928bac64925cc3919d4c21eee4d8733c66f228",
+      "after": "7fb5e4d41d05956e2d487cecbc249ef4e15a476e6d4a1a15748fb27a58e3b19f"
+    },
+    {
+      "package": "helan",
+      "file": "tests/test_recognizers.py",
+      "before": "e63ab6762a83cf311f075345a5a61e8e6a652b47e2d2ce757758e84df40ba465",
+      "after": "0b2b7d16f832ed7751228e40ddaf79e65dbdcf72f72ee88a383d33ca729a4f68"
+    },
+    {
+      "package": "helan",
+      "file": "tests/test_rules.py",
+      "before": "80ec0d5c1f722751e06debfbb2711805c03dec7fb616bca7a5b2c61099f9ff2f",
+      "after": "c376785075b0cc25678faf08e7774f890215d32f60bab7bf987bd0ec1ecb3315"
+    },
+    {
       "package": "gewita",
       "file": "GAP_PROOF.md",
       "before": "235c8d790fd7302a7873f875b24dd00bf0bb13391c2780c70e87e0d5aa40a44d",

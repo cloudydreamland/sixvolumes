@@ -7,7 +7,7 @@ import subprocess
 import sys
 
 root = Path(__file__).resolve().parents[1]
-wheel = next((root / "wheelhouse").glob("sixvolumes_trust_pipeline-0.2.0-*.whl"))
+wheel = next((root / "wheelhouse").glob("sixvolumes_trust_pipeline-0.2.1-*.whl"))
 target = root / "outputs/installed-budget-wheel"
 demo = root / "outputs/installed-budget-demo"
 env = os.environ.copy()

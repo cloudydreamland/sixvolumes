@@ -5,7 +5,7 @@ from __future__ import annotations
 import random
 
 from helan import checksum as C
-from helan.recognizers.chinese import recognize_address, recognize_person
+from helan.recognizers.chinese import recognize_address, recognize_person, recognize_wechat
 from helan.recognizers.official import (
     recognize_bank_card,
     recognize_id_card,
@@ -45,6 +45,29 @@ class TestIdCardRecognizer:
         assert len(ents) == 1
         assert ents[0].meta["legacy15"] is True
         assert ents[0].meta["upgraded"] == C.id_card_upgrade_15(id15)
+
+    def test_x_suffix_from_user_feedback(self):
+        # 用户反馈“带X结尾漏检”：GB 11643-1999 校验位合法的 X 结尾必须检出
+        value = "11010519491231002X"
+        ents = recognize_id_card(f"身份证号{value}，请核对")
+        assert len(ents) == 1
+        assert ents[0].text == value
+        assert ents[0].source == "checksum"
+
+    def test_lowercase_x_suffix(self):
+        value = "11010519491231002x"
+        ents = recognize_id_card(f"身份证号{value}，请核对")
+        assert ents[0].text == value
+
+    def test_grouped_x_suffix(self):
+        value = "1101 0519 4912 3100 2X"
+        ents = recognize_id_card(f"身份证号 {value}")
+        assert ents[0].text == value
+
+    def test_x_suffix_checksum_gate_kept(self):
+        # 校验位不符（MOD 11-2）的 X 结尾串按“宁缺勿滥”拒检——校验门是准确率来源
+        assert recognize_id_card("身份证号12345619500101001X") == []
+        assert recognize_id_card("身份证号11010119900307866X") == []
 
 
 class TestBankRecognizer:
@@ -93,6 +116,87 @@ class TestPhoneRecognizer:
 
     def test_guard(self):
         assert recognize_phone("编号9138123456789") == []
+
+    def test_dash_grouped_from_user_feedback(self):
+        # 用户实测反馈漏检样例（2026-11-14）：138-1234-5678 应检出
+        ents = recognize_phone("联系电话138-1234-5678请回拨")
+        assert len(ents) == 1
+        assert ents[0].text == "138-1234-5678"
+        assert ents[0].meta["normalized"] == "13812345678"
+
+    def test_dash_grouped_with_context(self):
+        assert recognize_phone("手机 138-1234-5678，谢谢")[0].text == "138-1234-5678"
+
+    def test_space_grouped_native(self):
+        assert recognize_phone("备用号 138 1234 5678。")[0].text == "138 1234 5678"
+
+    def test_fullwidth_dash_grouped(self):
+        assert recognize_phone("写法138－1234－5678")[0].text == "138－1234－5678"
+
+    def test_grouped_segment_rejected(self):
+        assert recognize_phone("电话 140-1234-5678。") == []
+
+    def test_grouped_guard_inside_longer_digits(self):
+        # 更长的数字串内部不切出分组手机号
+        assert recognize_phone("编号9138-1234-56789") == []
+
+    def test_contiguous_still_detected(self):
+        ents = recognize_phone("联系电话13812345678请回拨")
+        assert [e.text for e in ents] == ["13812345678"]
+
+
+class TestWechatStandaloneFromUserFeedback:
+    def test_wxid_prefix_without_keyword(self):
+        # 用户反馈漏检样例：无“微信号”关键词时 wxid_ 前缀也应检出
+        ents = recognize_wechat("加我wxid_8fjkl12345")
+        assert len(ents) == 1
+        assert ents[0].text == "wxid_8fjkl12345"
+        assert ents[0].meta["cue"] == "wxid_prefix"
+
+    def test_wxid_with_keyword_still_detected(self):
+        assert recognize_wechat("微信号：wxid_8fjkl12345")[0].text == "wxid_8fjkl12345"
+
+    def test_wxid_no_match_inside_longer_token(self):
+        # 前面紧跟字母/数字/下划线/斜杠时不从长 token 内部切出
+        assert recognize_wechat("代号awxid_8fjkl12345") == []
+        assert recognize_wechat("目录C:\\wxid_8fjkl12345\\子目录") == []
+
+    def test_plain_words_not_wechat(self):
+        assert recognize_wechat("普通文本没有微信号") == []
+
+
+class TestAddressSpaceFromUserFeedback:
+    def test_address_with_spaces(self):
+        # 用户反馈漏检样例：地址中含空格
+        ents = recognize_address("地址：北京市 朝阳区 建国路 88 号。")
+        assert len(ents) == 1
+        assert ents[0].text == "北京市 朝阳区 建国路 88 号"
+
+    def test_address_with_spaces_trailing_whitespace_trimmed(self):
+        ents = recognize_address("地址：北京市 朝阳区 建国路 88 号 。")
+        assert ents[0].text == "北京市 朝阳区 建国路 88 号"
+
+    def test_address_without_spaces_still_detected(self):
+        ents = recognize_address("地址：北京市朝阳区建国路88号。")
+        assert ents[0].text == "北京市朝阳区建国路88号"
+
+    def test_head_form_with_spaces(self):
+        ents = recognize_address("公司住所位于北京市 朝阳区 建国路 88 号。")
+        assert ents[0].text == "北京市 朝阳区 建国路 88 号"
+
+
+class TestPersonBlocklistFromUserFeedback:
+    def test_senior_engineer_title_not_person(self):
+        # 用户反馈误报样例：“高级工程师”被称谓线索切成人名“高级”
+        assert recognize_person("他是一名高级工程师。") == []
+
+    def test_senior_engineer_in_enumeration_not_person(self):
+        ents = recognize_person("出席：张三、高级工程师。")
+        assert [e.text for e in ents] == ["张三"]
+
+    def test_honorific_real_name_still_detected(self):
+        ents = recognize_person("今天张伟明工程师来访。")
+        assert [(e.text, e.meta["cue"]) for e in ents] == [("张伟明", "honorific")]
 
 
 class TestPersonContext:

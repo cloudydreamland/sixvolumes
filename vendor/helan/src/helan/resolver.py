@@ -15,6 +15,7 @@ from .types import (
     ADDRESS,
     BANK_CARD,
     EMAIL,
+    FILE_PATH,
     ID_CARD,
     IP_ADDRESS,
     LANDLINE,
@@ -51,6 +52,8 @@ PRIORITY: dict[str, int] = {
     WECHAT_ID: 35,
     OFFICER_ID: 45,
     POSTAL_CODE: 25,
+    # 低于 URL/IP_ADDRESS：URL 内部的路径段由 URL 整体命中，不从内部切出
+    FILE_PATH: 28,
 }
 
 

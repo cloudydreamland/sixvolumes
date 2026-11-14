@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "sixvolumes-trust-pipeline"
-version = "0.2.0"
+version = "0.2.1"
 description = "Reproducible Chinese-first evidence pipeline with six vendored MIT tools"
 readme = "README.md"
 requires-python = ">=3.10"

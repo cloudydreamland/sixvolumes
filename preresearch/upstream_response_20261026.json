@@ -1,0 +1,35 @@
+{
+  "schema": "sixvolumes-upstream-response/1.0",
+  "captured_at": "2026-10-26T23:56:05+0800",
+  "our_issue": {
+    "url": "https://github.com/data-privacy-stack/presidio/issues/2396",
+    "author": "cloudydreamland",
+    "created": "2026-10-24",
+    "finding": "presidio-analyzer 2.2.360 全角/零宽混淆输入 0/480 漏检（半合成中文诊断集，附冻结评测数据）"
+  },
+  "maintainer_pr": {
+    "url": "https://github.com/data-privacy-stack/presidio/pull/2397",
+    "title": "Add opt-in normalization-aware matching to PatternRecognizer",
+    "author": "vamsibvv（presidio 维护者）",
+    "created": "2026-10-24T21:43Z",
+    "body": "Fixes #2396",
+    "size": "+818/-7，18 文件，4 commits",
+    "content": "PatternRecognizer 新增 opt-in normalize_text 标志：NFKC 兼容规整 + 格式字符剔除，匹配映射回原文偏移（脱敏仍落在正确字符），14 项新测试，YAML 配置支持，预定义识别器扩展，共享规重视图（14 万中文字符 0.65s→0.13s）",
+    "state_at_capture": "open， awaiting review/merge"
+  },
+  "community_review_1": {
+    "who": "HardMax71",
+    "what": "本地复跑 #2396 复现用例通过；发现并推动修复 PR 的 YAML 配置丢弃 normalize_text 的 blocker；补充关联缺口——35/44 预定义模式用 \b 词边界，汉字属 \\w，「卡号4111111111111111」无空格即漏检（regex.WORD 标志可修）"
+  },
+  "community_review_2": {
+    "who": "anishmehta24",
+    "what": "本地验证 e08bc14：共享规重视图生效，规上后 14 万中文字符 0.13s，英文不受影响"
+  },
+  "meaning": ".issue 发现 → .维护者修复 PR → .两位社区成员独立复验与扩展：回馈开源获得上游实际响应，形成完整闭环",
+  "links": [
+    "#2396 issue",
+    "#2397 PR",
+    "#2397 review comments",
+    "#2396 comment (HardMax71)"
+  ]
+}

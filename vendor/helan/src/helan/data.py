@@ -98,8 +98,9 @@ FAKE_USCC_PREFIXES: tuple[str, ...] = ("9111", "9133", "9234", "5211", "1114")
 FAKE_EMAIL_DOMAINS: tuple[str, ...] = ("example.com", "example.org", "test.example.cn")
 
 # 上下文人名的停用词：以真姓氏开头但几乎不会是人名的词（枚举 cue 的 FP 治理）
+# “高级”：称谓“工程师”前的职衔短语（使用者反馈误报样例“高级工程师”）
 PERSON_NAME_BLOCKLIST: frozenset[str] = frozenset(
-    {"房间", "房号", "号码", "号牌", "牌子", "孙公司", "马上", "马上到"}
+    {"房间", "房号", "号码", "号牌", "牌子", "孙公司", "马上", "马上到", "高级"}
 )
 
 # 台湾地区身份证字母地区码（内码 = 字母对应两位数值，A=10 ... I=34, O=35, W=32）

@@ -34,6 +34,8 @@ DEFAULT_OPS: dict[str, str] = {
     "WECHAT_ID": "partial",
     "TW_ID_CARD": "partial",
     "OFFICER_ID": "redact",
+    # 本地路径整体抹除：路径内含用户名等敏感段，部分保留格式价值有限
+    "FILE_PATH": "redact",
 }
 
 
